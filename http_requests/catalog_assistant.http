@@ -1,0 +1,92 @@
+### Поиск по каталогу — конкретный анализ
+POST http://localhost:8000/chat/catalog-assistant HTTP/1.1
+Content-Type: application/json
+
+{
+  "id": "topic-catalog-1",
+  "state": "Active",
+  "history": [
+    {
+      "id": "msg-1",
+      "role": "User",
+      "content": {
+        "type": "ActionRequest",
+        "action": "GetCatalogInfo",
+        "text": "Общий анализ крови с лейкоцитарной формулой"
+      },
+      "createdAt": "2026-06-22T10:00:00Z"
+    }
+  ],
+  "patient": {
+    "id": "patient-1",
+    "gender": "Male",
+    "age": 40,
+    "birthDate": "1986-04-10"
+  },
+  "language": "ru-ru",
+  "serviceAttributes": {
+    "callback_url": "http://host.docker.internal:9001/callback"
+  }
+}
+
+### Поиск по каталогу — комплекс анализов по описанию
+POST http://localhost:8000/chat/catalog-assistant HTTP/1.1
+Content-Type: application/json
+
+{
+  "id": "topic-catalog-2",
+  "state": "Active",
+  "history": [
+    {
+      "id": "msg-1",
+      "role": "User",
+      "content": {
+        "type": "ActionRequest",
+        "action": "GetCatalogInfo",
+        "text": "Анализы на гормоны щитовидной железы: ТТГ, Т3, Т4 свободный"
+      },
+      "createdAt": "2026-06-22T10:00:00Z"
+    }
+  ],
+  "patient": {
+    "id": "patient-2",
+    "gender": "Female",
+    "age": 35,
+    "birthDate": "1991-08-22"
+  },
+  "language": "ru-ru",
+  "serviceAttributes": {
+    "callback_url": "http://host.docker.internal:9001/callback"
+  }
+}
+
+### Поиск по каталогу — инструментальное исследование
+POST http://localhost:8000/chat/catalog-assistant HTTP/1.1
+Content-Type: application/json
+
+{
+  "id": "topic-catalog-3",
+  "state": "Active",
+  "history": [
+    {
+      "id": "msg-1",
+      "role": "User",
+      "content": {
+        "type": "ActionRequest",
+        "action": "GetCatalogInfo",
+        "text": "УЗИ органов брюшной полости"
+      },
+      "createdAt": "2026-06-22T10:00:00Z"
+    }
+  ],
+  "patient": {
+    "id": "patient-3",
+    "gender": "Male",
+    "age": 50,
+    "birthDate": "1976-12-05"
+  },
+  "language": "ru-ru",
+  "serviceAttributes": {
+    "callback_url": "http://host.docker.internal:9001/callback"
+  }
+}

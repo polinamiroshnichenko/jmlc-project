@@ -1,0 +1,94 @@
+### Чекап по жалобам — простой запрос
+POST http://localhost:8000/chat/checkup-assistant HTTP/1.1
+Content-Type: application/json
+
+{
+  "id": "topic-checkup-1",
+  "state": "Active",
+  "history": [
+    {
+      "id": "msg-1",
+      "role": "User",
+      "content": {
+        "type": "ActionRequest",
+        "action": "GetLabtestCheckup",
+        "text": "Постоянная усталость, сонливость, ломкие ногти"
+      },
+      "createdAt": "2026-06-22T10:00:00Z"
+    }
+  ],
+  "patient": {
+    "id": "patient-1",
+    "gender": "Female",
+    "age": 28,
+    "birthDate": "1998-03-12"
+  },
+  "language": "ru-ru",
+  "serviceAttributes": {
+    "callback_url": "http://host.docker.internal:9001/callback"
+  }
+}
+
+### Чекап для беременной — специфические анализы
+POST http://localhost:8000/chat/checkup-assistant HTTP/1.1
+Content-Type: application/json
+
+{
+  "id": "topic-checkup-2",
+  "state": "Active",
+  "history": [
+    {
+      "id": "msg-1",
+      "role": "User",
+      "content": {
+        "type": "ActionRequest",
+        "action": "GetLabtestCheckup",
+        "text": "Первый триместр беременности, хочу сдать базовые анализы"
+      },
+      "createdAt": "2026-06-22T10:00:00Z"
+    }
+  ],
+  "patient": {
+    "id": "patient-2",
+    "gender": "Female",
+    "age": 31,
+    "birthDate": "1995-07-08",
+    "isPregnant": true,
+    "lastMenstrualDate": "2026-04-15"
+  },
+  "language": "ru-ru",
+  "serviceAttributes": {
+    "callback_url": "http://host.docker.internal:9001/callback"
+  }
+}
+
+### Чекап — множественные симптомы, мужчина старшего возраста
+POST http://localhost:8000/chat/checkup-assistant HTTP/1.1
+Content-Type: application/json
+
+{
+  "id": "topic-checkup-3",
+  "state": "Active",
+  "history": [
+    {
+      "id": "msg-1",
+      "role": "User",
+      "content": {
+        "type": "ActionRequest",
+        "action": "GetLabtestCheckup",
+        "text": "Частые головные боли, одышка при нагрузке, отёки ног к вечеру, повышенное давление"
+      },
+      "createdAt": "2026-06-22T10:00:00Z"
+    }
+  ],
+  "patient": {
+    "id": "patient-3",
+    "gender": "Male",
+    "age": 62,
+    "birthDate": "1964-01-25"
+  },
+  "language": "ru-ru",
+  "serviceAttributes": {
+    "callback_url": "http://host.docker.internal:9001/callback"
+  }
+}

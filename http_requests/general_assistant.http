@@ -1,0 +1,143 @@
+### Общий вопрос — простой текстовый запрос
+POST http://localhost:8000/chat/general-assistant HTTP/1.1
+Content-Type: application/json
+
+{
+  "id": "topic-ga-1",
+  "state": "Active",
+  "history": [
+    {
+      "id": "msg-1",
+      "role": "User",
+      "content": {
+        "type": "ActionRequest",
+        "action": "StartGeneralAssistantChat",
+        "text": "Какие анализы нужно сдать перед приёмом кардиолога?"
+      },
+      "createdAt": "2026-06-22T10:00:00Z"
+    }
+  ],
+  "patient": {
+    "id": "patient-1",
+    "gender": "Male",
+    "age": 45,
+    "birthDate": "1981-02-10"
+  },
+  "language": "ru-ru",
+  "serviceAttributes": {
+    "callback_url": "http://host.docker.internal:9001/callback"
+  }
+}
+
+### Многоходовый диалог — уточняющий вопрос после ответа ассистента
+POST http://localhost:8000/chat/general-assistant HTTP/1.1
+Content-Type: application/json
+
+{
+  "id": "topic-ga-2",
+  "state": "Active",
+  "history": [
+    {
+      "id": "msg-1",
+      "role": "User",
+      "content": {
+        "type": "ActionRequest",
+        "action": "StartGeneralAssistantChat",
+        "text": "У меня болит голова уже третий день, что делать?"
+      },
+      "createdAt": "2026-06-22T09:00:00Z"
+    },
+    {
+      "id": "msg-2",
+      "role": "Assistant",
+      "content": {
+        "type": "Text",
+        "text": "Рекомендую обратиться к неврологу. Перед визитом желательно измерить артериальное давление и отметить характер боли."
+      },
+      "createdAt": "2026-06-22T09:01:00Z",
+      "model": "general-assistant"
+    },
+    {
+      "id": "msg-3",
+      "role": "User",
+      "content": {
+        "type": "Text",
+        "text": "А может это быть из-за давления? У меня иногда бывает повышенное."
+      },
+      "createdAt": "2026-06-22T09:05:00Z"
+    }
+  ],
+  "patient": {
+    "id": "patient-2",
+    "gender": "Female",
+    "age": 55,
+    "birthDate": "1971-09-03"
+  },
+  "language": "ru-ru",
+  "serviceAttributes": {
+    "callback_url": "http://host.docker.internal:9001/callback"
+  }
+}
+
+### FAQ — вопрос о подготовке к анализу
+POST http://localhost:8000/chat/general-assistant HTTP/1.1
+Content-Type: application/json
+
+{
+  "id": "topic-ga-3",
+  "state": "Active",
+  "history": [
+    {
+      "id": "msg-1",
+      "role": "User",
+      "content": {
+        "type": "ActionRequest",
+        "action": "StartGeneralAssistantChat",
+        "text": "Как правильно подготовиться к сдаче крови на гормоны щитовидной железы?"
+      },
+      "createdAt": "2026-06-22T10:00:00Z"
+    }
+  ],
+  "patient": {
+    "id": "patient-3",
+    "gender": "Female",
+    "age": 30,
+    "birthDate": "1996-05-20",
+    "isPregnant": false
+  },
+  "language": "ru-ru",
+  "serviceAttributes": {
+    "callback_url": "http://host.docker.internal:9001/callback"
+  }
+}
+
+### Вопрос о биомаркере — расшифровка показателя
+POST http://localhost:8000/chat/general-assistant HTTP/1.1
+Content-Type: application/json
+
+{
+  "id": "topic-ga-4",
+  "state": "Active",
+  "history": [
+    {
+      "id": "msg-1",
+      "role": "User",
+      "content": {
+        "type": "ActionRequest",
+        "action": "StartGeneralAssistantChat",
+        "text": "Что такое С-реактивный белок и зачем его сдавать?"
+      },
+      "createdAt": "2026-06-22T10:00:00Z"
+    }
+  ],
+  "patient": {
+    "id": "patient-4",
+    "gender": "Male",
+    "age": 38,
+    "birthDate": "1988-11-14"
+  },
+  "language": "ru-ru",
+  "serviceAttributes": {
+    "callback_url": "http://host.docker.internal:9001/callback"
+  }
+}

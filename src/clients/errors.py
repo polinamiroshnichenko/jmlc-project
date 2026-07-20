@@ -1,0 +1,2 @@
+class LLMParseError(Exception):
+    pass

@@ -1,0 +1,10 @@
+.vscode/
+.DS_Store
+.env
+__pycache__
+uv.lock
+.venv
+.ruff_cache
+.vscode/
+CLAUDE.md
+docs/

@@ -1,0 +1,4 @@
+request_params:
+  model: ""
+  temperature: 1.0
+  retry_count: 1

@@ -1,0 +1,132 @@
+### Подсказки ответов — после вопроса ассистента (синхронный запрос)
+POST http://localhost:8000/chat/suggested-replies HTTP/1.1
+Content-Type: application/json
+
+{
+  "id": "topic-sr-1",
+  "state": "Active",
+  "history": [
+    {
+      "id": "msg-1",
+      "role": "User",
+      "content": {
+        "type": "Text",
+        "text": "У меня болит горло и температура 37.5"
+      },
+      "createdAt": "2026-06-22T09:00:00Z"
+    },
+    {
+      "id": "msg-2",
+      "role": "Assistant",
+      "content": {
+        "type": "Text",
+        "text": "Как давно у вас появились эти симптомы? Есть ли насморк или кашель?"
+      },
+      "createdAt": "2026-06-22T09:01:00Z",
+      "model": "general-assistant"
+    }
+  ],
+  "patient": {
+    "id": "patient-1",
+    "gender": "Female",
+    "age": 29,
+    "birthDate": "1997-04-05"
+  },
+  "language": "ru-ru",
+  "serviceAttributes": {}
+}
+
+### Подсказки ответов — после рекомендации обследования
+POST http://localhost:8000/chat/suggested-replies HTTP/1.1
+Content-Type: application/json
+
+{
+  "id": "topic-sr-2",
+  "state": "Active",
+  "history": [
+    {
+      "id": "msg-1",
+      "role": "User",
+      "content": {
+        "type": "Text",
+        "text": "Чувствую постоянную усталость и сонливость"
+      },
+      "createdAt": "2026-06-22T09:00:00Z"
+    },
+    {
+      "id": "msg-2",
+      "role": "Assistant",
+      "content": {
+        "type": "Text",
+        "text": "Рекомендую проверить уровень железа, витамина D и гормонов щитовидной железы. Хотите подобрать анализы?"
+      },
+      "createdAt": "2026-06-22T09:01:00Z",
+      "model": "general-assistant"
+    }
+  ],
+  "patient": {
+    "id": "patient-2",
+    "gender": "Male",
+    "age": 34,
+    "birthDate": "1992-08-15"
+  },
+  "language": "ru-ru",
+  "serviceAttributes": {}
+}
+
+### Подсказки ответов — длинная история диалога
+POST http://localhost:8000/chat/suggested-replies HTTP/1.1
+Content-Type: application/json
+
+{
+  "id": "topic-sr-3",
+  "state": "Active",
+  "history": [
+    {
+      "id": "msg-1",
+      "role": "User",
+      "content": {
+        "type": "Text",
+        "text": "Хочу пройти обследование, беспокоят боли в спине"
+      },
+      "createdAt": "2026-06-22T09:00:00Z"
+    },
+    {
+      "id": "msg-2",
+      "role": "Assistant",
+      "content": {
+        "type": "Text",
+        "text": "В какой области спины вы ощущаете боль — в пояснице, между лопаток или в шейном отделе?"
+      },
+      "createdAt": "2026-06-22T09:01:00Z",
+      "model": "general-assistant"
+    },
+    {
+      "id": "msg-3",
+      "role": "User",
+      "content": {
+        "type": "Text",
+        "text": "В пояснице, особенно после сидячей работы"
+      },
+      "createdAt": "2026-06-22T09:05:00Z"
+    },
+    {
+      "id": "msg-4",
+      "role": "Assistant",
+      "content": {
+        "type": "Text",
+        "text": "При болях в пояснице после длительного сидения рекомендую консультацию невролога и МРТ поясничного отдела позвоночника. Также полезно сдать общий анализ крови и проверить уровень витамина D."
+      },
+      "createdAt": "2026-06-22T09:06:00Z",
+      "model": "general-assistant"
+    }
+  ],
+  "patient": {
+    "id": "patient-3",
+    "gender": "Male",
+    "age": 40,
+    "birthDate": "1986-11-20"
+  },
+  "language": "ru-ru",
+  "serviceAttributes": {}
+}

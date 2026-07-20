@@ -1,0 +1,6 @@
+request_params:
+  model: ""
+  temperature: 0.4
+  extra_body:
+    reasoning:
+      reasoning_effort: "low"

@@ -1,0 +1,116 @@
+## Агенты
+
+### checkup-assistant
+
+Принимает контекст пациента, рекомендует анализы и специалистов.
+
+Пайплайн:
+
+1. `call_llm` — отправляет контекст пациента в LLM
+2. `normalize_recommendation` — параллельно резолвит каждую рекомендацию во внутренние коды
+3. `filter_recommendations` — удаляет пересекающиеся анализы
+4. `postprocess` — форматирует финальное сообщение
+5. `post_callback` — отправляет результат на `callback_url` из запроса
+
+Эндпоинты: `POST /cds-services/checkup-assistant/`, `POST /chat/checkup-assistant/`
+
+### catalog-assistant
+
+Отвечает на вопросы пациента по анализам из каталога: подготовка, биоматериал, сроки, разница между анализами.
+
+Пайплайн:
+
+1. `catalog_call_llm` — отправляет контекст пациента и каталог в LLM
+2. `post_callback` — отправляет результат на `callback_url` из запроса
+
+Эндпоинты: `POST /cds-services/catalog-assistant/`, `POST /chat/catalog-assistant/`
+
+### prescription-recognizer
+
+Распознаёт врачебные назначения с изображений и нормализует их в коды справочника.
+
+Пайплайн:
+
+1. `prescription_call_llm` — vision LLM извлекает список назначений с фото рецепта (`lab_analysis` / `instrumental_analysis` / `doctor`)
+2. `prescription_normalize` — LLM сопоставляет свободный текст каждого назначения с кодами из словаря (`normalizer_data.json`); постобработка фильтрует дубли и заменяет части комплекса самим комплексом
+3. `post_callback` — отправляет нормализованный результат на `callback_url` из `serviceAttributes`
+
+Эндпоинт: `POST /chat/prescription-recognizer/`
+
+### general-assistant
+
+Отвечает на медицинские вопросы пациента, консультирует по анализам, врачам и биоматериалу.
+
+Пайплайн:
+
+1. `general_assistant_router_call_llm` — LLM-маршрутизатор классифицирует намерение пользователя: при внешнем редиректе (`checkup-assistant`, `catalog-assistant`, `interpretation-assistant`, `prescription-recognizer`) возвращает готовое сообщение и тип редиректа; при self-redirect определяет нужные справочники (`doctors`, `instrumental`, `faq`, `bm_instructions`)
+2. `general_assistant_generator_call_llm` — вызывается только при self-redirect; LLM генерирует ответ с указанными справочными данными из каталога, FAQ и инструкций по сбору биоматериала
+3. `post_callback` — отправляет результат на `callback_url` из запроса
+
+Эндпоинты: `POST /cds-services/general-assistant/`, `POST /chat/general-assistant/`
+
+### suggested-replies
+
+Генерирует короткие варианты ответов пациента по истории диалога — кнопки, которыми пациент может продолжить разговор с ассистентом.
+
+Пайплайн:
+
+1. `suggested_replies_call_llm` — отправляет историю диалога в LLM (последнее сообщение ассистента помечено «▶ ПОСЛЕДНЕЕ»); LLM возвращает варианты через `;`, постобработка разбивает их в список `TextContent`
+
+В отличие от остальных агентов, эндпоинт **синхронный**: он дожидается завершения воркфлоу и возвращает результат прямо в теле ответа.
+
+Эндпоинт: `POST /chat/suggested-replies/`
+
+---
+
+## Формирование маппинга анализ-биоматериал-тип пробирки
+Тетрадка с обработкой выгрузки за год для формирования маппинга - jmlc/experiments/phr_pipeline_pandas.ipynb
+
+---
+
+## Запуск локально
+
+### Поднять контейнеры
+
+```bash
+docker compose up -d
+```
+
+### Ручное тестирование агентов
+
+В директории `http_requests/` находятся `.http`-файлы с готовыми запросами для каждого агента.
+
+> Файлы можно запускать напрямую из IDE (IntelliJ / VS Code с расширением REST Client).
+
+### Приём callback-ответов
+
+Асинхронные агенты отправляют результат на `callback_url`. Для локального тестирования в `http_requests/test_callback_receiver.py` есть минимальный сервер, который принимает и логирует колбеки:
+
+```bash
+uvicorn http_requests.test_callback_receiver:app --port 9001
+```
+
+В `.http`-файлах асинхронных агентов `callback_url` уже указывает на `http://host.docker.internal:9001/callback`.
+
+---
+
+## Структура проекта
+
+```text
+src/
+  agents/        — логика агентов
+  activities/    — Temporal активити (каждый файл – один агент)
+  adapters/      — загрузка справочников из JSON-файлов
+  flows/         — Temporal воркфлоу (каждый файл – один агент)
+  pipeline/      — абстракция и адаптер исполнения воркфлоу
+  interface/
+    http/        — FastAPI приложение
+  clients/       — HTTP-клиенты
+  schemas/       — Pydantic-модели
+  configs/
+    <agent_name>/
+      config.yml            — параметры LLM
+      01_*.md, 02_*.md, ... — основные секции промпта
+      context.md            — динамическая часть промпта
+  deployment/      — скрипты инициализации схемы Temporal
+```

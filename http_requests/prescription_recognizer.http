@@ -1,0 +1,92 @@
+### Распознавание назначения — простой текст
+POST http://localhost:8000/chat/prescription-recognizer HTTP/1.1
+Content-Type: application/json
+
+{
+  "id": "topic-rx-1",
+  "state": "Active",
+  "history": [
+    {
+      "id": "msg-1",
+      "role": "User",
+      "content": {
+        "type": "ActionRequest",
+        "action": "RecognizePrescription",
+        "text": "Амоксициллин 500мг 3 раза в день 7 дней, Омепразол 20мг утром натощак"
+      },
+      "createdAt": "2026-06-22T10:00:00Z"
+    }
+  ],
+  "patient": {
+    "id": "patient-1",
+    "gender": "Male",
+    "age": 42,
+    "birthDate": "1984-06-18"
+  },
+  "language": "ru-ru",
+  "serviceAttributes": {
+    "callback_url": "http://host.docker.internal:9001/callback"
+  }
+}
+
+### Распознавание назначения — сложное назначение с сокращениями
+POST http://localhost:8000/chat/prescription-recognizer HTTP/1.1
+Content-Type: application/json
+
+{
+  "id": "topic-rx-2",
+  "state": "Active",
+  "history": [
+    {
+      "id": "msg-1",
+      "role": "User",
+      "content": {
+        "type": "ActionRequest",
+        "action": "RecognizePrescription",
+        "text": "Эналаприл 10мг 2р/д, Амлодипин 5мг 1р/д утром, Аторвастатин 20мг на ночь, Аспирин кардио 100мг после еды, Метформин 850мг 2р/д с едой"
+      },
+      "createdAt": "2026-06-22T10:00:00Z"
+    }
+  ],
+  "patient": {
+    "id": "patient-2",
+    "gender": "Male",
+    "age": 58,
+    "birthDate": "1968-03-22"
+  },
+  "language": "ru-ru",
+  "serviceAttributes": {
+    "callback_url": "http://host.docker.internal:9001/callback"
+  }
+}
+
+### Распознавание назначения — анализы + препараты вперемешку
+POST http://localhost:8000/chat/prescription-recognizer HTTP/1.1
+Content-Type: application/json
+
+{
+  "id": "topic-rx-3",
+  "state": "Active",
+  "history": [
+    {
+      "id": "msg-1",
+      "role": "User",
+      "content": {
+        "type": "ActionRequest",
+        "action": "RecognizePrescription",
+        "text": "Сдать ОАК, биохимию, ферритин. Принимать Мальтофер 100мг 1т 2р/д 3 месяца. Контроль через месяц."
+      },
+      "createdAt": "2026-06-22T10:00:00Z"
+    }
+  ],
+  "patient": {
+    "id": "patient-3",
+    "gender": "Female",
+    "age": 25,
+    "birthDate": "2001-09-30"
+  },
+  "language": "ru-ru",
+  "serviceAttributes": {
+    "callback_url": "http://host.docker.internal:9001/callback"
+  }
+}

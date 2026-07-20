@@ -1,0 +1,104 @@
+### Дополнение — минимальный запрос
+POST http://localhost:8000/chat/recommendation-enricher HTTP/1.1
+Content-Type: application/json
+
+{
+  "id": "topic-expand-1",
+  "state": "Active",
+  "history": [
+    {
+      "id": "msg-1",
+      "role": "User",
+      "content": {
+        "type": "ActionRequest",
+        "action": "ExpandRecommendationText",
+        "text": "Сдать оак, ферритин, витамин Д. Консультация терапевта."
+      },
+      "createdAt": "2026-06-22T10:00:00Z"
+    }
+  ],
+  "patient": {
+    "id": "patient-1",
+    "gender": "Female",
+    "age": 28,
+    "birthDate": "1998-01-10"
+  },
+  "language": "ru-ru",
+  "serviceAttributes": {
+    "callback_url": "http://host.docker.internal:9001/callback"
+  }
+}
+
+### Дополнение — текст с checkup-рекомендациями и summary
+POST http://localhost:8000/chat/recommendation-enricher HTTP/1.1
+Content-Type: application/json
+
+{
+  "id": "topic-expand-2",
+  "state": "Active",
+  "history": [
+    {
+      "id": "msg-1",
+      "role": "User",
+      "content": {
+        "type": "Text",
+        "text": "Постоянная усталость, сонливость, выпадают волосы"
+      },
+      "createdAt": "2026-06-22T09:00:00Z"
+    },
+    {
+      "id": "msg-2",
+      "role": "Assistant",
+      "content": {
+        "type": "Report",
+        "text": "На основе ваших симптомов рекомендую обследование.",
+        "report": {
+          "blocks": [
+            {
+              "title": "Подобранные анализы",
+              "type": "Recommendation",
+              "items": [
+                { "title": "Общий анализ крови" },
+                { "title": "Ферритин" },
+                { "title": "Витамин D (25-OH)" },
+                { "title": "ТТГ" }
+              ]
+            },
+            {
+              "title": "Врачи",
+              "type": "Recommendation",
+              "items": [
+                { "title": "Терапевт" },
+                { "title": "Эндокринолог" }
+              ]
+            }
+          ]
+        }
+      },
+      "createdAt": "2026-06-22T09:01:00Z",
+      "model": "checkup-assistant"
+    },
+    {
+      "id": "msg-3",
+      "role": "User",
+      "content": {
+        "type": "ActionRequest",
+        "action": "ExpandRecommendationText",
+        "text": "Сдать оак, ферритин, витамин д, ттг. Консультация терапевта и эндокринолога."
+      },
+      "createdAt": "2026-06-22T09:05:00Z"
+    }
+  ],
+  "patient": {
+    "id": "patient-2",
+    "gender": "Female",
+    "age": 32,
+    "birthDate": "1994-04-22",
+    "isPregnant": false
+  },
+  "language": "ru-ru",
+  "summary": "Пациентка жалуется на постоянную усталость, сонливость и выпадение волос. Рекомендовано обследование крови и консультации специалистов.",
+  "serviceAttributes": {
+    "callback_url": "http://host.docker.internal:9001/callback"
+  }
+}

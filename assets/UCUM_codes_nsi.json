@@ -1,0 +1,3622 @@
+{
+    "records": [
+        {
+            "ID": 525,
+            "FULLNAME": "Интенсивность флуоресценции",
+            "SHORTNAME": "FI",
+            "UCUM": "FIU"
+        },
+        {
+            "ID": 1,
+            "FULLNAME": "Метр",
+            "SHORTNAME": "м",
+            "UCUM": "m"
+        },
+        {
+            "ID": 2,
+            "FULLNAME": "Дециметр",
+            "SHORTNAME": "дм",
+            "UCUM": "dm"
+        },
+        {
+            "ID": 3,
+            "FULLNAME": "Сантиметр",
+            "SHORTNAME": "см",
+            "UCUM": "cm"
+        },
+        {
+            "ID": 4,
+            "FULLNAME": "Миллиметр",
+            "SHORTNAME": "мм",
+            "UCUM": "mm"
+        },
+        {
+            "ID": 5,
+            "FULLNAME": "Микрометр",
+            "SHORTNAME": "мкм",
+            "UCUM": "um"
+        },
+        {
+            "ID": 6,
+            "FULLNAME": "Нанометр",
+            "SHORTNAME": "нм",
+            "UCUM": "nm"
+        },
+        {
+            "ID": 7,
+            "FULLNAME": "Пикометр",
+            "SHORTNAME": "пм",
+            "UCUM": "pm"
+        },
+        {
+            "ID": 8,
+            "FULLNAME": "Грамм",
+            "SHORTNAME": "г",
+            "UCUM": "g"
+        },
+        {
+            "ID": 9,
+            "FULLNAME": "Килограмм",
+            "SHORTNAME": "кг",
+            "UCUM": "kg"
+        },
+        {
+            "ID": 10,
+            "FULLNAME": "Миллиграмм",
+            "SHORTNAME": "мг",
+            "UCUM": "mg"
+        },
+        {
+            "ID": 11,
+            "FULLNAME": "Микрограмм",
+            "SHORTNAME": "мкг",
+            "UCUM": "ug"
+        },
+        {
+            "ID": 12,
+            "FULLNAME": "Нанограмм",
+            "SHORTNAME": "нг",
+            "UCUM": "ng"
+        },
+        {
+            "ID": 13,
+            "FULLNAME": "Пикограмм",
+            "SHORTNAME": "пг",
+            "UCUM": "pg"
+        },
+        {
+            "ID": 14,
+            "FULLNAME": "Литр",
+            "SHORTNAME": "л",
+            "UCUM": "l"
+        },
+        {
+            "ID": 15,
+            "FULLNAME": "Децилитр",
+            "SHORTNAME": "дл",
+            "UCUM": "dl"
+        },
+        {
+            "ID": 16,
+            "FULLNAME": "Миллилитр",
+            "SHORTNAME": "мл",
+            "UCUM": "ml"
+        },
+        {
+            "ID": 17,
+            "FULLNAME": "Микролитр",
+            "SHORTNAME": "мкл",
+            "UCUM": "ul"
+        },
+        {
+            "ID": 18,
+            "FULLNAME": "Нанолитр",
+            "SHORTNAME": "нл",
+            "UCUM": "nl"
+        },
+        {
+            "ID": 19,
+            "FULLNAME": "Пиколитр",
+            "SHORTNAME": "пл",
+            "UCUM": "pl"
+        },
+        {
+            "ID": 20,
+            "FULLNAME": "Фемтолитр",
+            "SHORTNAME": "фл",
+            "UCUM": "fl"
+        },
+        {
+            "ID": 21,
+            "FULLNAME": "Секунда",
+            "SHORTNAME": "с",
+            "UCUM": "s"
+        },
+        {
+            "ID": 22,
+            "FULLNAME": "Минута",
+            "SHORTNAME": "мин",
+            "UCUM": "min"
+        },
+        {
+            "ID": 23,
+            "FULLNAME": "Час",
+            "SHORTNAME": "ч",
+            "UCUM": "h"
+        },
+        {
+            "ID": 24,
+            "FULLNAME": "День",
+            "SHORTNAME": "сут",
+            "UCUM": "d"
+        },
+        {
+            "ID": 25,
+            "FULLNAME": "Радиан",
+            "SHORTNAME": "рад",
+            "UCUM": "rad"
+        },
+        {
+            "ID": 26,
+            "FULLNAME": "Угловой градус",
+            "SHORTNAME": "°",
+            "UCUM": "deg"
+        },
+        {
+            "ID": 27,
+            "FULLNAME": "Угловая минута",
+            "SHORTNAME": "'",
+            "UCUM": "'"
+        },
+        {
+            "ID": 28,
+            "FULLNAME": "Угловая секунда",
+            "SHORTNAME": "\"",
+            "UCUM": "\""
+        },
+        {
+            "ID": 29,
+            "FULLNAME": "Метр в секунду",
+            "SHORTNAME": "м/с",
+            "UCUM": "m/s"
+        },
+        {
+            "ID": 30,
+            "FULLNAME": "Миллиметр в секунду",
+            "SHORTNAME": "мм/с",
+            "UCUM": "mm/s"
+        },
+        {
+            "ID": 31,
+            "FULLNAME": "Микрометр в секунду",
+            "SHORTNAME": "мкм/с",
+            "UCUM": "um/s"
+        },
+        {
+            "ID": 32,
+            "FULLNAME": "Метр в минуту",
+            "SHORTNAME": "м/мин",
+            "UCUM": "m/min"
+        },
+        {
+            "ID": 33,
+            "FULLNAME": "Миллиметр в минуту",
+            "SHORTNAME": "мм/мин",
+            "UCUM": "mm/min"
+        },
+        {
+            "ID": 34,
+            "FULLNAME": "Микрометр в минуту",
+            "SHORTNAME": "мкм/мин",
+            "UCUM": "um/min"
+        },
+        {
+            "ID": 35,
+            "FULLNAME": "Метр в час",
+            "SHORTNAME": "м/ч",
+            "UCUM": "m/h"
+        },
+        {
+            "ID": 36,
+            "FULLNAME": "Миллиметр в час",
+            "SHORTNAME": "мм/ч",
+            "UCUM": "mm/h"
+        },
+        {
+            "ID": 37,
+            "FULLNAME": "Микрометр в час",
+            "SHORTNAME": "мкм/ч",
+            "UCUM": "um/h"
+        },
+        {
+            "ID": 38,
+            "FULLNAME": "Литр в секунду",
+            "SHORTNAME": "л/с",
+            "UCUM": "l/s"
+        },
+        {
+            "ID": 39,
+            "FULLNAME": "Литр в минуту",
+            "SHORTNAME": "л/мин",
+            "UCUM": "l/min"
+        },
+        {
+            "ID": 40,
+            "FULLNAME": "Литр в час",
+            "SHORTNAME": "л/ч",
+            "UCUM": "l/h"
+        },
+        {
+            "ID": 41,
+            "FULLNAME": "Литр в сутки",
+            "SHORTNAME": "л/сут",
+            "UCUM": "l/d"
+        },
+        {
+            "ID": 42,
+            "FULLNAME": "Миллилитр в секунду",
+            "SHORTNAME": "мл/с",
+            "UCUM": "ml/s"
+        },
+        {
+            "ID": 43,
+            "FULLNAME": "Миллилитр в минуту",
+            "SHORTNAME": "мл/мин",
+            "UCUM": "ml/min"
+        },
+        {
+            "ID": 44,
+            "FULLNAME": "Миллилитр в час",
+            "SHORTNAME": "мл/ч",
+            "UCUM": "ml/h"
+        },
+        {
+            "ID": 45,
+            "FULLNAME": "Миллилитр в сутки",
+            "SHORTNAME": "мл/сут",
+            "UCUM": "ml/d"
+        },
+        {
+            "ID": 46,
+            "FULLNAME": "Микролитр в секунду",
+            "SHORTNAME": "мкл/с",
+            "UCUM": "ul/s"
+        },
+        {
+            "ID": 47,
+            "FULLNAME": "Микролитр в минуту",
+            "SHORTNAME": "мкл/мин",
+            "UCUM": "ul/min"
+        },
+        {
+            "ID": 48,
+            "FULLNAME": "Микролитр в час",
+            "SHORTNAME": "мкл/ч",
+            "UCUM": "ul/h"
+        },
+        {
+            "ID": 49,
+            "FULLNAME": "Микролитр в сутки",
+            "SHORTNAME": "мкл/сут",
+            "UCUM": "ul/d"
+        },
+        {
+            "ID": 52,
+            "FULLNAME": "Водородный показатель",
+            "SHORTNAME": "pH",
+            "UCUM": "[pH]"
+        },
+        {
+            "ID": 53,
+            "FULLNAME": "Процент",
+            "SHORTNAME": "%",
+            "UCUM": "%"
+        },
+        {
+            "ID": 54,
+            "FULLNAME": "Промилле",
+            "SHORTNAME": "‰",
+            "UCUM": "[ppth]"
+        },
+        {
+            "ID": 57,
+            "FULLNAME": "Процент в гейте",
+            "SHORTNAME": "% в гейте",
+            "UCUM": "%"
+        },
+        {
+            "ID": 58,
+            "FULLNAME": "Процент нейтрализации",
+            "SHORTNAME": "% нейтрализации",
+            "UCUM": "%"
+        },
+        {
+            "ID": 59,
+            "FULLNAME": "Процент захвата",
+            "SHORTNAME": "% захвата",
+            "UCUM": "%"
+        },
+        {
+            "ID": 60,
+            "FULLNAME": "Грамм в литре",
+            "SHORTNAME": "г/л",
+            "UCUM": "g/l"
+        },
+        {
+            "ID": 61,
+            "FULLNAME": "Миллиграмм в литре",
+            "SHORTNAME": "мг/л",
+            "UCUM": "mg/l"
+        },
+        {
+            "ID": 62,
+            "FULLNAME": "Миллиграмм в децилитре",
+            "SHORTNAME": "мг/дл",
+            "UCUM": "mg/dl"
+        },
+        {
+            "ID": 63,
+            "FULLNAME": "Миллиграмм в миллилитре",
+            "SHORTNAME": "мг/мл",
+            "UCUM": "mg/ml"
+        },
+        {
+            "ID": 64,
+            "FULLNAME": "Микрограмм в литре",
+            "SHORTNAME": "мкг/л",
+            "UCUM": "ug/l"
+        },
+        {
+            "ID": 65,
+            "FULLNAME": "Микрограмм в децилитре",
+            "SHORTNAME": "мкг/дл",
+            "UCUM": "ug/dl"
+        },
+        {
+            "ID": 66,
+            "FULLNAME": "Микрограмм в миллилитре",
+            "SHORTNAME": "мкг/мл",
+            "UCUM": "ug/ml"
+        },
+        {
+            "ID": 67,
+            "FULLNAME": "Микрограмм в микролитре",
+            "SHORTNAME": "мкг/мкл",
+            "UCUM": "ug/ul"
+        },
+        {
+            "ID": 68,
+            "FULLNAME": "Нанограмм в литре",
+            "SHORTNAME": "нг/л",
+            "UCUM": "ng/l"
+        },
+        {
+            "ID": 69,
+            "FULLNAME": "Нанограмм в децилитре",
+            "SHORTNAME": "нг/дл",
+            "UCUM": "ng/dl"
+        },
+        {
+            "ID": 70,
+            "FULLNAME": "Нанограмм в миллилитре",
+            "SHORTNAME": "нг/мл",
+            "UCUM": "ng/ml"
+        },
+        {
+            "ID": 71,
+            "FULLNAME": "Нанограмм в микролитре",
+            "SHORTNAME": "нг/мкл",
+            "UCUM": "ng/ul"
+        },
+        {
+            "ID": 72,
+            "FULLNAME": "Нанограмм в нанолитре",
+            "SHORTNAME": "нг/нл",
+            "UCUM": "ng/nl"
+        },
+        {
+            "ID": 73,
+            "FULLNAME": "Пикограмм в литре",
+            "SHORTNAME": "пг/л",
+            "UCUM": "pg/l"
+        },
+        {
+            "ID": 74,
+            "FULLNAME": "Пикограмм в децилитре",
+            "SHORTNAME": "пг/дл",
+            "UCUM": "pg/dl"
+        },
+        {
+            "ID": 75,
+            "FULLNAME": "Пикограмм в миллилитре",
+            "SHORTNAME": "пг/мл",
+            "UCUM": "pg/ml"
+        },
+        {
+            "ID": 76,
+            "FULLNAME": "Пикограмм в микролитре",
+            "SHORTNAME": "пг/мкл",
+            "UCUM": "pg/ul"
+        },
+        {
+            "ID": 77,
+            "FULLNAME": "Пикограмм в нанолитре",
+            "SHORTNAME": "пг/нл",
+            "UCUM": "pg/nl"
+        },
+        {
+            "ID": 78,
+            "FULLNAME": "Пикограмм в пиколитре",
+            "SHORTNAME": "пг/пл",
+            "UCUM": "pg/pl"
+        },
+        {
+            "ID": 79,
+            "FULLNAME": "Миллиграмм в децилитре эритроцитов",
+            "SHORTNAME": "мг/дл эритроцитов",
+            "UCUM": "mg/dl"
+        },
+        {
+            "ID": 80,
+            "FULLNAME": "Миллиграмм в миллилитре эритроцитов",
+            "SHORTNAME": "мг/мл эритроцитов",
+            "UCUM": "mg/ml"
+        },
+        {
+            "ID": 83,
+            "FULLNAME": "Грамм-процент",
+            "SHORTNAME": "г%",
+            "UCUM": "g%"
+        },
+        {
+            "ID": 84,
+            "FULLNAME": "Миллиграмм-процент",
+            "SHORTNAME": "мг%",
+            "UCUM": "mg%"
+        },
+        {
+            "ID": 85,
+            "FULLNAME": "Микрограмм-процент",
+            "SHORTNAME": "мкг%",
+            "UCUM": "ug%"
+        },
+        {
+            "ID": 86,
+            "FULLNAME": "Нанограмм-процент",
+            "SHORTNAME": "нг%",
+            "UCUM": "ng%"
+        },
+        {
+            "ID": 87,
+            "FULLNAME": "Пикограмм-процент",
+            "SHORTNAME": "пг%",
+            "UCUM": "pg%"
+        },
+        {
+            "ID": 88,
+            "FULLNAME": "Грамм в килограмме",
+            "SHORTNAME": "г/кг",
+            "UCUM": "g/kg"
+        },
+        {
+            "ID": 89,
+            "FULLNAME": "Миллиграмм в килограмме",
+            "SHORTNAME": "мг/кг",
+            "UCUM": "mg/kg"
+        },
+        {
+            "ID": 90,
+            "FULLNAME": "Миллиграмм в грамме",
+            "SHORTNAME": "мг/г",
+            "UCUM": "mg/g"
+        },
+        {
+            "ID": 91,
+            "FULLNAME": "Микрограмм в килограмме",
+            "SHORTNAME": "мкг/кг",
+            "UCUM": "ug/kg"
+        },
+        {
+            "ID": 92,
+            "FULLNAME": "Микрограмм в грамме",
+            "SHORTNAME": "мкг/г",
+            "UCUM": "ug/g"
+        },
+        {
+            "ID": 93,
+            "FULLNAME": "Микрограмм в миллиграмме",
+            "SHORTNAME": "мкг/мг",
+            "UCUM": "ug/mg"
+        },
+        {
+            "ID": 94,
+            "FULLNAME": "Нанограмм в килограмме",
+            "SHORTNAME": "нг/кг",
+            "UCUM": "ng/kg"
+        },
+        {
+            "ID": 95,
+            "FULLNAME": "Нанограмм в грамме",
+            "SHORTNAME": "нг/г",
+            "UCUM": "ng/g"
+        },
+        {
+            "ID": 96,
+            "FULLNAME": "Нанограмм в миллиграмме",
+            "SHORTNAME": "нг/мг",
+            "UCUM": "ng/mg"
+        },
+        {
+            "ID": 97,
+            "FULLNAME": "Нанограмм в микрограмме",
+            "SHORTNAME": "нг/мкг",
+            "UCUM": "ng/ug"
+        },
+        {
+            "ID": 98,
+            "FULLNAME": "Миллиграмм в грамме кала",
+            "SHORTNAME": "мг/г кала",
+            "UCUM": "mg/g"
+        },
+        {
+            "ID": 99,
+            "FULLNAME": "Микрограмм в грамме кала",
+            "SHORTNAME": "мкг/г кала",
+            "UCUM": "ug/g"
+        },
+        {
+            "ID": 100,
+            "FULLNAME": "Миллиграмм в грамме креатинина",
+            "SHORTNAME": "мг/г креатинина",
+            "UCUM": "mg/g"
+        },
+        {
+            "ID": 101,
+            "FULLNAME": "Микрограмм в грамме креатинина",
+            "SHORTNAME": "мкг/г креатинина",
+            "UCUM": "ug/g"
+        },
+        {
+            "ID": 102,
+            "FULLNAME": "Грамм в секунду",
+            "SHORTNAME": "г/с",
+            "UCUM": "g/s"
+        },
+        {
+            "ID": 103,
+            "FULLNAME": "Грамм в минуту",
+            "SHORTNAME": "г/мин",
+            "UCUM": "g/min"
+        },
+        {
+            "ID": 104,
+            "FULLNAME": "Грамм в час",
+            "SHORTNAME": "г/ч",
+            "UCUM": "g/h"
+        },
+        {
+            "ID": 105,
+            "FULLNAME": "Грамм в 12 часов",
+            "SHORTNAME": "г/12ч",
+            "UCUM": "g/(12.h)"
+        },
+        {
+            "ID": 106,
+            "FULLNAME": "Грамм в сутки",
+            "SHORTNAME": "г/сут",
+            "UCUM": "g/d"
+        },
+        {
+            "ID": 107,
+            "FULLNAME": "Миллиграмм в секунду",
+            "SHORTNAME": "мг/с",
+            "UCUM": "mg/s"
+        },
+        {
+            "ID": 108,
+            "FULLNAME": "Миллиграмм в минуту",
+            "SHORTNAME": "мг/мин",
+            "UCUM": "mg/min"
+        },
+        {
+            "ID": 109,
+            "FULLNAME": "Миллиграмм в час",
+            "SHORTNAME": "мг/ч",
+            "UCUM": "mg/h"
+        },
+        {
+            "ID": 110,
+            "FULLNAME": "Миллиграмм в 12 часов",
+            "SHORTNAME": "мг/12ч",
+            "UCUM": "mg/(12.h)"
+        },
+        {
+            "ID": 111,
+            "FULLNAME": "Миллиграмм в сутки",
+            "SHORTNAME": "мг/сут",
+            "UCUM": "mg/d"
+        },
+        {
+            "ID": 112,
+            "FULLNAME": "Микрограмм в секунду",
+            "SHORTNAME": "мкг/с",
+            "UCUM": "ug/s"
+        },
+        {
+            "ID": 113,
+            "FULLNAME": "Микрограмм в минуту",
+            "SHORTNAME": "мкг/мин",
+            "UCUM": "ug/min"
+        },
+        {
+            "ID": 114,
+            "FULLNAME": "Микрограмм в час",
+            "SHORTNAME": "мкг/ч",
+            "UCUM": "ug/h"
+        },
+        {
+            "ID": 115,
+            "FULLNAME": "Микрограмм в 12 часов",
+            "SHORTNAME": "мкг/12ч",
+            "UCUM": "ug/(12.h)"
+        },
+        {
+            "ID": 116,
+            "FULLNAME": "Микрограмм в сутки",
+            "SHORTNAME": "мкг/сут",
+            "UCUM": "ug/d"
+        },
+        {
+            "ID": 117,
+            "FULLNAME": "Нанограмм в секунду",
+            "SHORTNAME": "нг/с",
+            "UCUM": "ng/s"
+        },
+        {
+            "ID": 118,
+            "FULLNAME": "Нанограмм в минуту",
+            "SHORTNAME": "нг/мин",
+            "UCUM": "ng/min"
+        },
+        {
+            "ID": 119,
+            "FULLNAME": "Нанограмм в час",
+            "SHORTNAME": "нг/ч",
+            "UCUM": "ng/h"
+        },
+        {
+            "ID": 120,
+            "FULLNAME": "Нанограмм в 12 часов",
+            "SHORTNAME": "нг/12ч",
+            "UCUM": "ng/(12.h)"
+        },
+        {
+            "ID": 121,
+            "FULLNAME": "Нанограмм в сутки",
+            "SHORTNAME": "нг/сут",
+            "UCUM": "ng/d"
+        },
+        {
+            "ID": 122,
+            "FULLNAME": "Пикограмм в секунду",
+            "SHORTNAME": "пг/с",
+            "UCUM": "pg/s"
+        },
+        {
+            "ID": 123,
+            "FULLNAME": "Пикограмм в минуту",
+            "SHORTNAME": "пг/мин",
+            "UCUM": "pg/min"
+        },
+        {
+            "ID": 124,
+            "FULLNAME": "Пикограмм в час",
+            "SHORTNAME": "пг/ч",
+            "UCUM": "pg/h"
+        },
+        {
+            "ID": 125,
+            "FULLNAME": "Пикограмм в 12 часов",
+            "SHORTNAME": "пг/12ч",
+            "UCUM": "pg/(12.h)"
+        },
+        {
+            "ID": 126,
+            "FULLNAME": "Пикограмм в сутки",
+            "SHORTNAME": "пг/сут",
+            "UCUM": "pg/d"
+        },
+        {
+            "ID": 127,
+            "FULLNAME": "Катал",
+            "SHORTNAME": "кат",
+            "UCUM": "kat"
+        },
+        {
+            "ID": 128,
+            "FULLNAME": "Единица",
+            "SHORTNAME": "Ед",
+            "UCUM": "U"
+        },
+        {
+            "ID": 129,
+            "FULLNAME": "Международная единица",
+            "SHORTNAME": "МЕ",
+            "UCUM": "[IU]"
+        },
+        {
+            "ID": 134,
+            "FULLNAME": "Единица в литре",
+            "SHORTNAME": "Ед/л",
+            "UCUM": "U/l"
+        },
+        {
+            "ID": 135,
+            "FULLNAME": "Единица в децилитре",
+            "SHORTNAME": "Ед/дл",
+            "UCUM": "U/dl"
+        },
+        {
+            "ID": 136,
+            "FULLNAME": "Единица в миллилитре",
+            "SHORTNAME": "Ед/мл",
+            "UCUM": "U/ml"
+        },
+        {
+            "ID": 137,
+            "FULLNAME": "Единица в микролитре",
+            "SHORTNAME": "Ед/мкл",
+            "UCUM": "U/ul"
+        },
+        {
+            "ID": 138,
+            "FULLNAME": "10^3 Единиц в литре",
+            "SHORTNAME": "кЕд/л",
+            "UCUM": "kU/l"
+        },
+        {
+            "ID": 139,
+            "FULLNAME": "10^3 Единиц в децилитре",
+            "SHORTNAME": "кЕд/дл",
+            "UCUM": "kU/dl"
+        },
+        {
+            "ID": 140,
+            "FULLNAME": "10^3 Единиц в миллилитре",
+            "SHORTNAME": "кЕд/мл",
+            "UCUM": "kU/ml"
+        },
+        {
+            "ID": 141,
+            "FULLNAME": "10^3 Единиц в микролитре",
+            "SHORTNAME": "кЕд/мкл",
+            "UCUM": "kU/ul"
+        },
+        {
+            "ID": 142,
+            "FULLNAME": "10^-3 Единиц в литре",
+            "SHORTNAME": "мЕд/л",
+            "UCUM": "mE/l"
+        },
+        {
+            "ID": 143,
+            "FULLNAME": "10^-3 Единиц в децилитре",
+            "SHORTNAME": "мЕд/дл",
+            "UCUM": "mE/dl"
+        },
+        {
+            "ID": 144,
+            "FULLNAME": "10^-3 Единиц в миллилитре",
+            "SHORTNAME": "мЕд/мл",
+            "UCUM": "mE/ml"
+        },
+        {
+            "ID": 145,
+            "FULLNAME": "10^-3 Единиц в микролитре",
+            "SHORTNAME": "мЕд/мкл",
+            "UCUM": "mE/ul"
+        },
+        {
+            "ID": 146,
+            "FULLNAME": "10^-6 Единиц в литре",
+            "SHORTNAME": "мкЕд/л",
+            "UCUM": "uU/l"
+        },
+        {
+            "ID": 147,
+            "FULLNAME": "10^-6 Единиц в децилитре",
+            "SHORTNAME": "мкЕд/дл",
+            "UCUM": "uU/dl"
+        },
+        {
+            "ID": 148,
+            "FULLNAME": "10^-6 Единиц в миллилитре",
+            "SHORTNAME": "мкЕд/мл",
+            "UCUM": "uU/ml"
+        },
+        {
+            "ID": 149,
+            "FULLNAME": "10^-6 Единиц в микролитре",
+            "SHORTNAME": "мкЕд/мкл",
+            "UCUM": "uU/ul"
+        },
+        {
+            "ID": 150,
+            "FULLNAME": "Международная единица в литре",
+            "SHORTNAME": "МЕ/л",
+            "UCUM": "[IU]/l"
+        },
+        {
+            "ID": 151,
+            "FULLNAME": "Международная единица в децилитре",
+            "SHORTNAME": "МЕ/дл",
+            "UCUM": "[IU]/dl"
+        },
+        {
+            "ID": 152,
+            "FULLNAME": "Международная единица в миллилитре",
+            "SHORTNAME": "МЕ/мл",
+            "UCUM": "[IU]/ml"
+        },
+        {
+            "ID": 153,
+            "FULLNAME": "Международная единица в микролитре",
+            "SHORTNAME": "МЕ/мкл",
+            "UCUM": "[IU]/ul"
+        },
+        {
+            "ID": 154,
+            "FULLNAME": "10^3 Международных единиц в литре",
+            "SHORTNAME": "кМЕ/л",
+            "UCUM": "k[IU]/l"
+        },
+        {
+            "ID": 155,
+            "FULLNAME": "10^3 Международных единиц в децилитре",
+            "SHORTNAME": "кМЕ/дл",
+            "UCUM": "kIU/dl"
+        },
+        {
+            "ID": 156,
+            "FULLNAME": "10^3 Международных единиц в миллилитре",
+            "SHORTNAME": "кМЕ/мл",
+            "UCUM": "k[IU]/ml"
+        },
+        {
+            "ID": 157,
+            "FULLNAME": "10^3 Международных единиц в микролитре",
+            "SHORTNAME": "кМЕ/мкл",
+            "UCUM": "k[IU]/ul"
+        },
+        {
+            "ID": 158,
+            "FULLNAME": "10^-3 Международных единиц в литре",
+            "SHORTNAME": "мМЕ/л",
+            "UCUM": "m[IU]/l"
+        },
+        {
+            "ID": 159,
+            "FULLNAME": "10^-3 Международных единиц в децилитре",
+            "SHORTNAME": "мМЕ/дл",
+            "UCUM": "m[IU]/dl"
+        },
+        {
+            "ID": 160,
+            "FULLNAME": "10^-3 Международных единиц в миллилитре",
+            "SHORTNAME": "мМЕ/мл",
+            "UCUM": "m[IU]/ml"
+        },
+        {
+            "ID": 161,
+            "FULLNAME": "10^-3 Международных единиц в микролитре",
+            "SHORTNAME": "мМЕ/мкл",
+            "UCUM": "m[IU]/ul"
+        },
+        {
+            "ID": 162,
+            "FULLNAME": "10^-6 Международных единиц в литре",
+            "SHORTNAME": "мкМЕ/л",
+            "UCUM": "u[IU]/l"
+        },
+        {
+            "ID": 163,
+            "FULLNAME": "10^-6 Международных единиц в децилитре",
+            "SHORTNAME": "мкМЕ/дл",
+            "UCUM": "u[IU]/dl"
+        },
+        {
+            "ID": 164,
+            "FULLNAME": "10^-6 Международных единиц в миллилитре",
+            "SHORTNAME": "мкМЕ/мл",
+            "UCUM": "u[IU]/ml"
+        },
+        {
+            "ID": 165,
+            "FULLNAME": "10^-6 Международных единиц в микролитре",
+            "SHORTNAME": "мкМЕ/мкл",
+            "UCUM": "u[IU]/ul"
+        },
+        {
+            "ID": 166,
+            "FULLNAME": "Единица в миллилитре эритроцитов",
+            "SHORTNAME": "Ед/мл эритроцитов",
+            "UCUM": "U/ml"
+        },
+        {
+            "ID": 167,
+            "FULLNAME": "Единица в микролитре эритроцитов",
+            "SHORTNAME": "Ед/мкл эритроцитов",
+            "UCUM": "U/ul"
+        },
+        {
+            "ID": 168,
+            "FULLNAME": "Единица в секунду",
+            "SHORTNAME": "Ед/с",
+            "UCUM": "U/s"
+        },
+        {
+            "ID": 169,
+            "FULLNAME": "Единица в минуту",
+            "SHORTNAME": "Ед/мин",
+            "UCUM": "U/min"
+        },
+        {
+            "ID": 170,
+            "FULLNAME": "Единица в час",
+            "SHORTNAME": "Ед/ч",
+            "UCUM": "U/h"
+        },
+        {
+            "ID": 171,
+            "FULLNAME": "Единица в сутки",
+            "SHORTNAME": "Ед/сут",
+            "UCUM": "U/d"
+        },
+        {
+            "ID": 172,
+            "FULLNAME": "Международная единица в секунду",
+            "SHORTNAME": "МЕ/с",
+            "UCUM": "[IU]/s"
+        },
+        {
+            "ID": 173,
+            "FULLNAME": "Международная единица в минуту",
+            "SHORTNAME": "МЕ/мин",
+            "UCUM": "[IU]/min"
+        },
+        {
+            "ID": 174,
+            "FULLNAME": "Международная единица в час",
+            "SHORTNAME": "МЕ/ч",
+            "UCUM": "[IU]/h"
+        },
+        {
+            "ID": 175,
+            "FULLNAME": "Международная единица в сутки",
+            "SHORTNAME": "МЕ/сут",
+            "UCUM": "[IU]/d"
+        },
+        {
+            "ID": 176,
+            "FULLNAME": "Единицы в килограмме",
+            "SHORTNAME": "Ед/кг",
+            "UCUM": "U/kg"
+        },
+        {
+            "ID": 177,
+            "FULLNAME": "Единицы в грамме",
+            "SHORTNAME": "Ед/г",
+            "UCUM": "U/g"
+        },
+        {
+            "ID": 178,
+            "FULLNAME": "Единицы в миллиграмме",
+            "SHORTNAME": "Ед/мг",
+            "UCUM": "U/mg"
+        },
+        {
+            "ID": 179,
+            "FULLNAME": "Единицы в микрограмме",
+            "SHORTNAME": "Ед/мкг",
+            "UCUM": "U/ug"
+        },
+        {
+            "ID": 180,
+            "FULLNAME": "Международные единицы в килограмме",
+            "SHORTNAME": "МЕ/кг",
+            "UCUM": "[IU]/kg"
+        },
+        {
+            "ID": 181,
+            "FULLNAME": "Международные единицы в грамме",
+            "SHORTNAME": "МЕ/г",
+            "UCUM": "[IU]/g"
+        },
+        {
+            "ID": 182,
+            "FULLNAME": "Международные единицы в миллиграмме",
+            "SHORTNAME": "МЕ/мг",
+            "UCUM": "[IU]/mg"
+        },
+        {
+            "ID": 183,
+            "FULLNAME": "Международные единицы в микрограмме",
+            "SHORTNAME": "МЕ/мкг",
+            "UCUM": "[IU]/ug"
+        },
+        {
+            "ID": 184,
+            "FULLNAME": "Единица в грамме гемоглобина",
+            "SHORTNAME": "Ед/г гемоглобина",
+            "UCUM": "U/g"
+        },
+        {
+            "ID": 185,
+            "FULLNAME": "Единица в миллиграмме гемоглобина",
+            "SHORTNAME": "Ед/мг гемоглобина",
+            "UCUM": "U/mg"
+        },
+        {
+            "ID": 186,
+            "FULLNAME": "Единица в микрограмме гемоглобина",
+            "SHORTNAME": "Ед/мкг гемоглобина",
+            "UCUM": "U/ug"
+        },
+        {
+            "ID": 187,
+            "FULLNAME": "Моль",
+            "SHORTNAME": "моль",
+            "UCUM": "mol"
+        },
+        {
+            "ID": 188,
+            "FULLNAME": "Миллимоль",
+            "SHORTNAME": "ммоль",
+            "UCUM": "mmol"
+        },
+        {
+            "ID": 189,
+            "FULLNAME": "Микромоль",
+            "SHORTNAME": "мкмоль",
+            "UCUM": "umol"
+        },
+        {
+            "ID": 190,
+            "FULLNAME": "Наномоль",
+            "SHORTNAME": "нмоль",
+            "UCUM": "nmol"
+        },
+        {
+            "ID": 191,
+            "FULLNAME": "Пикомоль",
+            "SHORTNAME": "пмоль",
+            "UCUM": "pmol"
+        },
+        {
+            "ID": 192,
+            "FULLNAME": "Моль в литре",
+            "SHORTNAME": "моль/л",
+            "UCUM": "mol/l"
+        },
+        {
+            "ID": 193,
+            "FULLNAME": "Моль в децилитре",
+            "SHORTNAME": "моль/дл",
+            "UCUM": "mol/dl"
+        },
+        {
+            "ID": 194,
+            "FULLNAME": "Моль в миллилитре",
+            "SHORTNAME": "моль/мл",
+            "UCUM": "mol/ml"
+        },
+        {
+            "ID": 195,
+            "FULLNAME": "Миллимоль в литре",
+            "SHORTNAME": "ммоль/л",
+            "UCUM": "mmol/l"
+        },
+        {
+            "ID": 196,
+            "FULLNAME": "Миллимоль в децилитре",
+            "SHORTNAME": "ммоль/дл",
+            "UCUM": "mmol/dl"
+        },
+        {
+            "ID": 197,
+            "FULLNAME": "Миллимоль в миллилитре",
+            "SHORTNAME": "ммоль/мл",
+            "UCUM": "mmol/ml"
+        },
+        {
+            "ID": 198,
+            "FULLNAME": "Микромоль в литре",
+            "SHORTNAME": "мкмоль/л",
+            "UCUM": "umol/l"
+        },
+        {
+            "ID": 199,
+            "FULLNAME": "Микромоль в децилитре",
+            "SHORTNAME": "мкмоль/дл",
+            "UCUM": "umol/dl"
+        },
+        {
+            "ID": 200,
+            "FULLNAME": "Микромоль в миллилитре",
+            "SHORTNAME": "мкмоль/мл",
+            "UCUM": "umol/ml"
+        },
+        {
+            "ID": 201,
+            "FULLNAME": "Микромоль в микролитре",
+            "SHORTNAME": "мкмоль/мкл",
+            "UCUM": "umol/ul"
+        },
+        {
+            "ID": 202,
+            "FULLNAME": "Наномоль в литре",
+            "SHORTNAME": "нмоль/л",
+            "UCUM": "nmol/l"
+        },
+        {
+            "ID": 203,
+            "FULLNAME": "Наномоль в децилитре",
+            "SHORTNAME": "нмоль/дл",
+            "UCUM": "nmol/dl"
+        },
+        {
+            "ID": 204,
+            "FULLNAME": "Наномоль в миллилитре",
+            "SHORTNAME": "нмоль/мл",
+            "UCUM": "nmol/ml"
+        },
+        {
+            "ID": 205,
+            "FULLNAME": "Наномоль в микролитре",
+            "SHORTNAME": "нмоль/мкл",
+            "UCUM": "nmol/ul"
+        },
+        {
+            "ID": 206,
+            "FULLNAME": "Наномоль в нанолитре",
+            "SHORTNAME": "нмоль/нл",
+            "UCUM": "nmol/nl"
+        },
+        {
+            "ID": 207,
+            "FULLNAME": "Пикомоль в литре",
+            "SHORTNAME": "пмоль/л",
+            "UCUM": "pmol/l"
+        },
+        {
+            "ID": 208,
+            "FULLNAME": "Пикомоль в децилитре",
+            "SHORTNAME": "пмоль/дл",
+            "UCUM": "pmol/dl"
+        },
+        {
+            "ID": 209,
+            "FULLNAME": "Пикомоль в миллилитре",
+            "SHORTNAME": "пмоль/мл",
+            "UCUM": "pmol/ml"
+        },
+        {
+            "ID": 210,
+            "FULLNAME": "Пикомоль в микролитре",
+            "SHORTNAME": "пмоль/мкл",
+            "UCUM": "pmol/ul"
+        },
+        {
+            "ID": 211,
+            "FULLNAME": "Пикомоль в нанолитре",
+            "SHORTNAME": "пмоль/нл",
+            "UCUM": "pmol/nl"
+        },
+        {
+            "ID": 212,
+            "FULLNAME": "Пикомоль в пиколитре",
+            "SHORTNAME": "пмоль/пл",
+            "UCUM": "pmol/pl"
+        },
+        {
+            "ID": 213,
+            "FULLNAME": "Моль в секунду",
+            "SHORTNAME": "моль/с",
+            "UCUM": "mol/s"
+        },
+        {
+            "ID": 214,
+            "FULLNAME": "Моль в минуту",
+            "SHORTNAME": "моль/мин",
+            "UCUM": "mol/min"
+        },
+        {
+            "ID": 215,
+            "FULLNAME": "Моль в час",
+            "SHORTNAME": "моль/ч",
+            "UCUM": "mol/h"
+        },
+        {
+            "ID": 216,
+            "FULLNAME": "Моль в сутки",
+            "SHORTNAME": "моль/сут",
+            "UCUM": "mol/d"
+        },
+        {
+            "ID": 217,
+            "FULLNAME": "Миллимоль в секунду",
+            "SHORTNAME": "ммоль/с",
+            "UCUM": "mmol/s"
+        },
+        {
+            "ID": 218,
+            "FULLNAME": "Миллимоль в минуту",
+            "SHORTNAME": "ммоль/мин",
+            "UCUM": "mmol/min"
+        },
+        {
+            "ID": 219,
+            "FULLNAME": "Миллимоль в час",
+            "SHORTNAME": "ммоль/ч",
+            "UCUM": "mmol/h"
+        },
+        {
+            "ID": 220,
+            "FULLNAME": "Миллимоль в сутки",
+            "SHORTNAME": "ммоль/сут",
+            "UCUM": "mmol/d"
+        },
+        {
+            "ID": 221,
+            "FULLNAME": "Микромоль в секунду",
+            "SHORTNAME": "мкмоль/с",
+            "UCUM": "umol/s"
+        },
+        {
+            "ID": 222,
+            "FULLNAME": "Микромоль в минуту",
+            "SHORTNAME": "мкмоль/мин",
+            "UCUM": "umol/min"
+        },
+        {
+            "ID": 223,
+            "FULLNAME": "Микромоль в час",
+            "SHORTNAME": "мкмоль/ч",
+            "UCUM": "umol/h"
+        },
+        {
+            "ID": 224,
+            "FULLNAME": "Микромоль в сутки",
+            "SHORTNAME": "мкмоль/сут",
+            "UCUM": "umol/d"
+        },
+        {
+            "ID": 225,
+            "FULLNAME": "Наномоль в секунду",
+            "SHORTNAME": "нмоль/с",
+            "UCUM": "nmol/s"
+        },
+        {
+            "ID": 226,
+            "FULLNAME": "Наномоль в минуту",
+            "SHORTNAME": "нмоль/мин",
+            "UCUM": "nmol/min"
+        },
+        {
+            "ID": 227,
+            "FULLNAME": "Наномоль в час",
+            "SHORTNAME": "нмоль/ч",
+            "UCUM": "nmol/h"
+        },
+        {
+            "ID": 228,
+            "FULLNAME": "Наномоль в сутки",
+            "SHORTNAME": "нмоль/сут",
+            "UCUM": "nmol/d"
+        },
+        {
+            "ID": 229,
+            "FULLNAME": "Пикомоль в секунду",
+            "SHORTNAME": "пмоль/с",
+            "UCUM": "pmol/s"
+        },
+        {
+            "ID": 230,
+            "FULLNAME": "Пикомоль в минуту",
+            "SHORTNAME": "пмоль/мин",
+            "UCUM": "pmol/min"
+        },
+        {
+            "ID": 231,
+            "FULLNAME": "Пикомоль в час",
+            "SHORTNAME": "пмоль/ч",
+            "UCUM": "pmol/h"
+        },
+        {
+            "ID": 232,
+            "FULLNAME": "Пикомоль в сутки",
+            "SHORTNAME": "пмоль/сут",
+            "UCUM": "pmol/d"
+        },
+        {
+            "ID": 233,
+            "FULLNAME": "Миллимоль в моле",
+            "SHORTNAME": "ммоль/моль",
+            "UCUM": "mmol/mol"
+        },
+        {
+            "ID": 234,
+            "FULLNAME": "Микромоль в моле",
+            "SHORTNAME": "мкмоль/моль",
+            "UCUM": "umol/mol"
+        },
+        {
+            "ID": 235,
+            "FULLNAME": "Микромоль в миллимоле",
+            "SHORTNAME": "мкмоль/ммоль",
+            "UCUM": "umol/mmol"
+        },
+        {
+            "ID": 236,
+            "FULLNAME": "Наномоль в моле",
+            "SHORTNAME": "нмоль/моль",
+            "UCUM": "nmol/mol"
+        },
+        {
+            "ID": 237,
+            "FULLNAME": "Наномоль в миллимоле",
+            "SHORTNAME": "нмоль/ммоль",
+            "UCUM": "nmol/mmol"
+        },
+        {
+            "ID": 238,
+            "FULLNAME": "Наномоль в микромоле",
+            "SHORTNAME": "нмоль/мкмоль",
+            "UCUM": "nmol/umol"
+        },
+        {
+            "ID": 239,
+            "FULLNAME": "Пикомоль в моле",
+            "SHORTNAME": "пмоль/моль",
+            "UCUM": "pmol/mol"
+        },
+        {
+            "ID": 240,
+            "FULLNAME": "Пикомоль в миллимоле",
+            "SHORTNAME": "пмоль/ммоль",
+            "UCUM": "pmol/mmol"
+        },
+        {
+            "ID": 241,
+            "FULLNAME": "Пикомоль в микромоле",
+            "SHORTNAME": "пмоль/мкмоль",
+            "UCUM": "pmol/umol"
+        },
+        {
+            "ID": 242,
+            "FULLNAME": "Пикомоль в наномоле",
+            "SHORTNAME": "пмоль/нмоль",
+            "UCUM": "pmol/nmol"
+        },
+        {
+            "ID": 243,
+            "FULLNAME": "Микромоль в моле креатинина",
+            "SHORTNAME": "мкмоль/моль креатинина",
+            "UCUM": "umol/mol"
+        },
+        {
+            "ID": 244,
+            "FULLNAME": "Микромоль в миллимоле креатинина",
+            "SHORTNAME": "мкмоль/ммоль креатинина",
+            "UCUM": "umol/mmol"
+        },
+        {
+            "ID": 245,
+            "FULLNAME": "Наномоль в моле креатинина",
+            "SHORTNAME": "нмоль/моль креатинина",
+            "UCUM": "nmol/mol"
+        },
+        {
+            "ID": 246,
+            "FULLNAME": "Наномоль в миллимоле креатинина",
+            "SHORTNAME": "нмоль/ммоль креатинина",
+            "UCUM": "nmol/mmol"
+        },
+        {
+            "ID": 247,
+            "FULLNAME": "Моль в килограмме",
+            "SHORTNAME": "моль/кг",
+            "UCUM": "mol/kg"
+        },
+        {
+            "ID": 248,
+            "FULLNAME": "Моль в грамме",
+            "SHORTNAME": "моль/г",
+            "UCUM": "mol/g"
+        },
+        {
+            "ID": 249,
+            "FULLNAME": "Моль в миллиграмме",
+            "SHORTNAME": "моль/мг",
+            "UCUM": "mol/mg"
+        },
+        {
+            "ID": 250,
+            "FULLNAME": "Миллимоль в грамме",
+            "SHORTNAME": "ммоль/г",
+            "UCUM": "mmol/g"
+        },
+        {
+            "ID": 251,
+            "FULLNAME": "Миллимоль в миллиграмме",
+            "SHORTNAME": "ммоль/мг",
+            "UCUM": "mmol/mg"
+        },
+        {
+            "ID": 252,
+            "FULLNAME": "Микромоль в грамме",
+            "SHORTNAME": "мкмоль/г",
+            "UCUM": "umol/g"
+        },
+        {
+            "ID": 522,
+            "FULLNAME": "Год",
+            "SHORTNAME": "год",
+            "UCUM": "a"
+        },
+        {
+            "ID": 253,
+            "FULLNAME": "Микромоль в миллиграмме",
+            "SHORTNAME": "мкмоль/мг",
+            "UCUM": "umol/mg"
+        },
+        {
+            "ID": 254,
+            "FULLNAME": "Микромоль в микрограмме",
+            "SHORTNAME": "мкмоль/мкг",
+            "UCUM": "umol/ug"
+        },
+        {
+            "ID": 255,
+            "FULLNAME": "Наномоль в грамме",
+            "SHORTNAME": "нмоль/г",
+            "UCUM": "nmol/g"
+        },
+        {
+            "ID": 256,
+            "FULLNAME": "Наномоль в миллиграмме",
+            "SHORTNAME": "нмоль/мг",
+            "UCUM": "nmol/mg"
+        },
+        {
+            "ID": 257,
+            "FULLNAME": "Наномоль в микрограмме",
+            "SHORTNAME": "нмоль/мкг",
+            "UCUM": "nmol/ug"
+        },
+        {
+            "ID": 258,
+            "FULLNAME": "Наномоль в нанограмме",
+            "SHORTNAME": "нмоль/нг",
+            "UCUM": "nmol/ng"
+        },
+        {
+            "ID": 259,
+            "FULLNAME": "Моль на минуту",
+            "SHORTNAME": "моль*мин",
+            "UCUM": "mol*min"
+        },
+        {
+            "ID": 260,
+            "FULLNAME": "Миллимоль на минуту",
+            "SHORTNAME": "ммоль*мин",
+            "UCUM": "mmol*min"
+        },
+        {
+            "ID": 261,
+            "FULLNAME": "Микромоль на минуту",
+            "SHORTNAME": "мкмоль*мин",
+            "UCUM": "umol*min"
+        },
+        {
+            "ID": 262,
+            "FULLNAME": "Наномоль на минуту",
+            "SHORTNAME": "нмоль*мин",
+            "UCUM": "nmol*min"
+        },
+        {
+            "ID": 263,
+            "FULLNAME": "Моль в литре на минуту",
+            "SHORTNAME": "(моль/л)*мин",
+            "UCUM": "(mol/l)*min"
+        },
+        {
+            "ID": 264,
+            "FULLNAME": "Миллимоль в литре на минуту",
+            "SHORTNAME": "(ммоль/л)*мин",
+            "UCUM": "(mmol/l)*min"
+        },
+        {
+            "ID": 265,
+            "FULLNAME": "Микромоль в литре на минуту",
+            "SHORTNAME": "(мкмоль/л)*мин",
+            "UCUM": "(umol/l)*min"
+        },
+        {
+            "ID": 266,
+            "FULLNAME": "Наномоль в литре на минуту",
+            "SHORTNAME": "(нмоль/л)*мин",
+            "UCUM": "(nmol/l)*min"
+        },
+        {
+            "ID": 267,
+            "FULLNAME": "Грамм в литре в час",
+            "SHORTNAME": "г/л/ч",
+            "UCUM": "g/l/h"
+        },
+        {
+            "ID": 274,
+            "FULLNAME": "Наномоль в литре в час",
+            "SHORTNAME": "нмоль/л/ч",
+            "UCUM": "nmol/l/h"
+        },
+        {
+            "ID": 283,
+            "FULLNAME": "Осмоль",
+            "SHORTNAME": "Осм",
+            "UCUM": "osm"
+        },
+        {
+            "ID": 284,
+            "FULLNAME": "Миллиосмоль",
+            "SHORTNAME": "мОсм",
+            "UCUM": "mosm"
+        },
+        {
+            "ID": 285,
+            "FULLNAME": "Осмоль на литр",
+            "SHORTNAME": "Осм/л",
+            "UCUM": "osm/l"
+        },
+        {
+            "ID": 286,
+            "FULLNAME": "Осмоль на миллилитр",
+            "SHORTNAME": "Осм/мл",
+            "UCUM": "osm/ml"
+        },
+        {
+            "ID": 287,
+            "FULLNAME": "Миллиосмоль на литр",
+            "SHORTNAME": "мОсм/л",
+            "UCUM": "mosm/l"
+        },
+        {
+            "ID": 288,
+            "FULLNAME": "Миллиосмоль на миллилитр",
+            "SHORTNAME": "мОсм/мл",
+            "UCUM": "mosm/ml"
+        },
+        {
+            "ID": 289,
+            "FULLNAME": "Осмоль на грамм",
+            "SHORTNAME": "Осм/г",
+            "UCUM": "osm/g"
+        },
+        {
+            "ID": 290,
+            "FULLNAME": "Осмоль на килограмм",
+            "SHORTNAME": "Осм/кг",
+            "UCUM": "osm/kg"
+        },
+        {
+            "ID": 291,
+            "FULLNAME": "Миллиосмоль на грамм",
+            "SHORTNAME": "мОсм/г",
+            "UCUM": "mosm/g"
+        },
+        {
+            "ID": 292,
+            "FULLNAME": "Миллиосмоль на килограмм",
+            "SHORTNAME": "мОсм/кг",
+            "UCUM": "mosm/kg"
+        },
+        {
+            "ID": 293,
+            "FULLNAME": "Количество штук",
+            "SHORTNAME": "шт",
+            "UCUM": "1"
+        },
+        {
+            "ID": 304,
+            "FULLNAME": "Количество в литре",
+            "SHORTNAME": "1/л",
+            "UCUM": "1/l"
+        },
+        {
+            "ID": 305,
+            "FULLNAME": "Количество в децилитре",
+            "SHORTNAME": "1/дл",
+            "UCUM": "1/dl"
+        },
+        {
+            "ID": 306,
+            "FULLNAME": "Количество в миллилитре",
+            "SHORTNAME": "1/мл",
+            "UCUM": "1/ml"
+        },
+        {
+            "ID": 307,
+            "FULLNAME": "Количество в микролитре",
+            "SHORTNAME": "1/мкл",
+            "UCUM": "1/ul"
+        },
+        {
+            "ID": 308,
+            "FULLNAME": "Количество в нанолитре",
+            "SHORTNAME": "1/нл",
+            "UCUM": "1/nl"
+        },
+        {
+            "ID": 309,
+            "FULLNAME": "Количество в пиколитре",
+            "SHORTNAME": "1/пл",
+            "UCUM": "1/pl"
+        },
+        {
+            "ID": 334,
+            "FULLNAME": "Количество в поле зрения",
+            "SHORTNAME": "1/поле зр.",
+            "UCUM": "[LPF]"
+        },
+        {
+            "ID": 335,
+            "FULLNAME": "Количество в поле зрения высокого увеличения",
+            "SHORTNAME": "1/поле зр. выс. ув.",
+            "UCUM": "[HPF]"
+        },
+        {
+            "ID": 336,
+            "FULLNAME": "Количество в поле зрения низкого увеличения",
+            "SHORTNAME": "1/поле зр. низ. ув.",
+            "UCUM": "[LPF]"
+        },
+        {
+            "ID": 337,
+            "FULLNAME": "Количество в минуту",
+            "SHORTNAME": "1/мин",
+            "UCUM": "1/min"
+        },
+        {
+            "ID": 344,
+            "FULLNAME": "Количество в час",
+            "SHORTNAME": "1/час",
+            "UCUM": "1/h"
+        },
+        {
+            "ID": 351,
+            "FULLNAME": "Количество в сутки",
+            "SHORTNAME": "1/сут",
+            "UCUM": "1/d"
+        },
+        {
+            "ID": 358,
+            "FULLNAME": "Стокс",
+            "SHORTNAME": "Ст",
+            "UCUM": "St"
+        },
+        {
+            "ID": 359,
+            "FULLNAME": "Пуаз",
+            "SHORTNAME": "П",
+            "UCUM": "P"
+        },
+        {
+            "ID": 360,
+            "FULLNAME": "Сименс на сантиметр",
+            "SHORTNAME": "См/см",
+            "UCUM": "S/cm"
+        },
+        {
+            "ID": 361,
+            "FULLNAME": "Миллисименс на сантиметр",
+            "SHORTNAME": "мСм/см",
+            "UCUM": "mS/cm"
+        },
+        {
+            "ID": 362,
+            "FULLNAME": "Микросименс на сантиметр",
+            "SHORTNAME": "мкСм/см",
+            "UCUM": "uS/cm"
+        },
+        {
+            "ID": 363,
+            "FULLNAME": "Бляшкообразующая единица",
+            "SHORTNAME": "БОЕ",
+            "UCUM": "[PFU]"
+        },
+        {
+            "ID": 364,
+            "FULLNAME": "Бляшкообразующая единица в миллилитре",
+            "SHORTNAME": "БОЕ/мл",
+            "UCUM": "[PFU]/ml"
+        },
+        {
+            "ID": 367,
+            "FULLNAME": "Условная единица",
+            "SHORTNAME": "у.е.",
+            "UCUM": "[arb'U]"
+        },
+        {
+            "ID": 368,
+            "FULLNAME": "Относительная единица",
+            "SHORTNAME": "отн. ед.",
+            "UCUM": "[arb'U]"
+        },
+        {
+            "ID": 370,
+            "FULLNAME": "Единица Бетесда в миллилитре",
+            "SHORTNAME": "ед. Бетесда/мл",
+            "UCUM": "[BETH'U]/ml"
+        },
+        {
+            "ID": 377,
+            "FULLNAME": "Гемолитическая единица комплемента",
+            "SHORTNAME": "гем. ед.",
+            "UCUM": "1"
+        },
+        {
+            "ID": 378,
+            "FULLNAME": "Гемолитическая единица комплемента в миллилитре",
+            "SHORTNAME": "гем. ед./мл",
+            "UCUM": "1/ml"
+        },
+        {
+            "ID": 379,
+            "FULLNAME": "Гемолитическая единица комплемента CH50",
+            "SHORTNAME": "CH50",
+            "UCUM": "1"
+        },
+        {
+            "ID": 380,
+            "FULLNAME": "Гемолитическая единица комплемента CH50 в миллилитре",
+            "SHORTNAME": "CH50/мл",
+            "UCUM": "1/ml"
+        },
+        {
+            "ID": 381,
+            "FULLNAME": "Количество копий",
+            "SHORTNAME": "копий",
+            "UCUM": "1"
+        },
+        {
+            "ID": 386,
+            "FULLNAME": "Генетический эквивалент",
+            "SHORTNAME": "ГЭ",
+            "UCUM": "1"
+        },
+        {
+            "ID": 387,
+            "FULLNAME": "Генетический эквивалент в миллилитре",
+            "SHORTNAME": "ГЭ/мл",
+            "UCUM": "1/ml"
+        },
+        {
+            "ID": 389,
+            "FULLNAME": "Количество копий в миллилитре",
+            "SHORTNAME": "копий/мл",
+            "UCUM": "1/ml"
+        },
+        {
+            "ID": 401,
+            "FULLNAME": "Наномоль в миллилитре эритроцитов в секунду",
+            "SHORTNAME": "нмоль/мл эритроцитов/сек",
+            "UCUM": "nmol/(ml{RBC}.h)"
+        },
+        {
+            "ID": 403,
+            "FULLNAME": "Тысяча международных единиц",
+            "SHORTNAME": "тыс. МЕ",
+            "UCUM": "k[IU]"
+        },
+        {
+            "ID": 404,
+            "FULLNAME": "Миллион международных единиц",
+            "SHORTNAME": "млн. МЕ",
+            "UCUM": "M[IU]"
+        },
+        {
+            "ID": 412,
+            "FULLNAME": "Тысяча международных единиц в миллилитре",
+            "SHORTNAME": "тыс. МЕ/мл",
+            "UCUM": "k[IU]/ml"
+        },
+        {
+            "ID": 421,
+            "FULLNAME": "Грамм в грамме",
+            "SHORTNAME": "г/г",
+            "UCUM": "g/g"
+        },
+        {
+            "ID": 422,
+            "FULLNAME": "Миллиграмм в миллиграмме",
+            "SHORTNAME": "мг/мг",
+            "UCUM": "mg/mg"
+        },
+        {
+            "ID": 428,
+            "FULLNAME": "Миллион международных единиц в миллилитре",
+            "SHORTNAME": "млн. МЕ/мл",
+            "UCUM": "M[IU]/ml"
+        },
+        {
+            "ID": 429,
+            "FULLNAME": "Тысяча международных единиц в грамме",
+            "SHORTNAME": "тыс. МЕ/г",
+            "UCUM": "k[IU]/g"
+        },
+        {
+            "ID": 430,
+            "FULLNAME": "Миллион международных единиц в грамме",
+            "SHORTNAME": "млн. МЕ/г",
+            "UCUM": "M[IU]/g"
+        },
+        {
+            "ID": 431,
+            "FULLNAME": "Грамм в миллилитре",
+            "SHORTNAME": "г/мл",
+            "UCUM": "g/ml"
+        },
+        {
+            "ID": 434,
+            "FULLNAME": "Капля",
+            "SHORTNAME": "кап",
+            "UCUM": "[drp]"
+        },
+        {
+            "ID": 435,
+            "FULLNAME": "Чайная ложка",
+            "SHORTNAME": "ч. л.",
+            "UCUM": "[tsp_m]"
+        },
+        {
+            "ID": 436,
+            "FULLNAME": "Столовая ложка",
+            "SHORTNAME": "ст. л.",
+            "UCUM": "[tbs_m]"
+        },
+        {
+            "ID": 457,
+            "FULLNAME": "Микрограмм в микрограмме",
+            "SHORTNAME": "мкг/мкг",
+            "UCUM": "ug/ug"
+        },
+        {
+            "ID": 484,
+            "FULLNAME": "Флокулирующая единица",
+            "SHORTNAME": "Lf",
+            "UCUM": "[Lf]"
+        },
+        {
+            "ID": 514,
+            "FULLNAME": "Кельвин",
+            "SHORTNAME": "К",
+            "UCUM": "K"
+        },
+        {
+            "ID": 518,
+            "FULLNAME": "Колониеобразующая единица в литре",
+            "SHORTNAME": "КОЕ/л",
+            "UCUM": "[CFU]/l"
+        },
+        {
+            "ID": 519,
+            "FULLNAME": "Колониеобразующая единица в миллилитре",
+            "SHORTNAME": "КОЕ/мл",
+            "UCUM": "[CFU]/ml"
+        },
+        {
+            "ID": 520,
+            "FULLNAME": "Неделя",
+            "SHORTNAME": "нед",
+            "UCUM": "wk"
+        },
+        {
+            "ID": 521,
+            "FULLNAME": "Месяц",
+            "SHORTNAME": "мес",
+            "UCUM": "mo"
+        },
+        {
+            "ID": 529,
+            "FULLNAME": "Зиверт",
+            "SHORTNAME": "Зв",
+            "UCUM": "Sv"
+        },
+        {
+            "ID": 530,
+            "FULLNAME": "Миллизиверт",
+            "SHORTNAME": "мЗв",
+            "UCUM": "mSv"
+        },
+        {
+            "ID": 531,
+            "FULLNAME": "Микрозиверт",
+            "SHORTNAME": "мкЗв",
+            "UCUM": "uSv"
+        },
+        {
+            "ID": 413,
+            "FULLNAME": "Беккерель",
+            "SHORTNAME": "Бк",
+            "UCUM": "Bq"
+        },
+        {
+            "ID": 414,
+            "FULLNAME": "Килобеккерель",
+            "SHORTNAME": "кБк",
+            "UCUM": "kBq"
+        },
+        {
+            "ID": 415,
+            "FULLNAME": "Мегабеккерель",
+            "SHORTNAME": "МБк",
+            "UCUM": "MBq"
+        },
+        {
+            "ID": 416,
+            "FULLNAME": "Гигабеккерель",
+            "SHORTNAME": "ГБк",
+            "UCUM": "GBq"
+        },
+        {
+            "ID": 417,
+            "FULLNAME": "Тысяча мегабеккерелей",
+            "SHORTNAME": "тыс. МБк",
+            "UCUM": "GBq"
+        },
+        {
+            "ID": 418,
+            "FULLNAME": "Беккерель в литре",
+            "SHORTNAME": "Бк/л",
+            "UCUM": "Bq/l"
+        },
+        {
+            "ID": 419,
+            "FULLNAME": "Килобеккерель в миллилитре",
+            "SHORTNAME": "кБк/мл",
+            "UCUM": "kBq/ml"
+        },
+        {
+            "ID": 420,
+            "FULLNAME": "Мегабеккерель в миллилитре",
+            "SHORTNAME": "МБк/мл",
+            "UCUM": "MBq/ml"
+        },
+        {
+            "ID": 516,
+            "FULLNAME": "Грей",
+            "SHORTNAME": "Гр",
+            "UCUM": "Gy"
+        },
+        {
+            "ID": 534,
+            "FULLNAME": "Грамм на грамм в секунду",
+            "SHORTNAME": "г/г/с",
+            "UCUM": "g/g/s"
+        },
+        {
+            "ID": 535,
+            "FULLNAME": "Миллиграмм на килограмм в минуту",
+            "SHORTNAME": "мг/кг/мин",
+            "UCUM": "mg/kg/min"
+        },
+        {
+            "ID": 536,
+            "FULLNAME": "Единица на грамм в секунду",
+            "SHORTNAME": "Ед/г/с",
+            "UCUM": "U/g/s"
+        },
+        {
+            "ID": 537,
+            "FULLNAME": "Единица на килограмм в час",
+            "SHORTNAME": "Ед/кг/ч",
+            "UCUM": "U/kg/h"
+        },
+        {
+            "ID": 538,
+            "FULLNAME": "Беккерель на грамм",
+            "SHORTNAME": "Бк/г",
+            "UCUM": "Bq/g"
+        },
+        {
+            "ID": 539,
+            "FULLNAME": "Килобеккерель на килограмм",
+            "SHORTNAME": "кБк/кг",
+            "UCUM": "kBq/kg"
+        },
+        {
+            "ID": 540,
+            "FULLNAME": "Микрограмм на килограмм в минуту",
+            "SHORTNAME": "мкг/кг/мин",
+            "UCUM": "ug/kg/min"
+        },
+        {
+            "ID": 541,
+            "FULLNAME": "Миллиграмм на килограмм в час",
+            "SHORTNAME": "мг/кг/час",
+            "UCUM": "mg/kg/h"
+        },
+        {
+            "ID": 542,
+            "FULLNAME": "Километр",
+            "SHORTNAME": "км",
+            "UCUM": "km"
+        },
+        {
+            "ID": 546,
+            "FULLNAME": "Грамм на моль",
+            "SHORTNAME": "г/моль",
+            "UCUM": "g/mol"
+        },
+        {
+            "ID": 547,
+            "FULLNAME": "Миллиграмм на миллимоль",
+            "SHORTNAME": "мг/ммоль",
+            "UCUM": "mg/mmol"
+        },
+        {
+            "ID": 515,
+            "FULLNAME": "Градус Цельсия",
+            "SHORTNAME": "°C",
+            "UCUM": "Cel"
+        },
+        {
+            "ID": 543,
+            "FULLNAME": "Единицы связывающих антител",
+            "SHORTNAME": "BAU",
+            "UCUM": "[BAU]"
+        },
+        {
+            "ID": 544,
+            "FULLNAME": "Единицы связывающих антител на литр",
+            "SHORTNAME": "BAU/л",
+            "UCUM": "[BAU]/l"
+        },
+        {
+            "ID": 545,
+            "FULLNAME": "Единицы связывающих антител на миллилитр",
+            "SHORTNAME": "BAU/мл",
+            "UCUM": "[BAU]/mL"
+        },
+        {
+            "ID": 567,
+            "FULLNAME": "Сантиметры в секунду",
+            "SHORTNAME": "см/с",
+            "UCUM": "cm/s"
+        },
+        {
+            "ID": 568,
+            "FULLNAME": "Миллисекунда",
+            "SHORTNAME": "мс",
+            "UCUM": "ms"
+        },
+        {
+            "ID": 571,
+            "FULLNAME": "Децибел",
+            "SHORTNAME": "дБ",
+            "UCUM": "dB"
+        },
+        {
+            "ID": 369,
+            "FULLNAME": "Безразмерная единица",
+            "SHORTNAME": "безразм. ед.",
+            "UCUM": "{Безразмерная_единица}"
+        },
+        {
+            "ID": 572,
+            "FULLNAME": "Грамм в децилитре",
+            "SHORTNAME": "г/дл",
+            "UCUM": "g/dl"
+        },
+        {
+            "ID": 81,
+            "FULLNAME": "Миллиграмм в кубическом сантиметре",
+            "SHORTNAME": "мг/см^3",
+            "UCUM": "mg/cm^3"
+        },
+        {
+            "ID": 82,
+            "FULLNAME": "Микрограмм в кубическом сантиметре",
+            "SHORTNAME": "мг/см^3",
+            "UCUM": "ug/cm^3"
+        },
+        {
+            "ID": 130,
+            "FULLNAME": "10^-3 Единиц",
+            "SHORTNAME": "10^-3 Ед",
+            "UCUM": "10^-3.U"
+        },
+        {
+            "ID": 131,
+            "FULLNAME": "10^-6 Единиц",
+            "SHORTNAME": "10^-6 Ед",
+            "UCUM": "10^-6.U"
+        },
+        {
+            "ID": 132,
+            "FULLNAME": "10^-9 Единиц",
+            "SHORTNAME": "10^-9 Ед",
+            "UCUM": "10^-9.U"
+        },
+        {
+            "ID": 133,
+            "FULLNAME": "10^-12 Единиц",
+            "SHORTNAME": "10^-12 Ед",
+            "UCUM": "10^-12.U"
+        },
+        {
+            "ID": 316,
+            "FULLNAME": "10^6/л",
+            "SHORTNAME": "10^6/л",
+            "UCUM": "10^6/l"
+        },
+        {
+            "ID": 268,
+            "FULLNAME": "Миллиграмм в миллилитре в час",
+            "SHORTNAME": "мг/мл/ч",
+            "UCUM": "mg/(ml/h)"
+        },
+        {
+            "ID": 269,
+            "FULLNAME": "Микрограмм в миллилитре в час",
+            "SHORTNAME": "мкг/мл/ч",
+            "UCUM": "ug/(ml/h)"
+        },
+        {
+            "ID": 270,
+            "FULLNAME": "Нанограмм в миллилитре в час",
+            "SHORTNAME": "нг/мл/ч",
+            "UCUM": "ng/(ml/h)"
+        },
+        {
+            "ID": 271,
+            "FULLNAME": "Моль в литре в час",
+            "SHORTNAME": "моль/л/ч",
+            "UCUM": "mol/(l/h)"
+        },
+        {
+            "ID": 272,
+            "FULLNAME": "Миллимоль в литре в час",
+            "SHORTNAME": "ммоль/л/ч",
+            "UCUM": "mmol/(l/h)"
+        },
+        {
+            "ID": 273,
+            "FULLNAME": "Микромоль в литре в час",
+            "SHORTNAME": "мкмоль/л/ч",
+            "UCUM": "umol/(l/h)"
+        },
+        {
+            "ID": 275,
+            "FULLNAME": "Моль в миллилитре в час",
+            "SHORTNAME": "моль/мл/ч",
+            "UCUM": "mol/(ml/h)"
+        },
+        {
+            "ID": 276,
+            "FULLNAME": "Миллимоль в миллилитре в час",
+            "SHORTNAME": "ммоль/мл/ч",
+            "UCUM": "mmol/(ml/h)"
+        },
+        {
+            "ID": 277,
+            "FULLNAME": "Микромоль в миллилитре в час",
+            "SHORTNAME": "мкмоль/мл/ч",
+            "UCUM": "umol/(ml/h)"
+        },
+        {
+            "ID": 278,
+            "FULLNAME": "Наномоль в миллилитре в час",
+            "SHORTNAME": "нмоль/мл/ч",
+            "UCUM": "nmol/(ml/h)"
+        },
+        {
+            "ID": 279,
+            "FULLNAME": "Моль в литре в сутки",
+            "SHORTNAME": "моль/л/сут",
+            "UCUM": "mol/(l/d)"
+        },
+        {
+            "ID": 280,
+            "FULLNAME": "Миллимоль в литре в сутки",
+            "SHORTNAME": "ммоль/л/сут",
+            "UCUM": "mmol/(l/d)"
+        },
+        {
+            "ID": 281,
+            "FULLNAME": "Микромоль в литре в сутки",
+            "SHORTNAME": "мкмоль/л/сут",
+            "UCUM": "umol/(l/d)"
+        },
+        {
+            "ID": 282,
+            "FULLNAME": "Наномоль в литре в сутки",
+            "SHORTNAME": "нмоль/л/сут",
+            "UCUM": "nmol/(l/d)"
+        },
+        {
+            "ID": 310,
+            "FULLNAME": "10^3/л",
+            "SHORTNAME": "10^3/л",
+            "UCUM": "10^3/l"
+        },
+        {
+            "ID": 311,
+            "FULLNAME": "10^3/дл",
+            "SHORTNAME": "10^3/дл",
+            "UCUM": "10^3/dl"
+        },
+        {
+            "ID": 312,
+            "FULLNAME": "10^3/мл",
+            "SHORTNAME": "10^3/мл",
+            "UCUM": "10^3/ml"
+        },
+        {
+            "ID": 313,
+            "FULLNAME": "10^3/мкл",
+            "SHORTNAME": "10^3/мкл",
+            "UCUM": "10^3/ul"
+        },
+        {
+            "ID": 314,
+            "FULLNAME": "10^3/нл",
+            "SHORTNAME": "10^3/нл",
+            "UCUM": "10^3/nl"
+        },
+        {
+            "ID": 315,
+            "FULLNAME": "10^3/пл",
+            "SHORTNAME": "10^3/пл",
+            "UCUM": "10^3/pl"
+        },
+        {
+            "ID": 317,
+            "FULLNAME": "10^6/дл",
+            "SHORTNAME": "10^6/дл",
+            "UCUM": "10^6/dl"
+        },
+        {
+            "ID": 318,
+            "FULLNAME": "10^6/мл",
+            "SHORTNAME": "10^6/мл",
+            "UCUM": "10^6/ml"
+        },
+        {
+            "ID": 319,
+            "FULLNAME": "10^6/мкл",
+            "SHORTNAME": "10^6/мкл",
+            "UCUM": "10^6/ul"
+        },
+        {
+            "ID": 320,
+            "FULLNAME": "10^6/нл",
+            "SHORTNAME": "10^6/нл",
+            "UCUM": "10^6/nl"
+        },
+        {
+            "ID": 321,
+            "FULLNAME": "10^6/пл",
+            "SHORTNAME": "10^6/пл",
+            "UCUM": "10^6/pl"
+        },
+        {
+            "ID": 322,
+            "FULLNAME": "10^9/л",
+            "SHORTNAME": "10^9/л",
+            "UCUM": "10^9/l"
+        },
+        {
+            "ID": 323,
+            "FULLNAME": "10^9/дл",
+            "SHORTNAME": "10^9/дл",
+            "UCUM": "10^9/dl"
+        },
+        {
+            "ID": 324,
+            "FULLNAME": "10^9/мл",
+            "SHORTNAME": "10^9/мл",
+            "UCUM": "10^9/ml"
+        },
+        {
+            "ID": 325,
+            "FULLNAME": "10^9/мкл",
+            "SHORTNAME": "10^9/мкл",
+            "UCUM": "10^9/ul"
+        },
+        {
+            "ID": 326,
+            "FULLNAME": "10^9/нл",
+            "SHORTNAME": "10^9/нл",
+            "UCUM": "10^9/nl"
+        },
+        {
+            "ID": 327,
+            "FULLNAME": "10^9/пл",
+            "SHORTNAME": "10^9/пл",
+            "UCUM": "10^9/pl"
+        },
+        {
+            "ID": 328,
+            "FULLNAME": "10^12/л",
+            "SHORTNAME": "10^12/л",
+            "UCUM": "10^12/l"
+        },
+        {
+            "ID": 329,
+            "FULLNAME": "10^12/дл",
+            "SHORTNAME": "10^12/дл",
+            "UCUM": "10^12/dl"
+        },
+        {
+            "ID": 330,
+            "FULLNAME": "10^12/мл",
+            "SHORTNAME": "10^12/мл",
+            "UCUM": "10^12/ml"
+        },
+        {
+            "ID": 331,
+            "FULLNAME": "10^12/мкл",
+            "SHORTNAME": "10^12/мкл",
+            "UCUM": "10^12/ul"
+        },
+        {
+            "ID": 332,
+            "FULLNAME": "10^12/нл",
+            "SHORTNAME": "10^12/нл",
+            "UCUM": "10^12/nl"
+        },
+        {
+            "ID": 333,
+            "FULLNAME": "10^12/пл",
+            "SHORTNAME": "10^12/пл",
+            "UCUM": "10^12/pl"
+        },
+        {
+            "ID": 338,
+            "FULLNAME": "10^2 в минуту",
+            "SHORTNAME": "10^2/мин",
+            "UCUM": "10^2/min"
+        },
+        {
+            "ID": 339,
+            "FULLNAME": "10^3 в минуту",
+            "SHORTNAME": "10^3/мин",
+            "UCUM": "10^3/min"
+        },
+        {
+            "ID": 340,
+            "FULLNAME": "10^5 в минуту",
+            "SHORTNAME": "10^5/мин",
+            "UCUM": "10^5/min"
+        },
+        {
+            "ID": 341,
+            "FULLNAME": "10^6 в минуту",
+            "SHORTNAME": "10^6/мин",
+            "UCUM": "10^6/min"
+        },
+        {
+            "ID": 342,
+            "FULLNAME": "10^9 в минуту",
+            "SHORTNAME": "10^9/мин",
+            "UCUM": "10^9/min"
+        },
+        {
+            "ID": 343,
+            "FULLNAME": "10^12 в минуту",
+            "SHORTNAME": "10^12/мин",
+            "UCUM": "10^12/min"
+        },
+        {
+            "ID": 345,
+            "FULLNAME": "10^2 в час",
+            "SHORTNAME": "10^2/час",
+            "UCUM": "10^2/h"
+        },
+        {
+            "ID": 346,
+            "FULLNAME": "10^3 в час",
+            "SHORTNAME": "10^3/час",
+            "UCUM": "10^3/h"
+        },
+        {
+            "ID": 347,
+            "FULLNAME": "10^5 в час",
+            "SHORTNAME": "10^5/час",
+            "UCUM": "10^5/h"
+        },
+        {
+            "ID": 348,
+            "FULLNAME": "10^6 в час",
+            "SHORTNAME": "10^6/час",
+            "UCUM": "10^6/h"
+        },
+        {
+            "ID": 349,
+            "FULLNAME": "10^9 в час",
+            "SHORTNAME": "10^9/час",
+            "UCUM": "10^9/h"
+        },
+        {
+            "ID": 350,
+            "FULLNAME": "10^12 в час",
+            "SHORTNAME": "10^12/час",
+            "UCUM": "10^12/h"
+        },
+        {
+            "ID": 352,
+            "FULLNAME": "10^2 в сутки",
+            "SHORTNAME": "10^2/сут",
+            "UCUM": "10^2/d"
+        },
+        {
+            "ID": 353,
+            "FULLNAME": "10^3 в сутки",
+            "SHORTNAME": "10^3/сут",
+            "UCUM": "10^3/d"
+        },
+        {
+            "ID": 354,
+            "FULLNAME": "10^5 в сутки",
+            "SHORTNAME": "10^5/сут",
+            "UCUM": "10^5/d"
+        },
+        {
+            "ID": 355,
+            "FULLNAME": "10^6 в сутки",
+            "SHORTNAME": "10^6/сут",
+            "UCUM": "10^6/dl"
+        },
+        {
+            "ID": 356,
+            "FULLNAME": "10^9 в сутки",
+            "SHORTNAME": "10^9/сут",
+            "UCUM": "10^9/dl"
+        },
+        {
+            "ID": 357,
+            "FULLNAME": "10^12 в сутки",
+            "SHORTNAME": "10^12/сут",
+            "UCUM": "10^12/d"
+        },
+        {
+            "ID": 365,
+            "FULLNAME": "Миллилитр в минуту на квадратный метр",
+            "SHORTNAME": "мл/мин/м^2",
+            "UCUM": "ml/min/m^2"
+        },
+        {
+            "ID": 366,
+            "FULLNAME": "Миллилитр в минуту на 1,73 квадратных метра",
+            "SHORTNAME": "мл/мин/1,73м^2",
+            "UCUM": "ml/min/m^2"
+        },
+        {
+            "ID": 382,
+            "FULLNAME": "10^3 копий",
+            "SHORTNAME": "10^3 копий",
+            "UCUM": "10^3"
+        },
+        {
+            "ID": 383,
+            "FULLNAME": "10^6 копий",
+            "SHORTNAME": "10^6 копий",
+            "UCUM": "10^6"
+        },
+        {
+            "ID": 384,
+            "FULLNAME": "10^9 копий",
+            "SHORTNAME": "10^9 копий",
+            "UCUM": "10^9"
+        },
+        {
+            "ID": 385,
+            "FULLNAME": "10^12 копий",
+            "SHORTNAME": "10^12 копий",
+            "UCUM": "10^12"
+        },
+        {
+            "ID": 390,
+            "FULLNAME": "10^3 копий в миллилитре",
+            "SHORTNAME": "10^3 копий/мл",
+            "UCUM": "10^3/ml"
+        },
+        {
+            "ID": 391,
+            "FULLNAME": "10^6 копий в миллилитре",
+            "SHORTNAME": "10^6 копий/мл",
+            "UCUM": "10^6/ml"
+        },
+        {
+            "ID": 392,
+            "FULLNAME": "10^9 копий в миллилитре",
+            "SHORTNAME": "10^9 копий/мл",
+            "UCUM": "10^9/ml"
+        },
+        {
+            "ID": 393,
+            "FULLNAME": "10^12 копий в миллилитре",
+            "SHORTNAME": "10^12 копий/мл",
+            "UCUM": "10^12/ml"
+        },
+        {
+            "ID": 432,
+            "FULLNAME": "Грамм на квадратный метр",
+            "SHORTNAME": "г/м^2",
+            "UCUM": "g/m^2"
+        },
+        {
+            "ID": 433,
+            "FULLNAME": "Миллиграмм на квадратный сантиметр",
+            "SHORTNAME": "мг/см^2",
+            "UCUM": "mg/cm^2"
+        },
+        {
+            "ID": 517,
+            "FULLNAME": "Миллиграмм на квадратный метр",
+            "SHORTNAME": "мг/м^2",
+            "UCUM": "mg/m^2"
+        },
+        {
+            "ID": 523,
+            "FULLNAME": "1/мм^3",
+            "SHORTNAME": "1/мм^3",
+            "UCUM": "1/mm^3"
+        },
+        {
+            "ID": 524,
+            "FULLNAME": "10^3/мм^3",
+            "SHORTNAME": "10^3/мм^3",
+            "UCUM": "10*3/mm^3"
+        },
+        {
+            "ID": 527,
+            "FULLNAME": "Микрограмм на квадратный метр",
+            "SHORTNAME": "мкг/м^2",
+            "UCUM": "ug/m^2"
+        },
+        {
+            "ID": 532,
+            "FULLNAME": "Килограмм на квадратный метр",
+            "SHORTNAME": "кг/м^2",
+            "UCUM": "kg/m^2"
+        },
+        {
+            "ID": 533,
+            "FULLNAME": "Международная единица на квадратный метр",
+            "SHORTNAME": "МЕ/м^2",
+            "UCUM": "[IU]/m^2"
+        },
+        {
+            "ID": 548,
+            "FULLNAME": "Квадратный метр",
+            "SHORTNAME": "м^2",
+            "UCUM": "m^2"
+        },
+        {
+            "ID": 549,
+            "FULLNAME": "Квадратный дециметр",
+            "SHORTNAME": "дм^2",
+            "UCUM": "dm^2"
+        },
+        {
+            "ID": 550,
+            "FULLNAME": "Квадратный сантиметр",
+            "SHORTNAME": "см^2",
+            "UCUM": "cm^2"
+        },
+        {
+            "ID": 551,
+            "FULLNAME": "Квадратный миллиметр",
+            "SHORTNAME": "мм^2",
+            "UCUM": "mm^2"
+        },
+        {
+            "ID": 552,
+            "FULLNAME": "Квадратный микрометр",
+            "SHORTNAME": "мкм^2",
+            "UCUM": "um^2"
+        },
+        {
+            "ID": 553,
+            "FULLNAME": "Квадратный нанометр",
+            "SHORTNAME": "нм^2",
+            "UCUM": "nm^2"
+        },
+        {
+            "ID": 554,
+            "FULLNAME": "Квадратный пикометр",
+            "SHORTNAME": "пм^2",
+            "UCUM": "pm^2"
+        },
+        {
+            "ID": 555,
+            "FULLNAME": "Квадратный километр",
+            "SHORTNAME": "км^2",
+            "UCUM": "km^2"
+        },
+        {
+            "ID": 556,
+            "FULLNAME": "Кубический метр",
+            "SHORTNAME": "м^3",
+            "UCUM": "m^3"
+        },
+        {
+            "ID": 557,
+            "FULLNAME": "Кубический дециметр",
+            "SHORTNAME": "дм^3",
+            "UCUM": "dm^3"
+        },
+        {
+            "ID": 558,
+            "FULLNAME": "Кубический сантиметр",
+            "SHORTNAME": "см^3",
+            "UCUM": "cm^3"
+        },
+        {
+            "ID": 559,
+            "FULLNAME": "Кубический миллиметр",
+            "SHORTNAME": "мм^3",
+            "UCUM": "mm^3"
+        },
+        {
+            "ID": 560,
+            "FULLNAME": "Кубический микрометр",
+            "SHORTNAME": "мкм^3",
+            "UCUM": "um^3"
+        },
+        {
+            "ID": 561,
+            "FULLNAME": "Кубический нанометр",
+            "SHORTNAME": "нм^3",
+            "UCUM": "nm^3"
+        },
+        {
+            "ID": 562,
+            "FULLNAME": "Кубический пикометр",
+            "SHORTNAME": "пм^3",
+            "UCUM": "pm^3"
+        },
+        {
+            "ID": 563,
+            "FULLNAME": "Кубический километр",
+            "SHORTNAME": "км^3",
+            "UCUM": "km^3"
+        },
+        {
+            "ID": 566,
+            "FULLNAME": "Миллилитр на квадратный метр",
+            "SHORTNAME": "мл/м^2",
+            "UCUM": "ml/m^2"
+        },
+        {
+            "ID": 569,
+            "FULLNAME": "Миллиметр на квадратный метр",
+            "SHORTNAME": "мм/м^2",
+            "UCUM": "mm/m^2"
+        },
+        {
+            "ID": 570,
+            "FULLNAME": "Сантиметр на квадратный метр",
+            "SHORTNAME": "см/м^2",
+            "UCUM": "cm/m^2"
+        },
+        {
+            "ID": 573,
+            "FULLNAME": "Миллилитр на килограмм в час",
+            "SHORTNAME": "мл/кг/ч",
+            "UCUM": "ml/kg/h"
+        },
+        {
+            "ID": 576,
+            "FULLNAME": "Грамм на кубический дециметр",
+            "SHORTNAME": "г/дм^3",
+            "UCUM": "g/dm3"
+        },
+        {
+            "ID": 577,
+            "FULLNAME": "Наномоль в децилитре в минуту",
+            "SHORTNAME": "нмоль/дл/мин",
+            "UCUM": "nmol/dl/min"
+        },
+        {
+            "ID": 575,
+            "FULLNAME": "пг/100",
+            "SHORTNAME": "пг/100",
+            "UCUM": "pg/100"
+        },
+        {
+            "ID": 448,
+            "FULLNAME": "Колониеобразующая единица",
+            "SHORTNAME": "КОЕ",
+            "UCUM": "[CFU]"
+        },
+        {
+            "ID": 451,
+            "FULLNAME": "Колониеобразующая единица в грамме",
+            "SHORTNAME": "КОЕ/г",
+            "UCUM": "[CFU]/g"
+        },
+        {
+            "ID": 397,
+            "FULLNAME": "Десятичный логарифм количества копий в миллилитре",
+            "SHORTNAME": "lg копий/мл",
+            "UCUM": "{Lg_copies}/mL"
+        },
+        {
+            "ID": 398,
+            "FULLNAME": "Десятичный логарифм генетического эквивалента в миллилитре",
+            "SHORTNAME": "lg ГЭ/мл",
+            "UCUM": "{Lg_eq}/mL"
+        },
+        {
+            "ID": 399,
+            "FULLNAME": "Десятичный логарифм количества копий в 10^5 клеток",
+            "SHORTNAME": "lg копий/10^5 клеток",
+            "UCUM": "{Lg_copies}/{cell}"
+        },
+        {
+            "ID": 400,
+            "FULLNAME": "Десятичный логарифм генетического эквивалента в 10^5 клеток",
+            "SHORTNAME": "lg ГЭ/10^5 клеток",
+            "UCUM": "{Lg_eq}/{cell}"
+        },
+        {
+            "ID": 579,
+            "FULLNAME": "Объёмный процент",
+            "SHORTNAME": "об.%",
+            "UCUM": "{% vol}"
+        },
+        {
+            "ID": 55,
+            "FULLNAME": "Титр",
+            "SHORTNAME": "титр",
+            "UCUM": "{titer}"
+        },
+        {
+            "ID": 56,
+            "FULLNAME": "Нормализованное отношение",
+            "SHORTNAME": "норм. отн.",
+            "UCUM": "{M.o.M}"
+        },
+        {
+            "ID": 371,
+            "FULLNAME": "Единица Phadiatop в литре",
+            "SHORTNAME": "ФАЕ/л",
+            "UCUM": "[IU]/L"
+        },
+        {
+            "ID": 372,
+            "FULLNAME": "Aspirin Reaction Units",
+            "SHORTNAME": "ARU",
+            "UCUM": "{ARU}"
+        },
+        {
+            "ID": 373,
+            "FULLNAME": "Единица ISAC",
+            "SHORTNAME": "ISU-E",
+            "UCUM": "{ISACU}"
+        },
+        {
+            "ID": 374,
+            "FULLNAME": "P2Y12 Reaction Units",
+            "SHORTNAME": "PRU",
+            "UCUM": "{PRU}"
+        },
+        {
+            "ID": 375,
+            "FULLNAME": "Площадь под кривой",
+            "SHORTNAME": "AUC",
+            "UCUM": "{AUC}"
+        },
+        {
+            "ID": 376,
+            "FULLNAME": "Juvenile Diabetes Foundation Units",
+            "SHORTNAME": "Ед. JDF/мл",
+            "UCUM": "[arb'U]"
+        },
+        {
+            "ID": 394,
+            "FULLNAME": "Копий в 10^5 клеток",
+            "SHORTNAME": "копий/10^5 клеток",
+            "UCUM": "1/{cell}"
+        },
+        {
+            "ID": 395,
+            "FULLNAME": "Генетический эквивалент в 10^5 клеток",
+            "SHORTNAME": "ГЭ/10^5 клеток",
+            "UCUM": "1/{cell}"
+        },
+        {
+            "ID": 396,
+            "FULLNAME": "Количество в 500 клетках",
+            "SHORTNAME": "1/500 клеток",
+            "UCUM": "1/{cell}"
+        },
+        {
+            "ID": 405,
+            "FULLNAME": "Единица действия",
+            "SHORTNAME": "ЕД",
+            "UCUM": "{EA}"
+        },
+        {
+            "ID": 406,
+            "FULLNAME": "Тысяча единиц действия",
+            "SHORTNAME": "тыс. ЕД",
+            "UCUM": "10^3{EA}"
+        },
+        {
+            "ID": 407,
+            "FULLNAME": "Миллион единиц действия",
+            "SHORTNAME": "млн. ЕД",
+            "UCUM": "10^6{EA}"
+        },
+        {
+            "ID": 423,
+            "FULLNAME": "Единица действия в грамме",
+            "SHORTNAME": "ЕД/г",
+            "UCUM": "{EA}/g"
+        },
+        {
+            "ID": 424,
+            "FULLNAME": "Тысяча единиц действия в грамме",
+            "SHORTNAME": "тыс. ЕД/г",
+            "UCUM": "10^3{EA}/g"
+        },
+        {
+            "ID": 425,
+            "FULLNAME": "Единица действия в литре",
+            "SHORTNAME": "ЕД/л",
+            "UCUM": "{EA}/L"
+        },
+        {
+            "ID": 426,
+            "FULLNAME": "Единица действия в миллилитре",
+            "SHORTNAME": "ЕД/мл",
+            "UCUM": "{EA}/mL"
+        },
+        {
+            "ID": 427,
+            "FULLNAME": "Миллион единиц действия в миллилитре",
+            "SHORTNAME": "млн. ЕД/мл",
+            "UCUM": "10^6{EA}/mL"
+        },
+        {
+            "ID": 437,
+            "FULLNAME": "Тысяча единиц действия в миллилитре",
+            "SHORTNAME": "тыс. ЕД/мл",
+            "UCUM": "10^3{EA}/mL"
+        },
+        {
+            "ID": 438,
+            "FULLNAME": "Единица действия в микролитре",
+            "SHORTNAME": "ЕД/мкл",
+            "UCUM": "{EA}/uL"
+        },
+        {
+            "ID": 442,
+            "FULLNAME": "Единица Food Chemicals Codex (FCC)",
+            "SHORTNAME": "FCC U",
+            "UCUM": "{FCCU}"
+        },
+        {
+            "ID": 443,
+            "FULLNAME": "Единица Federation Internationale du Pharmaceutiques (FIP)",
+            "SHORTNAME": "FIP U",
+            "UCUM": "{FIPU}"
+        },
+        {
+            "ID": 444,
+            "FULLNAME": "Тысяча единиц Federation Internationale du Pharmaceutiques (FIP)",
+            "SHORTNAME": "10 3 FIP U",
+            "UCUM": "k{FIPU}"
+        },
+        {
+            "ID": 445,
+            "FULLNAME": "Единица European Pharmacopoeia (PhEur)",
+            "SHORTNAME": "Ph.Eur. U",
+            "UCUM": "{PhEurU}"
+        },
+        {
+            "ID": 446,
+            "FULLNAME": "Единица British Pharmacopoeia (BP)",
+            "SHORTNAME": "BP U",
+            "UCUM": "{BPU}"
+        },
+        {
+            "ID": 447,
+            "FULLNAME": "Единица Japanese Pharmacopoeia (JP)",
+            "SHORTNAME": "JP U",
+            "UCUM": "{JPU}"
+        },
+        {
+            "ID": 449,
+            "FULLNAME": "Миллион колониеобразующих единиц",
+            "SHORTNAME": "млн. КОЕ",
+            "UCUM": "M[CFU]"
+        },
+        {
+            "ID": 450,
+            "FULLNAME": "Миллиард колониеобразующих единиц",
+            "SHORTNAME": "млрд. КОЕ",
+            "UCUM": "[CFU]{10^9}"
+        },
+        {
+            "ID": 452,
+            "FULLNAME": "Миллион колониеобразующих единиц в грамме",
+            "SHORTNAME": "млн.КОЕ/г",
+            "UCUM": "M[CFU]/g"
+        },
+        {
+            "ID": 454,
+            "FULLNAME": "Калликреин инактивирующая единица",
+            "SHORTNAME": "КИЕ",
+            "UCUM": "{kl'inact'U}"
+        },
+        {
+            "ID": 455,
+            "FULLNAME": "Калликреин инактивирующая единица в литре",
+            "SHORTNAME": "КИЕ/л",
+            "UCUM": "{kl'inact'U}/L"
+        },
+        {
+            "ID": 456,
+            "FULLNAME": "Тысяча калликреин инактивирующих единиц в миллилитре",
+            "SHORTNAME": "тыс.КИЕ/мл",
+            "UCUM": "10^3{kl'inact'U}/mL"
+        },
+        {
+            "ID": 462,
+            "FULLNAME": "Калликреин инактивирующая единица в миллилитре",
+            "SHORTNAME": "КИЕ/мл",
+            "UCUM": "{kl'inact'U}/mL"
+        },
+        {
+            "ID": 463,
+            "FULLNAME": "Индекс Реактивности на литр",
+            "SHORTNAME": "ИР/л",
+            "UCUM": "[IR]/L"
+        },
+        {
+            "ID": 464,
+            "FULLNAME": "Единица липопротеина-липазы",
+            "SHORTNAME": "ЛЕ",
+            "UCUM": "{ll'U}"
+        },
+        {
+            "ID": 465,
+            "FULLNAME": "Единица липопротеина-липазы в литре",
+            "SHORTNAME": "ЛЕ/л",
+            "UCUM": "{ll'U}/L"
+        },
+        {
+            "ID": 466,
+            "FULLNAME": "Единица липопротеина-липазы в миллилитре",
+            "SHORTNAME": "ЛЕ/мл",
+            "UCUM": "{ll'U}/mL"
+        },
+        {
+            "ID": 467,
+            "FULLNAME": "Коллагеназная единица",
+            "SHORTNAME": "КЕ",
+            "UCUM": "{col'U}"
+        },
+        {
+            "ID": 468,
+            "FULLNAME": "Туберкулиновая единица",
+            "SHORTNAME": "ТЕ",
+            "UCUM": "[tb'U]"
+        },
+        {
+            "ID": 469,
+            "FULLNAME": "Тысяча туберкулиновых единиц",
+            "SHORTNAME": "тыс. ТЕ",
+            "UCUM": "k[tb'U]"
+        },
+        {
+            "ID": 470,
+            "FULLNAME": "Туберкулиновая единица в литре",
+            "SHORTNAME": "ТЕ/л",
+            "UCUM": "[tb'U]/L"
+        },
+        {
+            "ID": 471,
+            "FULLNAME": "Туберкулиновая единица в миллилитре",
+            "SHORTNAME": "ТЕ/мл",
+            "UCUM": "[tb'U]/mL"
+        },
+        {
+            "ID": 472,
+            "FULLNAME": "Оспообразующая единица",
+            "SHORTNAME": "ООЕ",
+            "UCUM": "[PFU]"
+        },
+        {
+            "ID": 473,
+            "FULLNAME": "Микролитр в миллилитре",
+            "SHORTNAME": "мкл/мл",
+            "UCUM": "uL/mL"
+        },
+        {
+            "ID": 474,
+            "FULLNAME": "Единица, стандартизованная по качеству",
+            "SHORTNAME": "SQ-U",
+            "UCUM": "{UQ}"
+        },
+        {
+            "ID": 476,
+            "FULLNAME": "Международная единица антитромботического действия",
+            "SHORTNAME": "анти-Xa МЕ",
+            "UCUM": "[anti'Xa'U]"
+        },
+        {
+            "ID": 477,
+            "FULLNAME": "Тысяча международных единиц антитромботического действия",
+            "SHORTNAME": "тыс. анти-Xa МЕ",
+            "UCUM": "k[anti'Xa'U]"
+        },
+        {
+            "ID": 478,
+            "FULLNAME": "Международная единица антитромботического действия в литре",
+            "SHORTNAME": "анти-Xa МЕ/л",
+            "UCUM": "[anti'Xa'U]/L"
+        },
+        {
+            "ID": 479,
+            "FULLNAME": "Международная единица антитромботического действия в миллилитре",
+            "SHORTNAME": "анти-Xa МЕ/мл",
+            "UCUM": "[anti'Xa'U]/mL"
+        },
+        {
+            "ID": 480,
+            "FULLNAME": "Тысяча международных единиц антитромботического действия в миллилитре",
+            "SHORTNAME": "тыс. анти-Xa МЕ/мл",
+            "UCUM": "k[anti'Xa'U]/mL"
+        },
+        {
+            "ID": 485,
+            "FULLNAME": "Единица связывания",
+            "SHORTNAME": "ЕС",
+            "UCUM": "{BU}"
+        },
+        {
+            "ID": 486,
+            "FULLNAME": "Доза",
+            "SHORTNAME": "доз",
+            "UCUM": "{D}"
+        },
+        {
+            "ID": 487,
+            "FULLNAME": "Грамм на дозу",
+            "SHORTNAME": "г/доз",
+            "UCUM": "g/{D}"
+        },
+        {
+            "ID": 490,
+            "FULLNAME": "Литр на дозу",
+            "SHORTNAME": "л/доз",
+            "UCUM": "L/{D}"
+        },
+        {
+            "ID": 491,
+            "FULLNAME": "Миллилитр на дозу",
+            "SHORTNAME": "мл/доз",
+            "UCUM": "mL/{D}"
+        },
+        {
+            "ID": 492,
+            "FULLNAME": "Международная единица на дозу",
+            "SHORTNAME": "МЕ/доз",
+            "UCUM": "[IU]/{D}"
+        },
+        {
+            "ID": 526,
+            "FULLNAME": "Интенсивность светорассеяния",
+            "SHORTNAME": "SI",
+            "UCUM": "W/m2"
+        },
+        {
+            "ID": 493,
+            "FULLNAME": "Тысяча международных единиц на дозу",
+            "SHORTNAME": "тыс. МЕ/доз",
+            "UCUM": "k[IU]/{D}"
+        },
+        {
+            "ID": 494,
+            "FULLNAME": "Единица действия на дозу",
+            "SHORTNAME": "ЕД/доз",
+            "UCUM": "{EA}/{D}"
+        },
+        {
+            "ID": 495,
+            "FULLNAME": "Туберкулиновая единица на дозу",
+            "SHORTNAME": "ТЕ/доз",
+            "UCUM": "[tb'U]/{D}"
+        },
+        {
+            "ID": 497,
+            "FULLNAME": "Антитоксическая единица на дозу",
+            "SHORTNAME": "АЕ/доз",
+            "UCUM": "{anti'tox'U}/{D}"
+        },
+        {
+            "ID": 498,
+            "FULLNAME": "Калликреин инактивирующая единица на дозу",
+            "SHORTNAME": "КИЕ/доз",
+            "UCUM": "{kl'inact'U}/{D}"
+        },
+        {
+            "ID": 500,
+            "FULLNAME": "Колониеобразующая единица на дозу",
+            "SHORTNAME": "КОЕ/доз",
+            "UCUM": "[CFU]/{D}"
+        },
+        {
+            "ID": 501,
+            "FULLNAME": "Миллион колониеобразующих единиц на дозу",
+            "SHORTNAME": "млн. КОЕ/доз",
+            "UCUM": "k[CFU]/{D}"
+        },
+        {
+            "ID": 502,
+            "FULLNAME": "Миллиард колониеобразующих единиц на дозу",
+            "SHORTNAME": "млрд. КОЕ/доз",
+            "UCUM": "[CFU]{10^9}/{D}"
+        },
+        {
+            "ID": 503,
+            "FULLNAME": "Флокулирующая единица на дозу",
+            "SHORTNAME": "Lf/доз",
+            "UCUM": "[Lf]/{D}"
+        },
+        {
+            "ID": 504,
+            "FULLNAME": "Единица связывания на дозу",
+            "SHORTNAME": "ЕС/доз",
+            "UCUM": "{BU}/{D}"
+        },
+        {
+            "ID": 505,
+            "FULLNAME": "Количество на дозу",
+            "SHORTNAME": "1/доз",
+            "UCUM": "1/{D}"
+        },
+        {
+            "ID": 506,
+            "FULLNAME": "Литр в литре",
+            "SHORTNAME": "л/л",
+            "UCUM": "L/L"
+        },
+        {
+            "ID": 507,
+            "FULLNAME": "Антитоксическая единица",
+            "SHORTNAME": "АЕ",
+            "UCUM": "{anti'tox'U}"
+        },
+        {
+            "ID": 508,
+            "FULLNAME": "Тысяча антитоксических единиц",
+            "SHORTNAME": "тыс. АЕ",
+            "UCUM": "10^3{anti'tox'U}"
+        },
+        {
+            "ID": 509,
+            "FULLNAME": "Антитрипсиновая единица",
+            "SHORTNAME": "АТрЕ",
+            "UCUM": "{anti'tr'U}"
+        },
+        {
+            "ID": 510,
+            "FULLNAME": "Тысяча антитрипсиновых единиц",
+            "SHORTNAME": "тыс. АТрЕ",
+            "UCUM": "10^3{anti'tr'U}"
+        },
+        {
+            "ID": 511,
+            "FULLNAME": "Индекс Реактивности",
+            "SHORTNAME": "ИР",
+            "UCUM": "[IR]"
+        },
+        {
+            "ID": 512,
+            "FULLNAME": "Индекс Реактивности на миллилитр",
+            "SHORTNAME": "ИР/мл",
+            "UCUM": "[IR]/mL"
+        },
+        {
+            "ID": 513,
+            "FULLNAME": "Протеолитическая единица",
+            "SHORTNAME": "ПЕ",
+            "UCUM": "{PU}"
+        },
+        {
+            "ID": 565,
+            "FULLNAME": "Койко-день",
+            "SHORTNAME": "койк. дн",
+            "UCUM": "{bed}/d"
+        },
+        {
+            "ID": 574,
+            "FULLNAME": "Наномоль в миллилитре в минуту",
+            "SHORTNAME": "нмоль/мл/мин",
+            "UCUM": "nmol/mL/min"
+        },
+        {
+            "ID": 578,
+            "FULLNAME": "Колониеобразующая единица на тампон",
+            "SHORTNAME": "КОЕ/тампон",
+            "UCUM": "[CFU]/{t}"
+        },
+        {
+            "ID": 580,
+            "FULLNAME": "Количество в 1000 эритроцитов",
+            "SHORTNAME": "1/1000 эритроцитов",
+            "UCUM": "1/{cell}"
+        },
+        {
+            "ID": 581,
+            "FULLNAME": "Количество в 10 минут",
+            "SHORTNAME": "1/10мин",
+            "UCUM": "1/{10.min}"
+        },
+        {
+            "ID": 488,
+            "FULLNAME": "Миллиграмм на дозу",
+            "SHORTNAME": "мг/доз",
+            "UCUM": "mg/{D}"
+        },
+        {
+            "ID": 489,
+            "FULLNAME": "Микрограмм на дозу",
+            "SHORTNAME": "мкг/доз",
+            "UCUM": "ug/{D}"
+        },
+        {
+            "ID": 582,
+            "FULLNAME": "Миллиграмм в кубическом дециметре",
+            "SHORTNAME": "мг/дм^3",
+            "UCUM": "mg/dm^3"
+        },
+        {
+            "ID": 583,
+            "FULLNAME": "Единица белкового азота в миллилитре",
+            "SHORTNAME": "PNU/мл",
+            "UCUM": "[PNU]/mL"
+        },
+        {
+            "ID": 584,
+            "FULLNAME": "Миллион калликреин инактивирующих единиц",
+            "SHORTNAME": "млн. КИЕ",
+            "UCUM": "10^6{kl'inact'U}"
+        },
+        {
+            "ID": 585,
+            "FULLNAME": "Миллиард международных единиц",
+            "SHORTNAME": "млрд. МЕ",
+            "UCUM": "[IU]{10^9}"
+        },
+        {
+            "ID": 586,
+            "FULLNAME": "Миллиард единиц действия",
+            "SHORTNAME": "млрд. ЕД",
+            "UCUM": "10^9{EA}"
+        },
+        {
+            "ID": 408,
+            "FULLNAME": "Единица белкового азота",
+            "SHORTNAME": "PNU",
+            "UCUM": "[PNU]"
+        },
+        {
+            "ID": 409,
+            "FULLNAME": "Единица белкового азота в литре",
+            "SHORTNAME": "PNU/л",
+            "UCUM": "[PNU]/l"
+        },
+        {
+            "ID": 410,
+            "FULLNAME": "Тысяча единиц белкового азота в миллилитре",
+            "SHORTNAME": "тыс. PNU/мл",
+            "UCUM": "k[PNU]/ml"
+        },
+        {
+            "ID": 294,
+            "FULLNAME": "10^2 штук",
+            "SHORTNAME": "10^2 шт",
+            "UCUM": "10^2"
+        },
+        {
+            "ID": 295,
+            "FULLNAME": "10^3 штук",
+            "SHORTNAME": "10^3 шт",
+            "UCUM": "10^3"
+        },
+        {
+            "ID": 296,
+            "FULLNAME": "10^6 штук",
+            "SHORTNAME": "10^6 шт",
+            "UCUM": "10^6"
+        },
+        {
+            "ID": 297,
+            "FULLNAME": "10^9 штук",
+            "SHORTNAME": "10^9 шт",
+            "UCUM": "10^9"
+        },
+        {
+            "ID": 298,
+            "FULLNAME": "10^12 штук",
+            "SHORTNAME": "10^12 шт",
+            "UCUM": "10^12"
+        },
+        {
+            "ID": 299,
+            "FULLNAME": "10^-2 штук",
+            "SHORTNAME": "10^-2 шт",
+            "UCUM": "10^-2"
+        },
+        {
+            "ID": 300,
+            "FULLNAME": "10^-3 штук",
+            "SHORTNAME": "10^-3 шт",
+            "UCUM": "10^-3"
+        },
+        {
+            "ID": 301,
+            "FULLNAME": "10^-6 штук",
+            "SHORTNAME": "10^-6 шт",
+            "UCUM": "10^-6"
+        },
+        {
+            "ID": 302,
+            "FULLNAME": "10^-9 штук",
+            "SHORTNAME": "10^-9 шт",
+            "UCUM": "10^-9"
+        },
+        {
+            "ID": 303,
+            "FULLNAME": "10^-12 штук",
+            "SHORTNAME": "10^-12 шт",
+            "UCUM": "10^-12"
+        },
+        {
+            "ID": 591,
+            "FULLNAME": "Посещение в смену",
+            "SHORTNAME": "посещ/смен",
+            "UCUM": "{vis/shift}"
+        },
+        {
+            "ID": 592,
+            "FULLNAME": "Комплект",
+            "SHORTNAME": "компл",
+            "UCUM": "{set}"
+        },
+        {
+            "ID": 593,
+            "FULLNAME": "Набор",
+            "SHORTNAME": "набор",
+            "UCUM": "{SET}"
+        },
+        {
+            "ID": 595,
+            "FULLNAME": "Сто миллионов клеток",
+            "SHORTNAME": "10^8клеток",
+            "UCUM": "10^8{cell}"
+        },
+        {
+            "ID": 588,
+            "FULLNAME": "изоГрей",
+            "SHORTNAME": "(и)Гр",
+            "UCUM": "Gy{i}"
+        },
+        {
+            "ID": 589,
+            "FULLNAME": "Десять триллионов вектор-геномов на миллилитр",
+            "SHORTNAME": "10^12вг/мл",
+            "UCUM": "10^12{vg}/ml"
+        },
+        {
+            "ID": 590,
+            "FULLNAME": "Триллион вектор-геномов на миллилитр",
+            "SHORTNAME": "10^13вг/мл",
+            "UCUM": "10^13{vg}/ml"
+        },
+        {
+            "ID": 594,
+            "FULLNAME": "Клетка",
+            "SHORTNAME": "клетка",
+            "UCUM": "{cell}"
+        },
+        {
+            "ID": 596,
+            "FULLNAME": "Единица в неделю",
+            "SHORTNAME": "Ед/нед",
+            "UCUM": "U/wk"
+        },
+        {
+            "ID": 600,
+            "FULLNAME": "Мегаэлектронвольт",
+            "SHORTNAME": "МэВ",
+            "UCUM": "MeV"
+        },
+        {
+            "ID": 597,
+            "FULLNAME": "Дни в неделю",
+            "SHORTNAME": "сут/нед",
+            "UCUM": "d/wk"
+        },
+        {
+            "ID": 598,
+            "FULLNAME": "Электронвольт",
+            "SHORTNAME": "эВ",
+            "UCUM": "eV"
+        },
+        {
+            "ID": 599,
+            "FULLNAME": "Килоэлектронвольт",
+            "SHORTNAME": "кэВ",
+            "UCUM": "keV"
+        },
+        {
+            "ID": 601,
+            "FULLNAME": "Миллилитр на килограмм",
+            "SHORTNAME": "мл/кг",
+            "UCUM": "mL/kg"
+        },
+        {
+            "ID": 602,
+            "FULLNAME": "Сантиметр водяного столба",
+            "SHORTNAME": "см вод.ст.",
+            "UCUM": "cm[H2O]"
+        },
+        {
+            "ID": 603,
+            "FULLNAME": "Сантиметр водяного столба на литр в секунду",
+            "SHORTNAME": "см вод.ст./л/сек",
+            "UCUM": "cm[H2O]/L/s"
+        },
+        {
+            "ID": 604,
+            "FULLNAME": "Литр на сантиметр водяного столба",
+            "SHORTNAME": "л/см вод.ст.",
+            "UCUM": "l/cm[H2O]"
+        },
+        {
+            "ID": 605,
+            "FULLNAME": "Миллилитр на миллибар",
+            "SHORTNAME": "мл/мбар",
+            "UCUM": "mL/mbar"
+        },
+        {
+            "ID": 606,
+            "FULLNAME": "Миллибар на миллилитр в секунду",
+            "SHORTNAME": "мбар/мл/сек",
+            "UCUM": "mbar/mL/s"
+        },
+        {
+            "ID": 607,
+            "FULLNAME": "Миллилитр на сантиметр водяного столба",
+            "SHORTNAME": "мл/см вод.ст.",
+            "UCUM": "mL/cm[H2O]"
+        },
+        {
+            "ID": 608,
+            "FULLNAME": "Литр на бар",
+            "SHORTNAME": "л/бар",
+            "UCUM": "L/bar"
+        },
+        {
+            "ID": 50,
+            "FULLNAME": "Миллиметр ртутного столба",
+            "SHORTNAME": "мм рт.ст.",
+            "UCUM": "mm[Hg]"
+        },
+        {
+            "ID": 51,
+            "FULLNAME": "Миллиметр водного столба",
+            "SHORTNAME": "мм вод.ст.",
+            "UCUM": "mm[H2O]"
+        },
+        {
+            "ID": 587,
+            "FULLNAME": "Тонна",
+            "SHORTNAME": "т",
+            "UCUM": "t"
+        },
+        {
+            "ID": 609,
+            "FULLNAME": "Количество в 1000 лейкоцитов",
+            "SHORTNAME": "1/1000 лейкоцитов",
+            "UCUM": "1/{cell}"
+        },
+        {
+            "ID": 610,
+            "FULLNAME": "Балл",
+            "SHORTNAME": "балл",
+            "UCUM": "{point}"
+        },
+        {
+            "ID": 611,
+            "FULLNAME": "Микровольт",
+            "SHORTNAME": "мкВ",
+            "UCUM": "uV"
+        },
+        {
+            "ID": 612,
+            "FULLNAME": "Герц",
+            "SHORTNAME": "Гц",
+            "UCUM": "Hz"
+        },
+        {
+            "ID": 613,
+            "FULLNAME": "Мегагерц",
+            "SHORTNAME": "МГц",
+            "UCUM": "MHz"
+        },
+        {
+            "ID": 614,
+            "FULLNAME": "Миллиграмм фибриноген-эквивалентных единиц в литре",
+            "SHORTNAME": "мг ФЭЕ/л",
+            "UCUM": "mg{FEU}/L"
+        },
+        {
+            "ID": 615,
+            "FULLNAME": "Фосфолипидные единицы IgM в миллилитре",
+            "SHORTNAME": "MPL-Ед/мл",
+            "UCUM": "[MPL'U]/mL"
+        },
+        {
+            "ID": 616,
+            "FULLNAME": "Нефелометрическая единица мутности",
+            "SHORTNAME": "NTU",
+            "UCUM": "[NTU]"
+        },
+        {
+            "ID": 617,
+            "FULLNAME": "Единица активности АПФ",
+            "SHORTNAME": "ACE unit",
+            "UCUM": "ACE unit"
+        },
+        {
+            "ID": 618,
+            "FULLNAME": "Условная единица Phadia в литре",
+            "SHORTNAME": "PAU/л",
+            "UCUM": "[arb'U]/l"
+        },
+        {
+            "ID": 619,
+            "FULLNAME": "Аллергическая единица в миллилитре",
+            "SHORTNAME": "АЕ/мл",
+            "UCUM": "[AU]/mL"
+        },
+        {
+            "ID": 620,
+            "FULLNAME": "Импульсы в минуту на микролитр",
+            "SHORTNAME": "Имп/мин/мкл",
+            "UCUM": "U/min/uL"
+        },
+        {
+            "ID": 388,
+            "FULLNAME": "Нанограмм фибриноген-эквивалентных единиц в миллилитре",
+            "SHORTNAME": "нг ФЭЕ/мл",
+            "UCUM": "ng{FEU}/mL"
+        },
+        {
+            "ID": 564,
+            "FULLNAME": "Микрограмм фибриноген-эквивалентных единиц в миллилитре",
+            "SHORTNAME": "мкг ФЭЕ/мл",
+            "UCUM": "ug{FEU}/mL"
+        }
+    ]
+}

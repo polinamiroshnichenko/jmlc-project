@@ -1,0 +1,342 @@
+{
+    "Абортный материал": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "code": "110968003",
+                "display": "Абортный материал"
+            }
+        ],
+        "text": "Абортный материал"
+    },
+    "Аспират": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "code": "119295008",
+                "display": "Аспират"
+            }
+        ],
+        "text": "Аспират"
+    },
+    "Биоптат": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "code": "258415003",
+                "display": "Биоптат"
+            }
+        ],
+        "text": "Биоптат"
+    },
+    "Волосы": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "code": "119326000",
+                "display": "Волосы"
+            }
+        ],
+        "text": "Волосы"
+    },
+    "Ресницы": {
+        "coding": [
+            {
+                "system": "https://terminology.example.com/snomed-extensions",
+                "code": "44247777777106",
+                "display": "Ресницы"
+            }
+        ],
+        "text": "Ресницы"
+    },
+    "Ногти": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "code": "119327009",
+                "display": "Ногти"
+            }
+        ],
+        "text": "Ногти"
+    },
+    "Кал": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "code": "119339001",
+                "display": "Кал"
+            }
+        ],
+        "text": "Кал"
+    },
+    "Биологическая жидкость": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "code": "258442002",
+                "display": "Биологическая жидкость"
+            }
+        ],
+        "text": "Биологическая жидкость"
+    },
+    "Цереброспинальная жидкость": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "code": "65216001",
+                "display": "Цереброспинальная жидкость"
+            }
+        ],
+        "text": "Цереброспинальная жидкость"
+    },
+    "Синовиальная жидкость": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "code": "119332005",
+                "display": "Синовиальная жидкость"
+            }
+        ],
+        "text": "Синовиальная жидкость"
+    },
+    "Грудное молоко ": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "code": "446676001",
+                "display": "Грудное молоко"
+            }
+        ],
+        "text": "Грудное молоко "
+    },
+    "Секрет простаты": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "code": "258470000",
+                "display": "Секрет простаты"
+            }
+        ],
+        "text": "Секрет простаты"
+    },
+    "Слюна": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "code": "119342007",
+                "display": "Слюна"
+            }
+        ],
+        "text": "Слюна"
+    },
+    "Ушная сера ": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "code": "122580007",
+                "display": "Ушная сера"
+            }
+        ],
+        "text": "Ушная сера "
+    },
+    "Сперма ": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "code": "119347001",
+                "display": "Сперма"
+            }
+        ],
+        "text": "Сперма "
+    },
+    "Кровь": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "code": "119297000",
+                "display": "Кровь"
+            }
+        ],
+        "text": "Кровь"
+    },
+    "Моча": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "code": "122575003",
+                "display": "Моча"
+            }
+        ],
+        "text": "Моча"
+    },
+    "Биологическое отделяемое": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "code": "258439008",
+                "display": "Биологическое отделяемое"
+            }
+        ],
+        "text": "Биологическое отделяемое"
+    },
+    "Рвотные массы": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "code": "122572000",
+                "display": "Рвотные массы"
+            }
+        ],
+        "text": "Рвотные массы"
+    },
+    "Содержимое желудка": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "code": "122573005",
+                "display": "Содержимое желудка"
+            }
+        ],
+        "text": "Содержимое желудка"
+    },
+    "Содержимое желчного пузыря": {
+        "coding": [
+            {
+                "system": "https://terminology.example.com/snomed-extensions",
+                "code": "44077777777108",
+                "display": "Содержимое желчного пузыря"
+            }
+        ],
+        "text": "Содержимое желчного пузыря"
+    },
+    "Смыв": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "code": "440674008",
+                "display": "Смыв"
+            }
+        ],
+        "text": "Смыв"
+    },
+    "Соскоб": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "code": "258431006",
+                "display": "Соскоб"
+            }
+        ],
+        "text": "Соскоб"
+    },
+    "Мазок": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "code": "257261003",
+                "display": "Мазок"
+            }
+        ],
+        "text": "Мазок"
+    },
+    "Образец ткани": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "code": "119376003",
+                "display": "Образец ткани"
+            }
+        ],
+        "text": "Образец ткани"
+    },
+    "Материал для цитологического исследования": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "code": "48469005",
+                "display": "Материал для цитологического исследования"
+            }
+        ],
+        "text": "Материал для цитологического исследования"
+    },
+    "Клетки эндометрия матки": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "code": "110955006",
+                "display": "Клетки эндометрия матки"
+            }
+        ],
+        "text": "Клетки эндометрия матки"
+    },
+    "Щечный эпителий": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "code": "733104004",
+                "display": "Щечный эпителий"
+            }
+        ],
+        "text": "Щечный эпителий"
+    },
+    "Костный мозг": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "code": "119359002",
+                "display": "Костный мозг"
+            }
+        ],
+        "text": "Костный мозг"
+    },
+    "Мочевой камень": {
+        "coding": [
+            {
+                "system": "https://terminology.example.com/snomed-extensions",
+                "code": "44197777777106",
+                "display": "Мочевой камень"
+            }
+        ],
+        "text": "Мочевой камень"
+    },
+    "Катетер": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "code": "119311002",
+                "display": "Катетер"
+            }
+        ],
+        "text": "Катетер"
+    },
+    "Выделенная ДНК": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "code": "258566005",
+                "display": "Выделенная ДНК"
+            }
+        ],
+        "text": "Выделенная ДНК"
+    },
+    "Клещ": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "code": "710069003",
+                "display": "Клещ"
+            }
+        ],
+        "text": "Клещ"
+    },
+    "Контрольный материал": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "code": "737087006",
+                "display": "Контрольный материал"
+            }
+        ],
+        "text": "Контрольный материал"
+    }
+}

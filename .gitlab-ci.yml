@@ -1,0 +1,13 @@
+include:
+  - project: 'dvps/ci-dungeon'
+    ref: 'master'
+    file:
+      - 'common/stages.yml'
+      - 'cdss/nlp/agents-workflow/environments.yml'
+      - 'cdss/nlp/agents-workflow/publish-app-buildkit.yml'
+      - 'cdss/nlp/agents-workflow/k8s-deploy.yml'
+      - 'cdss/nlp/agents-workflow/linters.yml'
+  - project: 'is/pipelines'
+    ref: main
+    file:
+      - 'pipelines.yml'

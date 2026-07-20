@@ -1,0 +1,9 @@
+request_params:
+  model: ""
+  temperature: 0.1
+  retry_count: 1
+
+normalizer_params:
+  model: ""
+  temperature: 0.1
+  retry_count: 1

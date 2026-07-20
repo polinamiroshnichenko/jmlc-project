@@ -1,0 +1,3436 @@
+{
+    "результат": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "code": "726736004",
+                "display": "результат"
+            }
+        ],
+        "text": "результат"
+    },
+    "активность": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "code": "258745004",
+                "display": "активность"
+            }
+        ],
+        "text": "активность"
+    },
+    "концентрация": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "code": "702942001",
+                "display": "концентрация"
+            }
+        ],
+        "text": "концентрация"
+    },
+    "комментарий": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "code": "726737008",
+                "display": "комментарий"
+            }
+        ],
+        "text": "комментарий"
+    },
+    "время": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "code": "410669006",
+                "display": "время"
+            }
+        ],
+        "text": "время"
+    },
+    "расчет": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "code": "702873001",
+                "display": "расчет"
+            }
+        ],
+        "text": "расчет"
+    },
+    "выделение": {
+        "coding": [
+            {
+                "display": "выделение"
+            }
+        ],
+        "text": "выделение"
+    },
+    "отношение S/CO (signal/cutoff)": {
+        "coding": [
+            {
+                "display": "отношение S/CO (signal/cutoff)"
+            }
+        ],
+        "text": "отношение S/CO (signal/cutoff)"
+    },
+    "Чувствительность к антибиотикам": {
+        "coding": [
+            {
+                "system": "http://snomed.info/sct",
+                "code": "14788002",
+                "display": "Чувствительность к антибиотикам"
+            }
+        ],
+        "text": "Чувствительность к антибиотикам"
+    },
+    "Анализ кала на яйца гельминтов": {
+        "coding": [
+            {
+                "display": "Анализ кала на яйца гельминтов"
+            }
+        ],
+        "text": "Анализ кала на яйца гельминтов"
+    },
+    "Diphyllobothrium latum": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1145812",
+                "display": "Diphyllobothrium latum"
+            }
+        ],
+        "text": "Diphyllobothrium latum"
+    },
+    "Ascaris lumbricoides": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1128917",
+                "display": "Ascaris lumbricoides"
+            }
+        ],
+        "text": "Ascaris lumbricoides"
+    },
+    "Trichocephalus trichiurus": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1145812",
+                "display": "Trichocephalus trichiurus"
+            }
+        ],
+        "text": "Trichocephalus trichiurus"
+    },
+    "Thominx aerophilus": {
+        "coding": [
+            {
+                "display": "Thominx aerophilus"
+            }
+        ],
+        "text": "Thominx aerophilus"
+    },
+    "Ancylostomatidae genus sp.": {
+        "coding": [
+            {
+                "display": "Ancylostomatidae genus sp."
+            }
+        ],
+        "text": "Ancylostomatidae genus sp."
+    },
+    "Fasciola hepatica": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1145887",
+                "display": "Fasciola hepatica"
+            }
+        ],
+        "text": "Fasciola hepatica"
+    },
+    "Opisthorchis felineus": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1145861",
+                "display": "Opisthorchis felineus"
+            }
+        ],
+        "text": "Opisthorchis felineus"
+    },
+    "Trichostrongylidae sp.": {
+        "coding": [
+            {
+                "display": "Trichostrongylidae sp."
+            }
+        ],
+        "text": "Trichostrongylidae sp."
+    },
+    "Dicrocoelium lanceatum": {
+        "coding": [
+            {
+                "display": "Dicrocoelium lanceatum"
+            }
+        ],
+        "text": "Dicrocoelium lanceatum"
+    },
+    "Schistosoma mansoni": {
+        "coding": [
+            {
+                "display": "Schistosoma mansoni"
+            }
+        ],
+        "text": "Schistosoma mansoni"
+    },
+    "Schistosoma japonicum": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1145911",
+                "display": "Schistosoma japonicum"
+            }
+        ],
+        "text": "Schistosoma japonicum"
+    },
+    "Schistosoma haematobium": {
+        "coding": [
+            {
+                "display": "Schistosoma haematobium"
+            }
+        ],
+        "text": "Schistosoma haematobium"
+    },
+    "Taeniidae genus sp.": {
+        "coding": [
+            {
+                "display": "Taeniidae genus sp."
+            }
+        ],
+        "text": "Taeniidae genus sp."
+    },
+    "Hymenolepis nana": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1145846",
+                "display": "Hymenolepis nana"
+            }
+        ],
+        "text": "Hymenolepis nana"
+    },
+    "Blastocystis hominis": {
+        "coding": [
+            {
+                "display": "Blastocystis hominis"
+            }
+        ],
+        "text": "Blastocystis hominis"
+    },
+    "Entamoeba histolytica": {
+        "coding": [
+            {
+                "display": "Entamoeba histolytica"
+            }
+        ],
+        "text": "Entamoeba histolytica"
+    },
+    "Balantidium coli": {
+        "coding": [
+            {
+                "display": "Balantidium coli"
+            }
+        ],
+        "text": "Balantidium coli"
+    },
+    "Lamblia intestinalis": {
+        "coding": [
+            {
+                "display": "Lamblia intestinalis"
+            }
+        ],
+        "text": "Lamblia intestinalis"
+    },
+    "Entamoeba coli": {
+        "coding": [
+            {
+                "display": "Entamoeba coli"
+            }
+        ],
+        "text": "Entamoeba coli"
+    },
+    "Endolimax nana": {
+        "coding": [
+            {
+                "display": "Endolimax nana"
+            }
+        ],
+        "text": "Endolimax nana"
+    },
+    "Chilomastix mesnill": {
+        "coding": [
+            {
+                "display": "Chilomastix mesnill"
+            }
+        ],
+        "text": "Chilomastix mesnill"
+    },
+    "Jodamoeba butshli": {
+        "coding": [
+            {
+                "display": "Jodamoeba butshli"
+            }
+        ],
+        "text": "Jodamoeba butshli"
+    },
+    "Посев кала на патогенную флору (Salmonella sp., Shigella sp., Escherichia coli)": {
+        "coding": [
+            {
+                "system": "https://loinc.org/",
+                "code": "48806-4",
+                "display": "Посев кала на патогенную флору (Salmonella sp., Shigella sp., Escherichia coli)"
+            }
+        ],
+        "text": "Посев кала на патогенную флору (Salmonella sp., Shigella sp., Escherichia coli)"
+    },
+    "Бактерии дизентерийной группы": {
+        "coding": [
+            {
+                "system": "https://loinc.org/",
+                "code": "17576-0",
+                "display": "Бактерии дизентерийной группы"
+            }
+        ],
+        "text": "Бактерии дизентерийной группы"
+    },
+    "Возбудители сальмонеллезов": {
+        "coding": [
+            {
+                "system": "https://loinc.org/",
+                "code": "17563-8",
+                "display": "Возбудители сальмонеллезов"
+            }
+        ],
+        "text": "Возбудители сальмонеллезов"
+    },
+    "Патогенные эшерихии (ЭТЭ, ЭИЭ, ЭПЭ)": {
+        "coding": [
+            {
+                "system": "https://loinc.org/",
+                "code": "44089-1",
+                "display": "Патогенные эшерихии (ЭТЭ, ЭИЭ, ЭПЭ)"
+            }
+        ],
+        "text": "Патогенные эшерихии (ЭТЭ, ЭИЭ, ЭПЭ)"
+    },
+    "Кальпротектин в кале": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1164060",
+                "display": "Кальпротектин в кале"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "38445-3",
+                "display": "Кальпротектин в кале"
+            }
+        ],
+        "text": "Кальпротектин в кале"
+    },
+    "Кал на кровь": {
+        "coding": [
+            {
+                "system": "https://loinc.org/",
+                "code": "2335-8",
+                "display": "Кал на кровь"
+            }
+        ],
+        "text": "Кал на кровь"
+    },
+    "Общий анализ мочи с микроскопией": {
+        "coding": [
+            {
+                "system": "https://loinc.org/",
+                "code": "24357-6",
+                "display": "Общий анализ мочи с микроскопией"
+            }
+        ],
+        "text": "Общий анализ мочи с микроскопией"
+    },
+    "Анализ мочи по Нечипоренко": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1038074",
+                "display": "Анализ мочи по Нечипоренко"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "47525-1",
+                "display": "Анализ мочи по Нечипоренко"
+            }
+        ],
+        "text": "Анализ мочи по Нечипоренко"
+    },
+    "Цвет мочи": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1019686",
+                "display": "Цвет мочи"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "5778-6",
+                "display": "Цвет мочи"
+            }
+        ],
+        "text": "Цвет мочи"
+    },
+    "Прозрачность мочи": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1019702",
+                "display": "Прозрачность мочи"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "32167-9",
+                "display": "Прозрачность мочи"
+            }
+        ],
+        "text": "Прозрачность мочи"
+    },
+    "Удельный вес мочи": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1021583",
+                "display": "Удельный вес мочи"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "2965-2",
+                "display": "Удельный вес мочи"
+            }
+        ],
+        "text": "Удельный вес мочи"
+    },
+    "Реакция мочи": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1019736",
+                "display": "Реакция мочи"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "2756-5",
+                "display": "Реакция мочи"
+            }
+        ],
+        "text": "Реакция мочи"
+    },
+    "Общий белок мочи": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1019751",
+                "display": "Общий белок мочи"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "2887-8",
+                "display": "Общий белок мочи"
+            }
+        ],
+        "text": "Общий белок мочи"
+    },
+    "Глюкоза мочи": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1019777",
+                "display": "Глюкоза мочи"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "2349-9",
+                "display": "Глюкоза мочи"
+            }
+        ],
+        "text": "Глюкоза мочи"
+    },
+    "Билирубин мочи": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1019991",
+                "display": "Билирубин мочи"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "1977-8",
+                "display": "Билирубин мочи"
+            }
+        ],
+        "text": "Билирубин мочи"
+    },
+    "Уробилиноген мочи": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1020049",
+                "display": "Уробилиноген мочи"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "13658-0",
+                "display": "Уробилиноген мочи"
+            }
+        ],
+        "text": "Уробилиноген мочи"
+    },
+    "Кетоновые тела": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1019819",
+                "display": "Кетоновые тела"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "33903-6",
+                "display": "Кетоновые тела"
+            }
+        ],
+        "text": "Кетоновые тела"
+    },
+    "Нитриты в моче": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1020080",
+                "display": "Нитриты в моче"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "32710-6",
+                "display": "Нитриты в моче"
+            }
+        ],
+        "text": "Нитриты в моче"
+    },
+    "Реакция мочи на кровь": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1019918",
+                "display": "Реакция мочи на кровь"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "725-2",
+                "display": "Реакция мочи на кровь"
+            }
+        ],
+        "text": "Реакция мочи на кровь"
+    },
+    "Лейкоцитарная эстераза в моче": {
+        "coding": [
+            {
+                "system": "https://loinc.org/",
+                "code": "5799-2",
+                "display": "Лейкоцитарная эстераза в моче"
+            }
+        ],
+        "text": "Лейкоцитарная эстераза в моче"
+    },
+    "Эиптелий": {
+        "coding": [
+            {
+                "system": "https://loinc.org/",
+                "code": "5787-7",
+                "display": "Эиптелий"
+            }
+        ],
+        "text": "Эиптелий"
+    },
+    "Эпителий плоский": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1021005",
+                "display": "Эпителий плоский"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "11277-1",
+                "display": "Эпителий плоский"
+            }
+        ],
+        "text": "Эпителий плоский"
+    },
+    "Эпителий переходный": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1021039",
+                "display": "Эпителий переходный"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "41284-1",
+                "display": "Эпителий переходный"
+            }
+        ],
+        "text": "Эпителий переходный"
+    },
+    "Эпителий почечный": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1021062",
+                "display": "Эпителий почечный"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "26052-1",
+                "display": "Эпителий почечный"
+            }
+        ],
+        "text": "Эпителий почечный"
+    },
+    "Лейкоциты": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1017979",
+                "display": "Лейкоциты"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "6690-2",
+                "display": "Лейкоциты"
+            }
+        ],
+        "text": "Лейкоциты"
+    },
+    "Эритроциты": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1017375",
+                "display": "Эритроциты"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "789-8",
+                "display": "Эритроциты"
+            }
+        ],
+        "text": "Эритроциты"
+    },
+    "Цилиндры": {
+        "coding": [
+            {
+                "system": "https://loinc.org/",
+                "code": "9842-6",
+                "display": "Цилиндры"
+            }
+        ],
+        "text": "Цилиндры"
+    },
+    "Цилиндры зернистые": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1021211",
+                "display": "Цилиндры зернистые"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "5793-5",
+                "display": "Цилиндры зернистые"
+            }
+        ],
+        "text": "Цилиндры зернистые"
+    },
+    "Цилиндры гиалиновые": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1021187",
+                "display": "Цилиндры гиалиновые"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "5796-8",
+                "display": "Цилиндры гиалиновые"
+            }
+        ],
+        "text": "Цилиндры гиалиновые"
+    },
+    "Цилиндры восковидные": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1021245",
+                "display": "Цилиндры восковидные"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "5819-8",
+                "display": "Цилиндры восковидные"
+            }
+        ],
+        "text": "Цилиндры восковидные"
+    },
+    "Цилиндры другие": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1139757",
+                "display": "Цилиндры другие"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "38995-7",
+                "display": "Цилиндры другие"
+            }
+        ],
+        "text": "Цилиндры другие"
+    },
+    "Кристаллы": {
+        "coding": [
+            {
+                "system": "https://loinc.org/",
+                "code": "49755-2",
+                "display": "Кристаллы"
+            }
+        ],
+        "text": "Кристаллы"
+    },
+    "Бактерии": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1021419",
+                "display": "Бактерии"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "25145-4",
+                "display": "Бактерии"
+            }
+        ],
+        "text": "Бактерии"
+    },
+    "Слизь": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1021401",
+                "display": "Слизь"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "8247-9",
+                "display": "Слизь"
+            }
+        ],
+        "text": "Слизь"
+    },
+    "Дрожжевые грибки": {
+        "coding": [
+            {
+                "system": "https://loinc.org/",
+                "code": "20456-0",
+                "display": "Дрожжевые грибки"
+            }
+        ],
+        "text": "Дрожжевые грибки"
+    },
+    "Аминолевулиновая кислота": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1004811",
+                "display": "Аминолевулиновая кислота"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "14689-4",
+                "display": "Аминолевулиновая кислота"
+            }
+        ],
+        "text": "Аминолевулиновая кислота"
+    },
+    "Порфобилиноген": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1007731",
+                "display": "Порфобилиноген"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "14882-5",
+                "display": "Порфобилиноген"
+            }
+        ],
+        "text": "Порфобилиноген"
+    },
+    "Копропорфирины": {
+        "coding": [
+            {
+                "system": "https://loinc.org/",
+                "code": "15041-7",
+                "display": "Копропорфирины"
+            }
+        ],
+        "text": "Копропорфирины"
+    },
+    "Мочевина в суточной моче": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1007236",
+                "display": "Мочевина в суточной моче"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "25998-6",
+                "display": "Мочевина в суточной моче"
+            }
+        ],
+        "text": "Мочевина в суточной моче"
+    },
+    "Мочевина, суточная экскреция": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1007244",
+                "display": "Мочевина, суточная экскреция"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "25550-5",
+                "display": "Мочевина, суточная экскреция"
+            }
+        ],
+        "text": "Мочевина, суточная экскреция"
+    },
+    "Мочевина в разовой порции мочи": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1007228",
+                "display": "Мочевина в разовой порции мочи"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "22700-9",
+                "display": "Мочевина в разовой порции мочи"
+            }
+        ],
+        "text": "Мочевина в разовой порции мочи"
+    },
+    "Мочевая кислота в суточной моче": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1007186",
+                "display": "Мочевая кислота в суточной моче"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "25997-8",
+                "display": "Мочевая кислота в суточной моче"
+            }
+        ],
+        "text": "Мочевая кислота в суточной моче"
+    },
+    "Мочевая кислота, суточная экскреция": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1007194",
+                "display": "Мочевая кислота, суточная экскреция"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "14935-1",
+                "display": "Мочевая кислота, суточная экскреция"
+            }
+        ],
+        "text": "Мочевая кислота, суточная экскреция"
+    },
+    "Мочевая кислота в разовой порции мочи": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1007160",
+                "display": "Мочевая кислота в разовой порции мочи"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "14934-4",
+                "display": "Мочевая кислота в разовой порции мочи"
+            }
+        ],
+        "text": "Мочевая кислота в разовой порции мочи"
+    },
+    "Клинический анализ крови": {
+        "coding": [
+            {
+                "system": "https://org.gnicpm.ru/wp-content/uploads/2019/01/Prikaz-Minzdrava-Rossii-ot-13.10.2017-N-804n-s-izm.-ot-12.0.pdf",
+                "code": "B03.016.003",
+                "display": "Клинический анализ крови"
+            }
+        ],
+        "text": "Клинический анализ крови"
+    },
+    "Гемоглобин": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1017128",
+                "display": "Гемоглобин"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "718-7",
+                "display": "Гемоглобин"
+            }
+        ],
+        "text": "Гемоглобин"
+    },
+    "Гематокрит": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1017359",
+                "display": "Гематокрит"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "4544-3",
+                "display": "Гематокрит"
+            }
+        ],
+        "text": "Гематокрит"
+    },
+    "Средний объем эритроцита": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1017441",
+                "display": "Средний объем эритроцита"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "787-2",
+                "display": "Средний объем эритроцита"
+            }
+        ],
+        "text": "Средний объем эритроцита"
+    },
+    "Среднее содержание гемоглобина в эритроците": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1017425",
+                "display": "Среднее содержание гемоглобина в эритроците"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "785-6",
+                "display": "Среднее содержание гемоглобина в эритроците"
+            }
+        ],
+        "text": "Среднее содержание гемоглобина в эритроците"
+    },
+    "Средняя концентрация гемоглобина в эритроците": {
+        "coding": [
+            {
+                "system": "https://loinc.org/",
+                "code": "786-4",
+                "display": "Средняя концентрация гемоглобина в эритроците"
+            }
+        ],
+        "text": "Средняя концентрация гемоглобина в эритроците"
+    },
+    "Распределение эритроцитов по объему": {
+        "coding": [
+            {
+                "system": "https://loinc.org/",
+                "code": "30385-9",
+                "display": "Распределение эритроцитов по объему"
+            }
+        ],
+        "text": "Распределение эритроцитов по объему"
+    },
+    "Распределение эритроцитов по объему - стандартное отклонение": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1017458",
+                "display": "Распределение эритроцитов по объему - стандартное отклонение"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "21000-5",
+                "display": "Распределение эритроцитов по объему - стандартное отклонение"
+            }
+        ],
+        "text": "Распределение эритроцитов по объему - стандартное отклонение"
+    },
+    "Распределение эритроцитов по объему - коэффициент вариации": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1017466",
+                "display": "Распределение эритроцитов по объему - коэффициент вариации"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "788-0",
+                "display": "Распределение эритроцитов по объему - коэффициент вариации"
+            }
+        ],
+        "text": "Распределение эритроцитов по объему - коэффициент вариации"
+    },
+    "Тромбоциты": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1017862",
+                "display": "Тромбоциты"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "777-3",
+                "display": "Тромбоциты"
+            }
+        ],
+        "text": "Тромбоциты"
+    },
+    "Распределение тромбоцитов по объему": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1017953",
+                "display": "Распределение тромбоцитов по объему"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "32207-3",
+                "display": "Распределение тромбоцитов по объему"
+            }
+        ],
+        "text": "Распределение тромбоцитов по объему"
+    },
+    "Средний объем тромбоцита": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1017896",
+                "display": "Средний объем тромбоцита"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "32623-1",
+                "display": "Средний объем тромбоцита"
+            }
+        ],
+        "text": "Средний объем тромбоцита"
+    },
+    "Коэффициент больших тромбоцитов": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1017904",
+                "display": "Коэффициент больших тромбоцитов"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "48386-7",
+                "display": "Коэффициент больших тромбоцитов"
+            }
+        ],
+        "text": "Коэффициент больших тромбоцитов"
+    },
+    "Тромбокрит": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1017888",
+                "display": "Тромбокрит"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "51637-7",
+                "display": "Тромбокрит"
+            }
+        ],
+        "text": "Тромбокрит"
+    },
+    "Нейтрофилы": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1018308",
+                "display": "Нейтрофилы"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "753-4",
+                "display": "Нейтрофилы"
+            }
+        ],
+        "text": "Нейтрофилы"
+    },
+    "Лимфоциты": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1018142",
+                "display": "Лимфоциты"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "732-8",
+                "display": "Лимфоциты"
+            }
+        ],
+        "text": "Лимфоциты"
+    },
+    "Моноциты": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1018100",
+                "display": "Моноциты"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "743-5",
+                "display": "Моноциты"
+            }
+        ],
+        "text": "Моноциты"
+    },
+    "Эозинофилы": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1018472",
+                "display": "Эозинофилы"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "712-0",
+                "display": "Эозинофилы"
+            }
+        ],
+        "text": "Эозинофилы"
+    },
+    "Базофилы": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1018431",
+                "display": "Базофилы"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "705-4",
+                "display": "Базофилы"
+            }
+        ],
+        "text": "Базофилы"
+    },
+    "Базофильная зернистость": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1018761",
+                "display": "Базофильная зернистость"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "703-9",
+                "display": "Базофильная зернистость"
+            }
+        ],
+        "text": "Базофильная зернистость"
+    },
+    "Нейтрофилы палочкоядерные": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1018373",
+                "display": "Нейтрофилы палочкоядерные"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "763-3",
+                "display": "Нейтрофилы палочкоядерные"
+            }
+        ],
+        "text": "Нейтрофилы палочкоядерные"
+    },
+    "Нейтрофилы сегментированные": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1018357",
+                "display": "Нейтрофилы сегментированные"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "768-2",
+                "display": "Нейтрофилы сегментированные"
+            }
+        ],
+        "text": "Нейтрофилы сегментированные"
+    },
+    "Нейтрофилы, %": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1018290",
+                "display": "Нейтрофилы, %"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "770-8",
+                "display": "Нейтрофилы, %"
+            }
+        ],
+        "text": "Нейтрофилы, %"
+    },
+    "Нейтрофилы палочкоядерные, %": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1018381",
+                "display": "Нейтрофилы палочкоядерные, %"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "764-1",
+                "display": "Нейтрофилы палочкоядерные, %"
+            }
+        ],
+        "text": "Нейтрофилы палочкоядерные, %"
+    },
+    "Нейтрофилы сегментированные, %": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1018332",
+                "display": "Нейтрофилы сегментированные, %"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "769-0",
+                "display": "Нейтрофилы сегментированные, %"
+            }
+        ],
+        "text": "Нейтрофилы сегментированные, %"
+    },
+    "Лимфоциты, %": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1018134",
+                "display": "Лимфоциты, %"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "736-9",
+                "display": "Лимфоциты, %"
+            }
+        ],
+        "text": "Лимфоциты, %"
+    },
+    "Моноциты, %": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1018092",
+                "display": "Моноциты, %"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "5905-5",
+                "display": "Моноциты, %"
+            }
+        ],
+        "text": "Моноциты, %"
+    },
+    "Эозинофилы, %": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1018464",
+                "display": "Эозинофилы, %"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "713-8",
+                "display": "Эозинофилы, %"
+            }
+        ],
+        "text": "Эозинофилы, %"
+    },
+    "Базофилы, %": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1018423",
+                "display": "Базофилы, %"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "706-2",
+                "display": "Базофилы, %"
+            }
+        ],
+        "text": "Базофилы, %"
+    },
+    "Плазматические клетки, %": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1018274",
+                "display": "Плазматические клетки, %"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "13047-6",
+                "display": "Плазматические клетки, %"
+            }
+        ],
+        "text": "Плазматические клетки, %"
+    },
+    "Атипичные мононуклеары, %": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1018209",
+                "display": "Атипичные мононуклеары, %"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "69003-2",
+                "display": "Атипичные мононуклеары, %"
+            }
+        ],
+        "text": "Атипичные мононуклеары, %"
+    },
+    "Промиелоциты, %": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1018597",
+                "display": "Промиелоциты, %"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "783-1",
+                "display": "Промиелоциты, %"
+            }
+        ],
+        "text": "Промиелоциты, %"
+    },
+    "Миелоциты, %": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1018571",
+                "display": "Миелоциты, %"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "749-2",
+                "display": "Миелоциты, %"
+            }
+        ],
+        "text": "Миелоциты, %"
+    },
+    "Метамиелоциты, %": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1018555",
+                "display": "Метамиелоциты, %"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "740-1",
+                "display": "Метамиелоциты, %"
+            }
+        ],
+        "text": "Метамиелоциты, %"
+    },
+    "Активированные лимфоциты": {
+        "coding": [
+            {
+                "system": "https://loinc.org/",
+                "code": "20631-8",
+                "display": "Активированные лимфоциты"
+            }
+        ],
+        "text": "Активированные лимфоциты"
+    },
+    "Пролимфоциты, %": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1018233",
+                "display": "Пролимфоциты, %"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "6746-2",
+                "display": "Пролимфоциты, %"
+            }
+        ],
+        "text": "Пролимфоциты, %"
+    },
+    "Бласты, %": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1018522",
+                "display": "Бласты, %"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "709-6",
+                "display": "Бласты, %"
+            }
+        ],
+        "text": "Бласты, %"
+    },
+    "Нормобласты, %": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1017797",
+                "display": "Нормобласты, %"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "33990-3",
+                "display": "Нормобласты, %"
+            }
+        ],
+        "text": "Нормобласты, %"
+    },
+    "Ретикулоциты, %": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1017623",
+                "display": "Ретикулоциты, %"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "17849-1",
+                "display": "Ретикулоциты, %"
+            }
+        ],
+        "text": "Ретикулоциты, %"
+    },
+    "Ретикулоциты": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1017615",
+                "display": "Ретикулоциты"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "60474-4",
+                "display": "Ретикулоциты"
+            }
+        ],
+        "text": "Ретикулоциты"
+    },
+    "Фракция незрелых ретикулоцитов": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1017680",
+                "display": "Фракция незрелых ретикулоцитов"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "33516-6",
+                "display": "Фракция незрелых ретикулоцитов"
+            }
+        ],
+        "text": "Фракция незрелых ретикулоцитов"
+    },
+    "Фракция низкой флюоресценции": {
+        "coding": [
+            {
+                "system": "https://loinc.org/",
+                "code": "34419-2",
+                "display": "Фракция низкой флюоресценции"
+            }
+        ],
+        "text": "Фракция низкой флюоресценции"
+    },
+    "Фракция средней флюоресценции": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1017714",
+                "display": "Фракция средней флюоресценции"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "34420-0",
+                "display": "Фракция средней флюоресценции"
+            }
+        ],
+        "text": "Фракция средней флюоресценции"
+    },
+    "Фракция высокой флюоресценции": {
+        "coding": [
+            {
+                "system": "https://loinc.org/",
+                "code": "51642-7",
+                "display": "Фракция высокой флюоресценции"
+            }
+        ],
+        "text": "Фракция высокой флюоресценции"
+    },
+    "Скрорость оседания эритроцитов": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1017854",
+                "display": "Скрорость оседания эритроцитов"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "4537-7",
+                "display": "Скрорость оседания эритроцитов"
+            }
+        ],
+        "text": "Скрорость оседания эритроцитов"
+    },
+    "Группа крови АВО": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1038611",
+                "display": "Группа крови АВО"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "883-9",
+                "display": "Группа крови АВО"
+            }
+        ],
+        "text": "Группа крови АВО"
+    },
+    "Резус-фактор": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1038637",
+                "display": "Резус-фактор"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "10331-7",
+                "display": "Резус-фактор"
+            }
+        ],
+        "text": "Резус-фактор"
+    },
+    "Карбоксигемоглобин": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1016849",
+                "display": "Карбоксигемоглобин"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "2032-1",
+                "display": "Карбоксигемоглобин"
+            }
+        ],
+        "text": "Карбоксигемоглобин"
+    },
+    "Метгемоглобин": {
+        "coding": [
+            {
+                "system": "https://loinc.org/",
+                "code": "2614-6",
+                "display": "Метгемоглобин"
+            }
+        ],
+        "text": "Метгемоглобин"
+    },
+    "Гликированный гемоглобин": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1003847",
+                "display": "Гликированный гемоглобин"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "4548-4",
+                "display": "Гликированный гемоглобин"
+            }
+        ],
+        "text": "Гликированный гемоглобин"
+    },
+    "Ферритин": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1009034",
+                "display": "Ферритин"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "2276-4",
+                "display": "Ферритин"
+            }
+        ],
+        "text": "Ферритин"
+    },
+    "Железо сыворотки": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1005131",
+                "display": "Железо сыворотки"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "14798-3",
+                "display": "Железо сыворотки"
+            }
+        ],
+        "text": "Железо сыворотки"
+    },
+    "Трансферрин": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1008382",
+                "display": "Трансферрин"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "3034-6",
+                "display": "Трансферрин"
+            }
+        ],
+        "text": "Трансферрин"
+    },
+    "Железосвязывающая способность сыворотки (латентная)": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1006436",
+                "display": "Железосвязывающая способность сыворотки (латентная)"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "22753-8",
+                "display": "Железосвязывающая способность сыворотки (латентная)"
+            }
+        ],
+        "text": "Железосвязывающая способность сыворотки (латентная)"
+    },
+    "Железосвязывающая способность сыворотки (общая)": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1006410",
+                "display": "Железосвязывающая способность сыворотки (общая)"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "14800-7",
+                "display": "Железосвязывающая способность сыворотки (общая)"
+            }
+        ],
+        "text": "Железосвязывающая способность сыворотки (общая)"
+    },
+    "С-реактивный белок": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1008184",
+                "display": "С-реактивный белок"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "1988-5",
+                "display": "С-реактивный белок"
+            }
+        ],
+        "text": "С-реактивный белок"
+    },
+    "Акантоциты": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1018803",
+                "display": "Акантоциты"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "7789-1",
+                "display": "Акантоциты"
+            }
+        ],
+        "text": "Акантоциты"
+    },
+    "Анизохромия": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1018845",
+                "display": "Анизохромия"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "51582-5",
+                "display": "Анизохромия"
+            }
+        ],
+        "text": "Анизохромия"
+    },
+    "Анизоцитоз": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1018712",
+                "display": "Анизоцитоз"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "702-1",
+                "display": "Анизоцитоз"
+            }
+        ],
+        "text": "Анизоцитоз"
+    },
+    "Гиперхромия": {
+        "coding": [
+            {
+                "system": "https://loinc.org/",
+                "code": "35746-7",
+                "display": "Гиперхромия"
+            }
+        ],
+        "text": "Гиперхромия"
+    },
+    "Гиперхромные эритроциты": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1017581",
+                "display": "Гиперхромные эритроциты"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "76090-0",
+                "display": "Гиперхромные эритроциты"
+            }
+        ],
+        "text": "Гиперхромные эритроциты"
+    },
+    "Гипохромия": {
+        "coding": [
+            {
+                "system": "https://loinc.org/",
+                "code": "15180-3",
+                "display": "Гипохромия"
+            }
+        ],
+        "text": "Гипохромия"
+    },
+    "Гипохромные эритроциты": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1017599",
+                "display": "Гипохромные эритроциты"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "76069-4",
+                "display": "Гипохромные эритроциты"
+            }
+        ],
+        "text": "Гипохромные эритроциты"
+    },
+    "Дакриоциты": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1018829",
+                "display": "Дакриоциты"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "7791-7",
+                "display": "Дакриоциты"
+            }
+        ],
+        "text": "Дакриоциты"
+    },
+    "Кольца Кебота": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1018852",
+                "display": "Кольца Кебота"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "11280-5",
+                "display": "Кольца Кебота"
+            }
+        ],
+        "text": "Кольца Кебота"
+    },
+    "Макроцитоз": {
+        "coding": [
+            {
+                "system": "https://loinc.org/",
+                "code": "15198-5",
+                "display": "Макроцитоз"
+            }
+        ],
+        "text": "Макроцитоз"
+    },
+    "Макроциты": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1017516",
+                "display": "Макроциты"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "738-5",
+                "display": "Макроциты"
+            }
+        ],
+        "text": "Макроциты"
+    },
+    "Микроцитоз": {
+        "coding": [
+            {
+                "system": "https://loinc.org/",
+                "code": "15199-3",
+                "display": "Микроцитоз"
+            }
+        ],
+        "text": "Микроцитоз"
+    },
+    "Микроциты": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1017540",
+                "display": "Микроциты"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "741-9",
+                "display": "Микроциты"
+            }
+        ],
+        "text": "Микроциты"
+    },
+    "Мишеневидные эритроциты": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1139807",
+                "display": "Мишеневидные эритроциты"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "10381-2",
+                "display": "Мишеневидные эритроциты"
+            }
+        ],
+        "text": "Мишеневидные эритроциты"
+    },
+    "Нормобласты": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1017789",
+                "display": "Нормобласты"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "771-6",
+                "display": "Нормобласты"
+            }
+        ],
+        "text": "Нормобласты"
+    },
+    "Овалоцитоз": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1018787",
+                "display": "Овалоцитоз"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "774-0",
+                "display": "Овалоцитоз"
+            }
+        ],
+        "text": "Овалоцитоз"
+    },
+    "Пойкилоцитоз": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1018720",
+                "display": "Пойкилоцитоз"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "779-9",
+                "display": "Пойкилоцитоз"
+            }
+        ],
+        "text": "Пойкилоцитоз"
+    },
+    "Полихромазия": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1018753",
+                "display": "Полихромазия"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "10378-8",
+                "display": "Полихромазия"
+            }
+        ],
+        "text": "Полихромазия"
+    },
+    "Серповидные эритроциты": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1018837",
+                "display": "Серповидные эритроциты"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "801-1",
+                "display": "Серповидные эритроциты"
+            }
+        ],
+        "text": "Серповидные эритроциты"
+    },
+    "Содержание гемоглобина в ретикулоците": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1017656",
+                "display": "Содержание гемоглобина в ретикулоците"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "71694-4",
+                "display": "Содержание гемоглобина в ретикулоците"
+            }
+        ],
+        "text": "Содержание гемоглобина в ретикулоците"
+    },
+    "Стоматоциты": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1018795",
+                "display": "Стоматоциты"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "10380-4",
+                "display": "Стоматоциты"
+            }
+        ],
+        "text": "Стоматоциты"
+    },
+    "Сфероциты": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1018779",
+                "display": "Сфероциты"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "802-9",
+                "display": "Сфероциты"
+            }
+        ],
+        "text": "Сфероциты"
+    },
+    "Тельца Жолли": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1018696",
+                "display": "Тельца Жолли"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "7793-3",
+                "display": "Тельца Жолли"
+            }
+        ],
+        "text": "Тельца Жолли"
+    },
+    "Шизоциты": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1017490",
+                "display": "Шизоциты"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "800-3",
+                "display": "Шизоциты"
+            }
+        ],
+        "text": "Шизоциты"
+    },
+    "Шлемовидные эритроциты": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1139799",
+                "display": "Шлемовидные эритроциты"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "10374-7",
+                "display": "Шлемовидные эритроциты"
+            }
+        ],
+        "text": "Шлемовидные эритроциты"
+    },
+    "Эллиптоциты": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1139781",
+                "display": "Эллиптоциты"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "11274-8",
+                "display": "Эллиптоциты"
+            }
+        ],
+        "text": "Эллиптоциты"
+    },
+    "Эхиноциты": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1018811",
+                "display": "Эхиноциты"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "7790-9",
+                "display": "Эхиноциты"
+            }
+        ],
+        "text": "Эхиноциты"
+    },
+    "D-димер": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1001197",
+                "display": "D-димер"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "48065-7",
+                "display": "D-димер"
+            }
+        ],
+        "text": "D-димер"
+    },
+    "Антитромбин III, %": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1000603",
+                "display": "Антитромбин III, %"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "27811-9",
+                "display": "Антитромбин III, %"
+            }
+        ],
+        "text": "Антитромбин III, %"
+    },
+    "АЧТВ": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1000017",
+                "display": "АЧТВ"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "14979-9",
+                "display": "АЧТВ"
+            }
+        ],
+        "text": "АЧТВ"
+    },
+    "Протромбин (по Квику)": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1000066",
+                "display": "Протромбин (по Квику)"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "5894-1",
+                "display": "Протромбин (по Квику)"
+            }
+        ],
+        "text": "Протромбин (по Квику)"
+    },
+    "МНО": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1000074",
+                "display": "МНО"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "6301-6",
+                "display": "МНО"
+            }
+        ],
+        "text": "МНО"
+    },
+    "Протромбиновое время": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1000058",
+                "display": "Протромбиновое время"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "5964-2",
+                "display": "Протромбиновое время"
+            }
+        ],
+        "text": "Протромбиновое время"
+    },
+    "Фибриноген": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1000165",
+                "display": "Фибриноген"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "3256-5",
+                "display": "Фибриноген"
+            }
+        ],
+        "text": "Фибриноген"
+    },
+    "Тромбиновое время": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1000116",
+                "display": "Тромбиновое время"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "3243-3",
+                "display": "Тромбиновое время"
+            }
+        ],
+        "text": "Тромбиновое время"
+    },
+    "Плазминоген, %": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1000876",
+                "display": "Плазминоген, %"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "28660-9",
+                "display": "Плазминоген, %"
+            }
+        ],
+        "text": "Плазминоген, %"
+    },
+    "Протромбиновый индекс, %": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1000090",
+                "display": "Протромбиновый индекс, %"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "6302-4",
+                "display": "Протромбиновый индекс, %"
+            }
+        ],
+        "text": "Протромбиновый индекс, %"
+    },
+    "Липидограмма": {
+        "coding": [
+            {
+                "system": "https://org.gnicpm.ru/wp-content/uploads/2019/01/Prikaz-Minzdrava-Rossii-ot-13.10.2017-N-804n-s-izm.-ot-12.0.pdf",
+                "code": "B03.016.005",
+                "display": "Липидограмма"
+            }
+        ],
+        "text": "Липидограмма"
+    },
+    "Холестерол общий": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1009463",
+                "display": "Холестерол общий"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "14647-2",
+                "display": "Холестерол общий"
+            }
+        ],
+        "text": "Холестерол общий"
+    },
+    "Липопротеины высокой плотности": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1009471",
+                "display": "Липопротеины высокой плотности"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "14646-4",
+                "display": "Липопротеины высокой плотности"
+            }
+        ],
+        "text": "Липопротеины высокой плотности"
+    },
+    "Липопротеины низкой плотности": {
+        "coding": [
+            {
+                "system": "https://loinc.org/",
+                "code": "2089-1",
+                "display": "Липопротеины низкой плотности"
+            }
+        ],
+        "text": "Липопротеины низкой плотности"
+    },
+    "Липопротеины очень низкой плотности": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1009513",
+                "display": "Липопротеины очень низкой плотности"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "25371-6",
+                "display": "Липопротеины очень низкой плотности"
+            }
+        ],
+        "text": "Липопротеины очень низкой плотности"
+    },
+    "Холестерол, не связанный с липопротеинами высокой плотности": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1171537",
+                "display": "Холестерол, не связанный с липопротеинами высокой плотности"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "70204-3",
+                "display": "Холестерол, не связанный с липопротеинами высокой плотности"
+            }
+        ],
+        "text": "Холестерол, не связанный с липопротеинами высокой плотности"
+    },
+    "Триглицериды": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1008465",
+                "display": "Триглицериды"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "14927-8",
+                "display": "Триглицериды"
+            }
+        ],
+        "text": "Триглицериды"
+    },
+    "Коэффициент атерогенности": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1009539",
+                "display": "Коэффициент атерогенности"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "32309-7",
+                "display": "Коэффициент атерогенности"
+            }
+        ],
+        "text": "Коэффициент атерогенности"
+    },
+    "Аполипопротеин А1": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1004274",
+                "display": "Аполипопротеин А1"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "1869-7",
+                "display": "Аполипопротеин А1"
+            }
+        ],
+        "text": "Аполипопротеин А1"
+    },
+    "Аполипопротеин В": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1004258",
+                "display": "Аполипопротеин В"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "1884-6",
+                "display": "Аполипопротеин В"
+            }
+        ],
+        "text": "Аполипопротеин В"
+    },
+    "Липопротеин (а)": {
+        "coding": [
+            {
+                "system": "https://loinc.org/",
+                "code": "10835-7",
+                "display": "Липопротеин (а)"
+            }
+        ],
+        "text": "Липопротеин (а)"
+    },
+    "Глюкоза крови": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1003870",
+                "display": "Глюкоза крови"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "14749-6",
+                "display": "Глюкоза крови"
+            }
+        ],
+        "text": "Глюкоза крови"
+    },
+    "Инсулин в сыворотке": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1011626",
+                "display": "Инсулин в сыворотке"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "20448-7",
+                "display": "Инсулин в сыворотке"
+            }
+        ],
+        "text": "Инсулин в сыворотке"
+    },
+    "Белок общий в сыворотке": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1002880",
+                "display": "Белок общий в сыворотке"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "2885-2",
+                "display": "Белок общий в сыворотке"
+            }
+        ],
+        "text": "Белок общий в сыворотке"
+    },
+    "Билирубин общий": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1003698",
+                "display": "Билирубин общий"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "14631-6",
+                "display": "Билирубин общий"
+            }
+        ],
+        "text": "Билирубин общий"
+    },
+    "Билирубин прямой": {
+        "coding": [
+            {
+                "system": "https://loinc.org/",
+                "code": "14629-0",
+                "display": "Билирубин прямой"
+            }
+        ],
+        "text": "Билирубин прямой"
+    },
+    "Аланинаминотрансфераза": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1003599",
+                "display": "Аланинаминотрансфераза"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "1742-6",
+                "display": "Аланинаминотрансфераза"
+            }
+        ],
+        "text": "Аланинаминотрансфераза"
+    },
+    "Аспартатаминотрансфераза": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1003623",
+                "display": "Аспартатаминотрансфераза"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "1920-8",
+                "display": "Аспартатаминотрансфераза"
+            }
+        ],
+        "text": "Аспартатаминотрансфераза"
+    },
+    "Креатинин в сыворотке": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1006477",
+                "display": "Креатинин в сыворотке"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "14682-9",
+                "display": "Креатинин в сыворотке"
+            }
+        ],
+        "text": "Креатинин в сыворотке"
+    },
+    "Скорость клубочковой фильтрации": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1016195",
+                "display": "Скорость клубочковой фильтрации"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "62238-1",
+                "display": "Скорость клубочковой фильтрации"
+            }
+        ],
+        "text": "Скорость клубочковой фильтрации"
+    },
+    "Мочевина в сыворотке": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1007210",
+                "display": "Мочевина в сыворотке"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "22664-7",
+                "display": "Мочевина в сыворотке"
+            }
+        ],
+        "text": "Мочевина в сыворотке"
+    },
+    "Креатинкиназа общая": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1006543",
+                "display": "Креатинкиназа общая"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "2157-6",
+                "display": "Креатинкиназа общая"
+            }
+        ],
+        "text": "Креатинкиназа общая"
+    },
+    "Креатинкиназа - МВ": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1006550",
+                "display": "Креатинкиназа - МВ"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "32673-6",
+                "display": "Креатинкиназа - МВ"
+            }
+        ],
+        "text": "Креатинкиназа - МВ"
+    },
+    "Амилаза панкреатическая": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1005214",
+                "display": "Амилаза панкреатическая"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "1805-1",
+                "display": "Амилаза панкреатическая"
+            }
+        ],
+        "text": "Амилаза панкреатическая"
+    },
+    "Амилаза общая в сыворотке": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1005180",
+                "display": "Амилаза общая в сыворотке"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "1798-8",
+                "display": "Амилаза общая в сыворотке"
+            }
+        ],
+        "text": "Амилаза общая в сыворотке"
+    },
+    "Липаза": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1007038",
+                "display": "Липаза"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "3040-3",
+                "display": "Липаза"
+            }
+        ],
+        "text": "Липаза"
+    },
+    "Ревматоидный фактор": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1039528",
+                "display": "Ревматоидный фактор"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "11572-5",
+                "display": "Ревматоидный фактор"
+            }
+        ],
+        "text": "Ревматоидный фактор"
+    },
+    "Гамма-глютамилтранспептидаза": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1003821",
+                "display": "Гамма-глютамилтранспептидаза"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "2324-2",
+                "display": "Гамма-глютамилтранспептидаза"
+            }
+        ],
+        "text": "Гамма-глютамилтранспептидаза"
+    },
+    "Гомоцестиин": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1001346",
+                "display": "Гомоцестиин"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "13965-9",
+                "display": "Гомоцестиин"
+            }
+        ],
+        "text": "Гомоцестиин"
+    },
+    "Антистрептолизин О": {
+        "coding": [
+            {
+                "system": "https://loinc.org/",
+                "code": "25788-1",
+                "display": "Антистрептолизин О"
+            }
+        ],
+        "text": "Антистрептолизин О"
+    },
+    "Суммарные иммуноглобулины E в сыворотке": {
+        "coding": [
+            {
+                "system": "https://loinc.org/",
+                "code": "13834-7",
+                "display": "Суммарные иммуноглобулины E в сыворотке"
+            }
+        ],
+        "text": "Суммарные иммуноглобулины E в сыворотке"
+    },
+    "Общий кальций в сыворотке": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1005727",
+                "display": "Общий кальций в сыворотке"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "2000-8",
+                "display": "Общий кальций в сыворотке"
+            }
+        ],
+        "text": "Общий кальций в сыворотке"
+    },
+    "Ионизированный кальций в сыворотке": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1005818",
+                "display": "Ионизированный кальций в сыворотке"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "1995-0",
+                "display": "Ионизированный кальций в сыворотке"
+            }
+        ],
+        "text": "Ионизированный кальций в сыворотке"
+    },
+    "Фолиевая кислота": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1015650",
+                "display": "Фолиевая кислота"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "14732-2",
+                "display": "Фолиевая кислота"
+            }
+        ],
+        "text": "Фолиевая кислота"
+    },
+    "Магний в сыворотке": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1005578",
+                "display": "Магний в сыворотке"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "2601-3",
+                "display": "Магний в сыворотке"
+            }
+        ],
+        "text": "Магний в сыворотке"
+    },
+    "Хлор в сыворотке": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1009414",
+                "display": "Хлор в сыворотке"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "2075-0",
+                "display": "Хлор в сыворотке"
+            }
+        ],
+        "text": "Хлор в сыворотке"
+    },
+    "Цинк в сыворотке": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1009786",
+                "display": "Цинк в сыворотке"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "5763-8",
+                "display": "Цинк в сыворотке"
+            }
+        ],
+        "text": "Цинк в сыворотке"
+    },
+    "Фосфор в сыворотке": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1009083",
+                "display": "Фосфор в сыворотке"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "14879-1",
+                "display": "Фосфор в сыворотке"
+            }
+        ],
+        "text": "Фосфор в сыворотке"
+    },
+    "Медь в сыворотке": {
+        "coding": [
+            {
+                "system": "https://loinc.org/",
+                "code": "5631-7",
+                "display": "Медь в сыворотке"
+            }
+        ],
+        "text": "Медь в сыворотке"
+    },
+    "Витамин В12": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1015528",
+                "display": "Витамин В12"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "2132-9",
+                "display": "Витамин В12"
+            }
+        ],
+        "text": "Витамин В12"
+    },
+    "Витамин Д": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1015486",
+                "display": "Витамин Д"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "35365-6",
+                "display": "Витамин Д"
+            }
+        ],
+        "text": "Витамин Д"
+    },
+    "Натрий в сыворотке": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1005628",
+                "display": "Натрий в сыворотке"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "2951-2",
+                "display": "Натрий в сыворотке"
+            }
+        ],
+        "text": "Натрий в сыворотке"
+    },
+    "Калий в сыворотке": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1005495",
+                "display": "Калий в сыворотке"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "2823-3",
+                "display": "Калий в сыворотке"
+            }
+        ],
+        "text": "Калий в сыворотке"
+    },
+    "Фосфотаза щелочная": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1005248",
+                "display": "Фосфотаза щелочная"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "6768-6",
+                "display": "Фосфотаза щелочная"
+            }
+        ],
+        "text": "Фосфотаза щелочная"
+    },
+    "Тиреотропный гормон": {
+        "coding": [
+            {
+                "system": "https://loinc.org/",
+                "code": "11579-0",
+                "display": "Тиреотропный гормон"
+            }
+        ],
+        "text": "Тиреотропный гормон"
+    },
+    "Трийодтиронин общий": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1013796",
+                "display": "Трийодтиронин общий"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "14930-2",
+                "display": "Трийодтиронин общий"
+            }
+        ],
+        "text": "Трийодтиронин общий"
+    },
+    "Трийодтиронин свободный": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1013804",
+                "display": "Трийодтиронин свободный"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "14928-6",
+                "display": "Трийодтиронин свободный"
+            }
+        ],
+        "text": "Трийодтиронин свободный"
+    },
+    "Тироксин": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1013689",
+                "display": "Тироксин"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "14921-1",
+                "display": "Тироксин"
+            }
+        ],
+        "text": "Тироксин"
+    },
+    "Тироксин свободный": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1013705",
+                "display": "Тироксин свободный"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "14920-3",
+                "display": "Тироксин свободный"
+            }
+        ],
+        "text": "Тироксин свободный"
+    },
+    "Антитела к тиреопероксидазе": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1041409",
+                "display": "Антитела к тиреопероксидазе"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "8099-4",
+                "display": "Антитела к тиреопероксидазе"
+            }
+        ],
+        "text": "Антитела к тиреопероксидазе"
+    },
+    "Антитела к тиреоглобулину": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1041375",
+                "display": "Антитела к тиреоглобулину"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "8098-6",
+                "display": "Антитела к тиреоглобулину"
+            }
+        ],
+        "text": "Антитела к тиреоглобулину"
+    },
+    "Антитела к рецепторам ТТГ": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1041508",
+                "display": "Антитела к рецепторам ТТГ"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "5385-0",
+                "display": "Антитела к рецепторам ТТГ"
+            }
+        ],
+        "text": "Антитела к рецепторам ТТГ"
+    },
+    "Паратиреоидный гормон": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1012442",
+                "display": "Паратиреоидный гормон"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "2731-8",
+                "display": "Паратиреоидный гормон"
+            }
+        ],
+        "text": "Паратиреоидный гормон"
+    },
+    "Тиреоглобулин": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1013614",
+                "display": "Тиреоглобулин"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "3013-0",
+                "display": "Тиреоглобулин"
+            }
+        ],
+        "text": "Тиреоглобулин"
+    },
+    "Кальцитонин в сыворотке": {
+        "coding": [
+            {
+                "system": "https://loinc.org/",
+                "code": "15035-9",
+                "display": "Кальцитонин в сыворотке"
+            }
+        ],
+        "text": "Кальцитонин в сыворотке"
+    },
+    "Тироксин связывающая способность": {
+        "coding": [
+            {
+                "system": "https://loinc.org/",
+                "code": "74795-6",
+                "display": "Тироксин связывающая способность"
+            }
+        ],
+        "text": "Тироксин связывающая способность"
+    },
+    "Тестостерон общий": {
+        "coding": [
+            {
+                "system": "https://org.gnicpm.ru/wp-content/uploads/2019/01/Prikaz-Minzdrava-Rossii-ot-13.10.2017-N-804n-s-izm.-ot-12.0.pdf",
+                "code": "1013424",
+                "display": "Тестостерон общий"
+            },
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "14913-8",
+                "display": "Тестостерон общий"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "Total testosterone",
+                "display": "Тестостерон общий"
+            }
+        ],
+        "text": "Тестостерон общий"
+    },
+    "Тестостерон свободный": {
+        "coding": [
+            {
+                "system": "https://org.gnicpm.ru/wp-content/uploads/2019/01/Prikaz-Minzdrava-Rossii-ot-13.10.2017-N-804n-s-izm.-ot-12.0.pdf",
+                "code": "1013465",
+                "display": "Тестостерон свободный"
+            },
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "2991-8",
+                "display": "Тестостерон свободный"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "Testosterone Free",
+                "display": "Тестостерон свободный"
+            }
+        ],
+        "text": "Тестостерон свободный"
+    },
+    "Эстрадиол": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "2243-4",
+                "display": "Эстрадиол"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "Е2",
+                "display": "Эстрадиол"
+            }
+        ],
+        "text": "Эстрадиол"
+    },
+    "Фолликулостимулирующий гормон": {
+        "coding": [
+            {
+                "system": "https://org.gnicpm.ru/wp-content/uploads/2019/01/Prikaz-Minzdrava-Rossii-ot-13.10.2017-N-804n-s-izm.-ot-12.0.pdf",
+                "code": "1013978",
+                "display": "Фолликулостимулирующий гормон"
+            },
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "15067-2",
+                "display": "Фолликулостимулирующий гормон"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "FSH",
+                "display": "Фолликулостимулирующий гормон"
+            }
+        ],
+        "text": "Фолликулостимулирующий гормон"
+    },
+    "Лютеинизирующий гормон": {
+        "coding": [
+            {
+                "system": "https://org.gnicpm.ru/wp-content/uploads/2019/01/Prikaz-Minzdrava-Rossii-ot-13.10.2017-N-804n-s-izm.-ot-12.0.pdf",
+                "code": "1012160",
+                "display": "Лютеинизирующий гормон"
+            },
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "10501-5",
+                "display": "Лютеинизирующий гормон"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "LH",
+                "display": "Лютеинизирующий гормон"
+            }
+        ],
+        "text": "Лютеинизирующий гормон"
+    },
+    "Прогестерон": {
+        "coding": [
+            {
+                "system": "https://org.gnicpm.ru/wp-content/uploads/2019/01/Prikaz-Minzdrava-Rossii-ot-13.10.2017-N-804n-s-izm.-ot-12.0.pdf",
+                "code": "1012582",
+                "display": "Прогестерон"
+            },
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "14890-8",
+                "display": "Прогестерон"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "P4",
+                "display": "Прогестерон"
+            }
+        ],
+        "text": "Прогестерон"
+    },
+    "Пролактин": {
+        "coding": [
+            {
+                "system": "https://org.gnicpm.ru/wp-content/uploads/2019/01/Prikaz-Minzdrava-Rossii-ot-13.10.2017-N-804n-s-izm.-ot-12.0.pdf",
+                "code": "1012657",
+                "display": "Пролактин"
+            },
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "15081-3",
+                "display": "Пролактин"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "PRL",
+                "display": "Пролактин"
+            }
+        ],
+        "text": "Пролактин"
+    },
+    "Антимюллеровский гормон": {
+        "coding": [
+            {
+                "system": "https://org.gnicpm.ru/wp-content/uploads/2019/01/Prikaz-Minzdrava-Rossii-ot-13.10.2017-N-804n-s-izm.-ot-12.0.pdf",
+                "code": "1010586",
+                "display": "Антимюллеровский гормон"
+            },
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "38476-8",
+                "display": "Антимюллеровский гормон"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "АМН",
+                "display": "Антимюллеровский гормон"
+            }
+        ],
+        "text": "Антимюллеровский гормон"
+    },
+    "Глобулин, связывающий половые гормоны": {
+        "coding": [
+            {
+                "system": "https://org.gnicpm.ru/wp-content/uploads/2019/01/Prikaz-Minzdrava-Rossii-ot-13.10.2017-N-804n-s-izm.-ot-12.0.pdf",
+                "code": "1010388",
+                "display": "Глобулин, связывающий половые гормоны"
+            },
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "13967-5",
+                "display": "Глобулин, связывающий половые гормоны"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "SHBG",
+                "display": "Глобулин, связывающий половые гормоны"
+            }
+        ],
+        "text": "Глобулин, связывающий половые гормоны"
+    },
+    "Дегидроэпиандростеронсульфат": {
+        "coding": [
+            {
+                "system": "https://org.gnicpm.ru/wp-content/uploads/2019/01/Prikaz-Minzdrava-Rossii-ot-13.10.2017-N-804n-s-izm.-ot-12.0.pdf",
+                "code": "1010826",
+                "display": "Дегидроэпиандростеронсульфат"
+            },
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "2191-5",
+                "display": "Дегидроэпиандростеронсульфат"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "ДЭА-SO4",
+                "display": "Дегидроэпиандростеронсульфат"
+            }
+        ],
+        "text": "Дегидроэпиандростеронсульфат"
+    },
+    "17-гидроксипрогестерон": {
+        "coding": [
+            {
+                "system": "https://org.gnicpm.ru/wp-content/uploads/2019/01/Prikaz-Minzdrava-Rossii-ot-13.10.2017-N-804n-s-izm.-ot-12.0.pdf",
+                "code": "1015122",
+                "display": "17-гидроксипрогестерон"
+            },
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1668-3",
+                "display": "17-гидроксипрогестерон"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "17-OHP",
+                "display": "17-гидроксипрогестерон"
+            }
+        ],
+        "text": "17-гидроксипрогестерон"
+    },
+    "Кортизол": {
+        "coding": [
+            {
+                "system": "https://org.gnicpm.ru/wp-content/uploads/2019/01/Prikaz-Minzdrava-Rossii-ot-13.10.2017-N-804n-s-izm.-ot-12.0.pdf",
+                "code": "1011998",
+                "display": "Кортизол"
+            },
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "14675-3",
+                "display": "Кортизол"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "Cortisol",
+                "display": "Кортизол"
+            }
+        ],
+        "text": "Кортизол"
+    },
+    "Бета-субъединица хорионического гонадотропина человека": {
+        "coding": [
+            {
+                "system": "https://org.gnicpm.ru/wp-content/uploads/2019/01/Prikaz-Minzdrava-Rossii-ot-13.10.2017-N-804n-s-izm.-ot-12.0.pdf",
+                "code": "1014737",
+                "display": "Бета-субъединица хорионического гонадотропина человека"
+            },
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "21198-7",
+                "display": "Бета-субъединица хорионического гонадотропина человека"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "b-HCG",
+                "display": "Бета-субъединица хорионического гонадотропина человека"
+            }
+        ],
+        "text": "Бета-субъединица хорионического гонадотропина человека"
+    },
+    "Поверхностный антиген вируса гепатита В": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1046614",
+                "display": "Поверхностный антиген вируса гепатита В"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "5196-1",
+                "display": "Поверхностный антиген вируса гепатита В"
+            }
+        ],
+        "text": "Поверхностный антиген вируса гепатита В"
+    },
+    "Суммарные антитела к вирусу гепатита С": {
+        "coding": [
+            {
+                "system": "https://loinc.org/",
+                "code": "13955-0",
+                "display": "Суммарные антитела к вирусу гепатита С"
+            }
+        ],
+        "text": "Суммарные антитела к вирусу гепатита С"
+    },
+    "IgG к антигену core": {
+        "coding": [
+            {
+                "system": "https://loinc.org/",
+                "code": "79189-7",
+                "display": "IgG к антигену core"
+            }
+        ],
+        "text": "IgG к антигену core"
+    },
+    "IgG к антигену NS3": {
+        "coding": [
+            {
+                "system": "https://loinc.org/",
+                "code": "56929-3",
+                "display": "IgG к антигену NS3"
+            }
+        ],
+        "text": "IgG к антигену NS3"
+    },
+    "IgG к антигену NS4": {
+        "coding": [
+            {
+                "system": "https://loinc.org/",
+                "code": "56930-1",
+                "display": "IgG к антигену NS4"
+            }
+        ],
+        "text": "IgG к антигену NS4"
+    },
+    "IgG к антигену NS5": {
+        "coding": [
+            {
+                "system": "https://loinc.org/",
+                "code": "23871-7",
+                "display": "IgG к антигену NS5"
+            }
+        ],
+        "text": "IgG к антигену NS5"
+    },
+    "Суммарные антитела к Treponema pallidum": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1048081",
+                "display": "Суммарные антитела к Treponema pallidum"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "22587-0",
+                "display": "Суммарные антитела к Treponema pallidum"
+            }
+        ],
+        "text": "Суммарные антитела к Treponema pallidum"
+    },
+    "Антитела к ВИЧ типов 1 и 2 и антигена p24": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1047125",
+                "display": "Антитела к ВИЧ типов 1 и 2 и антигена p24"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "56888-1",
+                "display": "Антитела к ВИЧ типов 1 и 2 и антигена p24"
+            }
+        ],
+        "text": "Антитела к ВИЧ типов 1 и 2 и антигена p24"
+    },
+    "Суммарные антитела к вирусу гепатита В": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1046721",
+                "display": "Суммарные антитела к вирусу гепатита В"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "13952-7",
+                "display": "Суммарные антитела к вирусу гепатита В"
+            }
+        ],
+        "text": "Суммарные антитела к вирусу гепатита В"
+    },
+    "IgM антитела к вирусу гепатита В": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1046762",
+                "display": "IgM антитела к вирусу гепатита В"
+            },
+            {
+                "system": "https://loinc.org/",
+                "code": "22319-8",
+                "display": "IgM антитела к вирусу гепатита В"
+            }
+        ],
+        "text": "IgM антитела к вирусу гепатита В"
+    },
+    "IgG антитела к вирусу гепатита С": {
+        "coding": [
+            {
+                "system": "https://loinc.org/",
+                "code": "40726-2",
+                "display": "IgG антитела к вирусу гепатита С"
+            }
+        ],
+        "text": "IgG антитела к вирусу гепатита С"
+    },
+    "Суммарные антитела к Brucella spp.": {
+        "coding": [
+            {
+                "system": "https://loinc.org/",
+                "code": "30202-6",
+                "display": "Суммарные антитела к Brucella spp."
+            }
+        ],
+        "text": "Суммарные антитела к Brucella spp."
+    },
+    "Антитела к Vi-aнтигену Salmonella typhi": {
+        "coding": [
+            {
+                "system": "https://nsi.rosminzdrav.ru/",
+                "code": "1047935",
+                "display": "Антитела к Vi-aнтигену Salmonella typhi"
+            }
+        ],
+        "text": "Антитела к Vi-aнтигену Salmonella typhi"
+    },
+    "13С-уреазный дыхательный тест на определение Helicobacter pylori": {
+        "coding": [
+            {
+                "system": "https://loinc.org/",
+                "code": "29891-9",
+                "display": "13С-уреазный дыхательный тест на определение Helicobacter pylori"
+            }
+        ],
+        "text": "13С-уреазный дыхательный тест на определение Helicobacter pylori"
+    }
+}

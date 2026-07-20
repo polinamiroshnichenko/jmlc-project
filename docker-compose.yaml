@@ -1,0 +1,155 @@
+services:
+  postgres:
+    image: postgres:17
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: temporal
+      POSTGRES_PASSWORD: temporal
+      POSTGRES_DB: temporal
+
+    command:
+      - postgres
+      - -c
+      - max_connections=200
+      - -c
+      - shared_buffers=256MB
+      - -c
+      - effective_cache_size=1GB
+
+    volumes:
+      - temporal_postgres:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U temporal -d temporal"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+      start_period: 10s
+
+
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "5"
+
+  temporal-schema:
+    image: temporalio/admin-tools:1.29.6.1-tctl-1.18.4-cli-1.7.0
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      DEFAULT_NAMESPACE: app
+    restart: on-failure
+    entrypoint: /bin/sh
+    command: -c /scripts/init-temporal-schema.sh
+    volumes:
+      - ./deployment/init-temporal-schema.sh:/scripts/init-temporal-schema.sh:ro
+
+
+  temporal:
+    image: temporalio/server:1.29.6
+    restart: on-failure
+    depends_on:
+      postgres:
+        condition: service_healthy
+      temporal-schema:
+        condition: service_completed_successfully
+
+    environment:
+      DEFAULT_NAMESPACE: app
+      DB: postgres12
+      DB_PORT: 5432
+
+      POSTGRES_USER: temporal
+      POSTGRES_PWD: temporal
+      POSTGRES_SEEDS: postgres
+
+      VISIBILITY_DB: postgres12
+
+      POSTGRES_VISIBILITY_SEEDS: postgres
+      POSTGRES_VISIBILITY_USER: temporal
+      POSTGRES_VISIBILITY_PWD: temporal
+      POSTGRES_VISIBILITY_DB: temporal_visibility
+    ports:
+      - "7233:7233"
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "5"
+
+  temporal-ui:
+    image: temporalio/ui:2.39.0
+    restart: on-failure
+    environment:
+      TEMPORAL_ADDRESS: temporal:7233
+      DEFAULT_NAMESPACE: app
+    ports:
+      - "8080:8080"
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "5"
+
+  temporal-admin-tools:
+    image: temporalio/admin-tools:1.29.6.1-tctl-1.18.4-cli-1.7.0
+    container_name: temporal-admin-tools
+    volumes:
+      - ./deployment/init-default-namespace.sh:/scripts/init-default-namespace.sh
+    restart: on-failure
+    depends_on:
+      - temporal
+    entrypoint: /bin/sh
+    command: /scripts/init-default-namespace.sh
+    environment:
+      TEMPORAL_ADDRESS: temporal:7233
+      DEFAULT_NAMESPACE: app
+
+  agents-worker:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: worker-service
+    restart: on-failure
+    volumes:
+      - ./deployment/settings:/etc/agents-workflow:ro
+    depends_on:
+      temporal-admin-tools:
+        condition: service_completed_successfully
+    env_file:
+      - .env
+    environment:
+      TEMPORAL__ADDRESS: temporal:7233
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "5"
+
+  api-service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: api-service
+    restart: on-failure
+    ports:
+      - "8000:8000"
+    depends_on:
+      temporal-admin-tools:
+        condition: service_completed_successfully
+    env_file:
+      - .env
+    environment:
+      TEMPORAL__ADDRESS: temporal:7233
+    volumes:
+      - ./deployment/settings:/etc/agents-workflow:ro
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "5"
+
+
+volumes:
+  temporal_postgres:

@@ -1,0 +1,96 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ${CI_PROJECT_NAME}-${APP_NAME}-${CI_ENVIRONMENT_NAME}
+  labels:
+    app: ${CI_PROJECT_NAME}-${APP_NAME}
+    environment: ${CI_ENVIRONMENT_NAME}
+  namespace: ${KUBE_NAMESPACE}
+spec:
+  replicas: ${REPLICA_SET}
+  revisionHistoryLimit: 10
+  selector:
+    matchLabels:
+      app: ${CI_PROJECT_NAME}-${APP_NAME}
+      environment: ${CI_ENVIRONMENT_NAME}
+  strategy:
+    rollingUpdate: {maxSurge: 1, maxUnavailable: 0}
+    type: RollingUpdate
+  template:
+    metadata:
+      labels:
+        app: ${CI_PROJECT_NAME}-${APP_NAME}
+        environment: ${CI_ENVIRONMENT_NAME}
+      annotations:
+        prometheus.io/scrape: "true"       
+    spec:
+      affinity:
+        podAntiAffinity:
+          preferredDuringSchedulingIgnoredDuringExecution:
+            - weight: 100
+              podAffinityTerm:
+                labelSelector:
+                  matchExpressions:
+                  - key: "app"
+                    operator: In
+                    values:
+                    - ${APP_NAME}
+                  - key: "environment"
+                    operator: In
+                    values:
+                    - ${CI_ENVIRONMENT_NAME}
+                topologyKey: "kubernetes.io/hostname"
+      containers:
+        - name: ${CI_PROJECT_NAME}-${APP_NAME}-${CI_ENVIRONMENT_NAME}
+          image: ${CI_REGISTRY_IMAGE}/${APP_NAME}:${CI_COMMIT_REF_SLUG}-${CI_COMMIT_SHORT_SHA}
+          env:
+           - name: CI_ENVIRONMENT_NAME
+             value: ${CI_ENVIRONMENT_NAME}
+           - name: TEMPORAL__ADDRESS
+             value: ${TEMPORAL_FRONTEND_SVC}
+           - name: TEMPORAL__NAMESPACE
+             value: ${TEMPORAL_NAMESPACE}
+           - name: TEMPORAL__TASK_QUEUE
+             value: ${TASK_QUEUE}
+           - name: LABTEST_RECOGNITION__URL
+             value: ${LABTEST_RECOGNITION_SVC_URL}
+           - name: LLM__BASE_URL
+             value: ${LLM_URL}
+           - name: LLM__TOKEN
+             value: ${LLM_TOKEN}
+           - name: SERVER__ROOT_PATH
+             value: ${ROOT_PATH}
+          lifecycle:
+            preStop:
+              exec:
+                command: ["/bin/sh","-c","sleep 5"]
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8000
+              protocol: TCP
+          resources:
+            requests:
+              memory: '${MEMORY_REQUEST}'
+              cpu: '${CPU_REQUEST}'
+            limits:
+              memory: '${MEMORY_LIMIT}'
+              cpu: '${CPU_LIMIT}'
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: ${CI_PROJECT_NAME}-${APP_NAME}-${CI_ENVIRONMENT_NAME}
+  labels:
+    app: ${CI_PROJECT_NAME}-${APP_NAME}
+    environment: ${CI_ENVIRONMENT_NAME}
+  namespace: ${KUBE_NAMESPACE}
+spec:
+  type: ClusterIP
+  ports:
+    - port: 8000
+      targetPort: 8000
+      protocol: TCP
+      name: http
+  selector:
+    app: ${CI_PROJECT_NAME}-${APP_NAME}
+    environment: ${CI_ENVIRONMENT_NAME}
